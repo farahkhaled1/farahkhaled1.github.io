@@ -9,9 +9,9 @@
           <div class="row">
             <div class="col-8">
               <div class="numbers">
-                <p class="text-sm mb-0 text-capitalize font-weight-bold">Today's Money</p>
+                <p class="text-sm mb-0 text-capitalize font-weight-bold">Today's Rank</p>
                 <h5 class="font-weight-bolder mb-0">
-                  $53,000
+                  53000
                   <span class="text-success text-sm font-weight-bolder">+55%</span>
                 </h5>
               </div>
@@ -31,7 +31,7 @@
           <div class="row">
             <div class="col-8">
               <div class="numbers">
-                <p class="text-sm mb-0 text-capitalize font-weight-bold">Today's Users</p>
+                <p class="text-sm mb-0 text-capitalize font-weight-bold">Today's Visitors</p>
                 <h5 class="font-weight-bolder mb-0">
                   2,300
                   <span class="text-success text-sm font-weight-bolder">+3%</span>
@@ -53,7 +53,7 @@
           <div class="row">
             <div class="col-8">
               <div class="numbers">
-                <p class="text-sm mb-0 text-capitalize font-weight-bold">New Clients</p>
+                <p class="text-sm mb-0 text-capitalize font-weight-bold">New Traffic</p>
                 <h5 class="font-weight-bolder mb-0">
                   +3,462
                   <span class="text-danger text-sm font-weight-bolder">-2%</span>
@@ -75,9 +75,9 @@
           <div class="row">
             <div class="col-8">
               <div class="numbers">
-                <p class="text-sm mb-0 text-capitalize font-weight-bold">Sales</p>
+                <p class="text-sm mb-0 text-capitalize font-weight-bold">Domain Authority</p>
                 <h5 class="font-weight-bolder mb-0">
-                  $103,430
+                  72%
                   <span class="text-success text-sm font-weight-bolder">+5%</span>
                 </h5>
               </div>
@@ -101,7 +101,7 @@
               <div class="d-flex flex-column h-100">
                 <p class="mb-1 pt-2 text-bold">Built by developers</p>
                 <h5 class="font-weight-bolder">SEOPro Dashboard</h5>
-                <p class="mb-5">From colors, cards, typography to complex elements, you will find the full documentation.</p>
+                <p class="mb-5">From keywords, rank analysis, blog idea generators to complex elements, you will find all you need.</p>
                 <a class="text-body text-sm font-weight-bold mb-0 icon-move-right mt-auto" href="javascript:;">
                   Read More
                   <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>
@@ -216,9 +216,9 @@
                       </g>
                     </svg>
                   </div>
-                  <p class="text-xs mt-1 mb-0 font-weight-bold">Sales</p>
+                  <p class="text-xs mt-1 mb-0 font-weight-bold">User Session</p>
                 </div>
-                <h4 class="font-weight-bolder">435$</h4>
+                <h4 class="font-weight-bolder">6s</h4>
                 <div class="progress w-75">
                   <div class="progress-bar bg-dark w-30" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
@@ -256,7 +256,7 @@
     <div class="col-lg-7">
       <div class="card z-index-2">
         <div class="card-header pb-0">
-          <h6>Sales overview</h6>
+          <h6>Traffic overview</h6>
           <p class="text-sm">
             <i class="fa fa-arrow-up text-success"></i>
             <span class="font-weight-bold">4% more</span> in 2021
@@ -276,7 +276,7 @@
         <div class="card-header pb-0">
           <div class="row">
             <div class="col-lg-6 col-7">
-              <h6>Projects</h6>
+              <h6>Your Workspace</h6>
               <p class="text-sm mb-0">
                 <i class="fa fa-check text-info" aria-hidden="true"></i>
                 <span class="font-weight-bold ms-1">30 done</span> this month
@@ -301,21 +301,21 @@
             <table class="table align-items-center mb-0">
               <thead>
                 <tr>
-                  <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Companies</th>
+                  <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Editors</th>
                   <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Members</th>
-                  <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Budget</th>
+                  <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Time</th>
                   <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Completion</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>
+                  {{-- <td>
                     <div class="d-flex px-2 py-1">
                       <div>
                         <img src="../assets/img/small-logos/logo-xd.svg" class="avatar avatar-sm me-3" alt="xd">
                       </div>
                       <div class="d-flex flex-column justify-content-center">
-                        <h6 class="mb-0 text-sm">Soft UI XD Version</h6>
+                        <h6 class="mb-0 text-sm">Blog Soft UI XD Version</h6>
                       </div>
                     </div>
                   </td>
@@ -336,7 +336,7 @@
                     </div>
                   </td>
                   <td class="align-middle text-center text-sm">
-                    <span class="text-xs font-weight-bold"> $14,000 </span>
+                    <span class="text-xs font-weight-bold"> 4 days </span>
                   </td>
                   <td class="align-middle">
                     <div class="progress-wrapper w-75 mx-auto">
@@ -350,7 +350,7 @@
                       </div>
                     </div>
                   </td>
-                </tr>
+                </tr>--}}
                 <tr>
                   <td>
                     <div class="d-flex px-2 py-1">
@@ -373,7 +373,7 @@
                     </div>
                   </td>
                   <td class="align-middle text-center text-sm">
-                    <span class="text-xs font-weight-bold"> $3,000 </span>
+                    <span class="text-xs font-weight-bold"> 3 days</span>
                   </td>
                   <td class="align-middle">
                     <div class="progress-wrapper w-75 mx-auto">
@@ -395,7 +395,7 @@
                         <img src="../assets/img/small-logos/logo-slack.svg" class="avatar avatar-sm me-3" alt="team7">
                       </div>
                       <div class="d-flex flex-column justify-content-center">
-                        <h6 class="mb-0 text-sm">Fix Platform Errors</h6>
+                        <h6 class="mb-0 text-sm">Update Website Keywords</h6>
                       </div>
                     </div>
                   </td>
@@ -423,7 +423,7 @@
                         <div class="progress-bar bg-gradient-success w-100" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                       </div>
                     </div>
-                  </td>
+                  </td> 
                 </tr>
                 <tr>
                   <td>
@@ -432,7 +432,7 @@
                         <img src="../assets/img/small-logos/logo-spotify.svg" class="avatar avatar-sm me-3" alt="spotify">
                       </div>
                       <div class="d-flex flex-column justify-content-center">
-                        <h6 class="mb-0 text-sm">Launch our Mobile App</h6>
+                        <h6 class="mb-0 text-sm">New music Blog</h6>
                       </div>
                     </div>
                   </td>
@@ -453,7 +453,7 @@
                     </div>
                   </td>
                   <td class="align-middle text-center text-sm">
-                    <span class="text-xs font-weight-bold"> $20,500 </span>
+                    <span class="text-xs font-weight-bold"> 2 days </span>
                   </td>
                   <td class="align-middle">
                     <div class="progress-wrapper w-75 mx-auto">
@@ -475,7 +475,7 @@
                         <img src="../assets/img/small-logos/logo-jira.svg" class="avatar avatar-sm me-3" alt="jira">
                       </div>
                       <div class="d-flex flex-column justify-content-center">
-                        <h6 class="mb-0 text-sm">Add the New Pricing Page</h6>
+                        <h6 class="mb-0 text-sm">Write Content Ideas</h6>
                       </div>
                     </div>
                   </td>
@@ -487,7 +487,7 @@
                     </div>
                   </td>
                   <td class="align-middle text-center text-sm">
-                    <span class="text-xs font-weight-bold"> $500 </span>
+                    <span class="text-xs font-weight-bold"> 5 days </span>
                   </td>
                   <td class="align-middle">
                     <div class="progress-wrapper w-75 mx-auto">
@@ -509,7 +509,7 @@
                         <img src="../assets/img/small-logos/logo-invision.svg" class="avatar avatar-sm me-3" alt="invision">
                       </div>
                       <div class="d-flex flex-column justify-content-center">
-                        <h6 class="mb-0 text-sm">Redesign New Online Shop</h6>
+                        <h6 class="mb-0 text-sm">Redesign New Blog Template</h6>
                       </div>
                     </div>
                   </td>
@@ -524,7 +524,7 @@
                     </div>
                   </td>
                   <td class="align-middle text-center text-sm">
-                    <span class="text-xs font-weight-bold"> $2,000 </span>
+                    <span class="text-xs font-weight-bold"> 4 days </span>
                   </td>
                   <td class="align-middle">
                     <div class="progress-wrapper w-75 mx-auto">
@@ -548,7 +548,7 @@
     <div class="col-lg-4 col-md-6">
       <div class="card h-100">
         <div class="card-header pb-0">
-          <h6>Orders overview</h6>
+          <h6>Deadlines</h6>
           <p class="text-sm">
             <i class="fa fa-arrow-up text-success" aria-hidden="true"></i>
             <span class="font-weight-bold">24%</span> this month
@@ -561,7 +561,7 @@
                 <i class="ni ni-bell-55 text-success text-gradient"></i>
               </span>
               <div class="timeline-content">
-                <h6 class="text-dark text-sm font-weight-bold mb-0">$2400, Design changes</h6>
+                <h6 class="text-dark text-sm font-weight-bold mb-0">Analyze domain </h6>
                 <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">22 DEC 7:20 PM</p>
               </div>
             </div>
@@ -570,7 +570,7 @@
                 <i class="ni ni-html5 text-danger text-gradient"></i>
               </span>
               <div class="timeline-content">
-                <h6 class="text-dark text-sm font-weight-bold mb-0">New order #1832412</h6>
+                <h6 class="text-dark text-sm font-weight-bold mb-0">New Blog</h6>
                 <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">21 DEC 11 PM</p>
               </div>
             </div>
@@ -588,7 +588,7 @@
                 <i class="ni ni-credit-card text-warning text-gradient"></i>
               </span>
               <div class="timeline-content">
-                <h6 class="text-dark text-sm font-weight-bold mb-0">New card added for order #4395133</h6>
+                <h6 class="text-dark text-sm font-weight-bold mb-0">New blog added for product #4395133</h6>
                 <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">20 DEC 2:20 AM</p>
               </div>
             </div>
@@ -606,7 +606,7 @@
                 <i class="ni ni-money-coins text-dark text-gradient"></i>
               </span>
               <div class="timeline-content">
-                <h6 class="text-dark text-sm font-weight-bold mb-0">New order #9583120</h6>
+                <h6 class="text-dark text-sm font-weight-bold mb-0">Generate keywords for product #9583120</h6>
                 <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">17 DEC</p>
               </div>
             </div>

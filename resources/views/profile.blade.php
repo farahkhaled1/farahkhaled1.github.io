@@ -249,8 +249,8 @@
         <div class="col-12 mt-4">
           <div class="card mb-4">
             <div class="card-header pb-0 p-3">
-              <h6 class="mb-1">Projects</h6>
-              <p class="text-sm">Architects design houses</p>
+              <h6 class="mb-1">Your Blogs</h6>
+              <p class="text-sm">Reach the right audience</p>
             </div>
             <div class="card-body p-3">
               <div class="row">
@@ -262,17 +262,16 @@
                       </a>
                     </div>
                     <div class="card-body px-1 pb-0">
-                      <p class="text-gradient text-dark mb-2 text-sm">Project #2</p>
+                      <p class="text-gradient text-dark mb-2 text-sm">Project #1  </p>
                       <a href="javascript:;">
                         <h5>
-                          Modern
+                          Blog 1
                         </h5>
                       </a>
                       <p class="mb-4 text-sm">
-                        As Uber works through a huge amount of internal management turmoil.
-                      </p>
+                        Learn how to multiply your leadership and impact through this great example on...   </p>
                       <div class="d-flex align-items-center justify-content-between">
-                        <button type="button" class="btn btn-outline-primary btn-sm mb-0">View Project</button>
+                        <button type="button" class="btn btn-outline-primary btn-sm mb-0">Edit Blog</button>
                         <div class="avatar-group mt-2">
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Elena Morison">
                             <img alt="Image placeholder" src="../assets/img/team-1.jpg">
@@ -299,17 +298,17 @@
                       </a>
                     </div>
                     <div class="card-body px-1 pb-0">
-                      <p class="text-gradient text-dark mb-2 text-sm">Project #1</p>
+                      <p class="text-gradient text-dark mb-2 text-sm">Project #2</p>
                       <a href="javascript:;">
                         <h5>
-                          Scandinavian
+                          Blog 2
                         </h5>
                       </a>
                       <p class="mb-4 text-sm">
                         Music is something that every person has his or her own specific opinion about.
                       </p>
                       <div class="d-flex align-items-center justify-content-between">
-                        <button type="button" class="btn btn-outline-primary btn-sm mb-0">View Project</button>
+                        <button type="button" class="btn btn-outline-primary btn-sm mb-0">Edit Blog</button>
                         <div class="avatar-group mt-2">
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Nick Daniel">
                             <img alt="Image placeholder" src="../assets/img/team-3.jpg">
@@ -339,14 +338,13 @@
                       <p class="text-gradient text-dark mb-2 text-sm">Project #3</p>
                       <a href="javascript:;">
                         <h5>
-                          Minimalist
+                          Blog 3
                         </h5>
                       </a>
                       <p class="mb-4 text-sm">
-                        Different people have different taste, and various types of music.
-                      </p>
+                        For example, a restauranteur could regularly blog about everything from their favorite farmers' markets, to amusing an...                      </p>
                       <div class="d-flex align-items-center justify-content-between">
-                        <button type="button" class="btn btn-outline-primary btn-sm mb-0">View Project</button>
+                        <button type="button" class="btn btn-outline-primary btn-sm mb-0">Edit Blog</button>
                         <div class="avatar-group mt-2">
                           <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Peterson">
                             <img alt="Image placeholder" src="../assets/img/team-4.jpg">
@@ -370,7 +368,7 @@
                     <div class="card-body d-flex flex-column justify-content-center text-center">
                       <a href="javascript:;">
                         <i class="fa fa-plus text-secondary mb-3"></i>
-                        <h5 class=" text-secondary"> New project </h5>
+                        <h5 class=" text-secondary"> New Blog </h5>
                       </a>
                     </div>
                   </div>

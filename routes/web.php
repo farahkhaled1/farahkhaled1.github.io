@@ -30,6 +30,11 @@ Route::group(['middleware' => 'auth'], function () {
 		return view('dashboard');
 	})->name('dashboard');
 
+	Route::get('keyword', function () {
+		return view('keyword');
+	})->name('keyword');
+
+
 	Route::get('billing', function () {
 		return view('billing');
 	})->name('billing');
