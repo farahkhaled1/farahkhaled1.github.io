@@ -30,6 +30,15 @@ Route::group(['middleware' => 'auth'], function () {
 		return view('dashboard');
 	})->name('dashboard');
 
+	Route::get('analyzer', function () {
+		return view('analyzer');
+	})->name('analyzer');
+
+	Route::get('analyzerr', function () {
+		return view('analyzerr');
+	})->name('analyzerr');
+
+
 	Route::get('keyword', function () {
 		return view('keyword');
 	})->name('keyword');

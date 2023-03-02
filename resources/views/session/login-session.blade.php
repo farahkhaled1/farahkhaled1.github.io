@@ -2,8 +2,20 @@
 
 @section('content')
 
+<link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" /> 
+<script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+
+<body>
+  <py-script output="out">
+    print("Hello world")
+    </py-script>
+</body>
+
   <main class="main-content  mt-0">
     <section>
+    
+
+
       <div class="page-header min-vh-75">
         <div class="container">
           <div class="row">
@@ -15,9 +27,11 @@
                   <p class="mb-0">OR Sign in with these credentials:</p>
                   <p class="mb-0">Email <b>admin1@gmail.com</b></p>
                   <p class="mb-0">Password <b>123456</b></p>
+                  
                 </div>
                 <div class="card-body">
                   <form role="form" method="POST" action="/session">
+                    
                     @csrf
                     <label>Email</label>
                     <div class="mb-3">
