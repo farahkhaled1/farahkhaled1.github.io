@@ -115,3 +115,8 @@ Route::group(['middleware' => 'guest'], function () {
 Route::get('/login', function () {
     return view('session/login-session');
 })->name('login');
+
+
+Route::get('/test', function () {
+    return view('imageopt/test1');
+})->name('test1.php');
