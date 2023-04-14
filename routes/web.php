@@ -39,6 +39,11 @@ Route::group(['middleware' => 'auth'], function () {
 	})->name('analyzerr');
 
 
+	Route::get('imageopt', function () {
+		return view('imageopt');
+	})->name('imageopt');
+
+
 	Route::get('keyword', function () {
 		return view('keyword');
 	})->name('keyword');
@@ -117,6 +122,3 @@ Route::get('/login', function () {
 })->name('login');
 
 
-Route::get('/test', function () {
-    return view('imageopt/test1');
-})->name('test1.php');
