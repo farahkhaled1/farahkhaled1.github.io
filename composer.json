@@ -8,10 +8,12 @@
         "php": "^7.3|^8.0",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.4",
+        "intervention/image": "^2.7",
         "laravel/framework": "^9.0",
         "laravel/sanctum": "^2.15",
         "laravel/tinker": "^2.6",
-        "orhanerday/open-ai": "^3.2"
+        "orhanerday/open-ai": "^3.2",
+        "sunra/php-simple-html-dom-parser": "^1.5"
     },
     "require-dev": {
         "spatie/laravel-ignition": "^1.0",

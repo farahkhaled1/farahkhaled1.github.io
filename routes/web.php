@@ -10,6 +10,8 @@ use App\Http\Controllers\SessionsController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Password;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\WebsiteImageController;
+use App\Http\Controllers\ImageoptController;
 
 /*
 |--------------------------------------------------------------------------
@@ -39,11 +41,6 @@ Route::group(['middleware' => 'auth'], function () {
 	})->name('analyzerr');
 
 
-	Route::get('imageopt', function () {
-		return view('imageopt');
-	})->name('imageopt');
-
-
 	Route::get('keyword', function () {
 		return view('keyword');
 	})->name('keyword');
@@ -69,6 +66,20 @@ Route::group(['middleware' => 'auth'], function () {
 	
 	Route::get('/ai', [AiController::class, 'index']);
     Route::post('/ai', [AiController::class, 'result'])->name('result');
+
+
+
+
+// Route::get('/images', [ImageoptController::class, 'index']);
+// Route::post('/convert', [ImageoptController::class, 'convert'])->name('convert');
+
+Route::get('/images', [ImageoptController::class, 'imageopt']);
+
+
+
+	// Route::get('/imageopt', [ImageoptController::class, 'index']);
+    // Route::post('/imageopt', [ImageoptController::class, 'imageopt'])->name('imageopt');
+
 
 
 	Route::get('tables', function () {
@@ -122,3 +133,31 @@ Route::get('/login', function () {
 })->name('login');
 
 
+
+
+Route::get('/test1', function () {
+    return view('imageopt/imageoptcopy');
+})->name('imageopt');
+
+
+
+Route::get('/test2', function () {
+    return view('imageopt/imageopt2');
+})->name('imageopt');
+
+
+
+
+
+
+// routes/web.php
+
+
+Route::get('/images', [ImageoptController::class, 'index']);
+
+
+// Route::get('/images', function () {
+//     return view('website_image');
+// })->name('website_image');
+
+Route::post('/convert', [ImageoptController::class, 'convert'])->name('convert');

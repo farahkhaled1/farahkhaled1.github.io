@@ -1,0 +1,78 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Facades\Storage;
+use Intervention\Image\Facades\Image;
+use simplehtmldom_1_5\simple_html_dom;
+
+class WebsiteImageController extends Controller
+{
+    public function index()
+    {
+        return view('website_image');
+    }
+
+    public function convert(Request $request)
+    {
+        $validator = Validator::make($request->all(), [
+            'website_url' => 'required|url',
+        ]);
+
+        if ($validator->fails()) {
+            return redirect()->back()->withErrors($validator);
+        }
+
+        $website_url = $request->input('website_url');
+        $image_urls = $this->scrapeImages($website_url);
+
+        $webp_images = [];
+        foreach ($image_urls as $image_url) {
+            $webp_images[] = $this->convertToWebP($image_url);
+        }
+
+        // zip the converted images
+        $zip_file = $this->zipImages($webp_images);
+
+        // return download response
+        return response()->download($zip_file)->deleteFileAfterSend(true);
+    }
+
+    private function scrapeImages($website_url)
+    {
+        $html = new simple_html_dom();
+        $html->load_file($website_url);
+        $image_urls = [];
+        foreach ($html->find('img') as $img) {
+            $image_urls[] = $img->src;
+        }
+        return $image_urls;
+    }
+
+    private function convertToWebP($image_url)
+    {
+        $image_data = file_get_contents($image_url);
+        $image_name = basename($image_url);
+        $image = Image::make($image_data);
+        $webp_image = $image->encode('webp', 75);
+        $webp_image_name = pathinfo($image_name, PATHINFO_FILENAME) . '.webp';
+        Storage::put($webp_image_name, $webp_image);
+        return storage_path('app/' . $webp_image_name);
+    }
+
+    private function zipImages($image_files)
+    {
+        $zip_name = 'images.zip';
+        $zip_path = storage_path('app/' . $zip_name);
+        $zip = new \ZipArchive;
+        if ($zip->open($zip_path, \ZipArchive::CREATE) === TRUE) {
+            foreach ($image_files as $image_file) {
+                $zip->addFile($image_file, basename($image_file));
+            }
+            $zip->close();
+        }
+        return $zip_path;
+    }
+}
