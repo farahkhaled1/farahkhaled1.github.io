@@ -12,6 +12,8 @@ use Illuminate\Support\Facades\Password;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\WebsiteImageController;
 use App\Http\Controllers\ImageoptController;
+use App\Http\Controllers\ControllerHtml;
+use App\Http\Controllers\DomainController;
 
 /*
 |--------------------------------------------------------------------------
@@ -32,13 +34,16 @@ Route::group(['middleware' => 'auth'], function () {
 		return view('dashboard');
 	})->name('dashboard');
 
-	Route::get('analyzer', function () {
-		return view('analyzer');
-	})->name('analyzer');
 
-	Route::get('analyzerr', function () {
-		return view('analyzerr');
-	})->name('analyzerr');
+	// Route::get('analyzer', function () {
+	// 	return view('analyzer');
+	// })->name('analyzer');
+
+
+
+	// Route::get('analyzerr', function () {
+	// 	return view('analyzerr');
+	// })->name('analyzerr');
 
 
 	Route::get('keyword', function () {
@@ -67,6 +72,10 @@ Route::group(['middleware' => 'auth'], function () {
 	Route::get('/ai', [AiController::class, 'index']);
     Route::post('/ai', [AiController::class, 'result'])->name('result');
 
+
+	
+	Route::get('/analyzer', [DomainController::class, 'index']);
+    Route::post('/analyzer', [DomainController::class, 'result'])->name('result');
 
 
 
@@ -160,4 +169,21 @@ Route::get('/images', [ImageoptController::class, 'index']);
 //     return view('website_image');
 // })->name('website_image');
 
-Route::post('/convert', [ImageoptController::class, 'convert'])->name('convert');
+Route::post('/conxxert', [ImageoptController::class, 'convert'])->name('convert');
+
+
+Route::get('/tf_idf', function () {
+    return view('tf_idf');
+})->name('tf_idf');
+
+
+Route::get('/run-script', function () {
+    $output = [];
+    $result = exec('python tf_idf.py', $output);
+    return $output;
+});
+
+
+
+
+Route::get('/display-html', [ControllerHtml::class, 'displayHtml']);

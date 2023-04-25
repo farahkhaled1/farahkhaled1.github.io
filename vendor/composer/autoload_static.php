@@ -41,6 +41,10 @@ class ComposerStaticInit3d34fcff9d4c7fd2f710ca608c5e64dc
         array (
             'voku\\' => 5,
         ),
+        'r' => 
+        array (
+            'robertogallea\\LaravelPython\\' => 28,
+        ),
         'W' => 
         array (
             'Whoops\\' => 7,
@@ -179,6 +183,10 @@ class ComposerStaticInit3d34fcff9d4c7fd2f710ca608c5e64dc
         'voku\\' => 
         array (
             0 => __DIR__ . '/..' . '/voku/portable-ascii/src/voku',
+        ),
+        'robertogallea\\LaravelPython\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/robertogallea/laravel-python/src',
         ),
         'Whoops\\' => 
         array (
@@ -536,6 +544,7 @@ class ComposerStaticInit3d34fcff9d4c7fd2f710ca608c5e64dc
         'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
         'App\\Http\\Controllers\\ImageoptController' => __DIR__ . '/../..' . '/app/Http/Controllers/ImageoptController.php',
         'App\\Http\\Controllers\\InfoUserController' => __DIR__ . '/../..' . '/app/Http/Controllers/InfoUserController.php',
+        'App\\Http\\Controllers\\PythonController' => __DIR__ . '/../..' . '/app/Http/Controllers/PythonController.php',
         'App\\Http\\Controllers\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/RegisterController.php',
         'App\\Http\\Controllers\\ResetController' => __DIR__ . '/../..' . '/app/Http/Controllers/ResetController.php',
         'App\\Http\\Controllers\\SessionsController' => __DIR__ . '/../..' . '/app/Http/Controllers/SessionsController.php',
@@ -5869,6 +5878,10 @@ class ComposerStaticInit3d34fcff9d4c7fd2f710ca608c5e64dc
         'Whoops\\Util\\Misc' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/Misc.php',
         'Whoops\\Util\\SystemFacade' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/SystemFacade.php',
         'Whoops\\Util\\TemplateHelper' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/TemplateHelper.php',
+        'robertogallea\\LaravelPython\\Commands\\RunPythonCommand' => __DIR__ . '/..' . '/robertogallea/laravel-python/src/Commands/RunPythonCommand.php',
+        'robertogallea\\LaravelPython\\Facades\\PythonFacade' => __DIR__ . '/..' . '/robertogallea/laravel-python/src/Facades/PythonFacade.php',
+        'robertogallea\\LaravelPython\\ServiceProvider' => __DIR__ . '/..' . '/robertogallea/laravel-python/src/ServiceProvider.php',
+        'robertogallea\\LaravelPython\\Services\\LaravelPython' => __DIR__ . '/..' . '/robertogallea/laravel-python/src/Services/LaravelPython.php',
         'voku\\helper\\ASCII' => __DIR__ . '/..' . '/voku/portable-ascii/src/voku/helper/ASCII.php',
     );
 

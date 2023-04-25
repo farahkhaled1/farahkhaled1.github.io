@@ -14,6 +14,7 @@ return array(
     'App\\Http\\Controllers\\HomeController' => $baseDir . '/app/Http/Controllers/HomeController.php',
     'App\\Http\\Controllers\\ImageoptController' => $baseDir . '/app/Http/Controllers/ImageoptController.php',
     'App\\Http\\Controllers\\InfoUserController' => $baseDir . '/app/Http/Controllers/InfoUserController.php',
+    'App\\Http\\Controllers\\PythonController' => $baseDir . '/app/Http/Controllers/PythonController.php',
     'App\\Http\\Controllers\\RegisterController' => $baseDir . '/app/Http/Controllers/RegisterController.php',
     'App\\Http\\Controllers\\ResetController' => $baseDir . '/app/Http/Controllers/ResetController.php',
     'App\\Http\\Controllers\\SessionsController' => $baseDir . '/app/Http/Controllers/SessionsController.php',
@@ -5347,5 +5348,9 @@ return array(
     'Whoops\\Util\\Misc' => $vendorDir . '/filp/whoops/src/Whoops/Util/Misc.php',
     'Whoops\\Util\\SystemFacade' => $vendorDir . '/filp/whoops/src/Whoops/Util/SystemFacade.php',
     'Whoops\\Util\\TemplateHelper' => $vendorDir . '/filp/whoops/src/Whoops/Util/TemplateHelper.php',
+    'robertogallea\\LaravelPython\\Commands\\RunPythonCommand' => $vendorDir . '/robertogallea/laravel-python/src/Commands/RunPythonCommand.php',
+    'robertogallea\\LaravelPython\\Facades\\PythonFacade' => $vendorDir . '/robertogallea/laravel-python/src/Facades/PythonFacade.php',
+    'robertogallea\\LaravelPython\\ServiceProvider' => $vendorDir . '/robertogallea/laravel-python/src/ServiceProvider.php',
+    'robertogallea\\LaravelPython\\Services\\LaravelPython' => $vendorDir . '/robertogallea/laravel-python/src/Services/LaravelPython.php',
     'voku\\helper\\ASCII' => $vendorDir . '/voku/portable-ascii/src/voku/helper/ASCII.php',
 );

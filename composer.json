@@ -13,7 +13,9 @@
         "laravel/sanctum": "^2.15",
         "laravel/tinker": "^2.6",
         "orhanerday/open-ai": "^3.2",
-        "sunra/php-simple-html-dom-parser": "^1.5"
+        "robertogallea/laravel-python": "^0.1.1",
+        "sunra/php-simple-html-dom-parser": "^1.5",
+        "symfony/process": "^6.2"
     },
     "require-dev": {
         "spatie/laravel-ignition": "^1.0",
