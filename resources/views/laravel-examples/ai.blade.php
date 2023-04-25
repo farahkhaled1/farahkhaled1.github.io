@@ -19,7 +19,7 @@
                 <div class="card-body">
 
 
-                    <form role="form" method="POST" action=" {{ route('result') }} ">
+                    <form role="form" method="POST" action=" {{ route('display') }} ">
                         @csrf
                         <label>Enter your topic below:</label><br><br>
                         <div class="mb-3">
@@ -28,13 +28,13 @@
                       </div>
 
                         <div class="text-center">
-                        <button type="button" class="btn bg-gradient-info w-100" style="">Generate</button>
+                        <button type="submit" class="btn bg-gradient-info w-100" style="">Generate</button>
                       </div>
                     </form>
             
-                    @if (isset($result))
+                    @if (isset($display))
                   
-                        <div style="white-space: pre-line">  <p class="mb-0">{{$result}}</p> </div>
+                        <div style="white-space: pre-line">  <p class="mb-0">{{$display}}</p> </div>
                     
                     @endif
 

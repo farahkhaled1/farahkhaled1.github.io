@@ -6,16 +6,15 @@ use Orhanerday\OpenAi\OpenAi;
 
 class AiController extends Controller
 {
-    public function index(){
+    public function show(){
         return view('laravel-examples.ai');
     }
     
-    public function result(Request $request){
+    public function display(Request $request){
 
         $topic = $request->topic;
         $open_ai = new OpenAi(env('OPEN_AI_API_KEY'));
         $promt="Create blog ideas about ". $topic." \n";
-        // $promt= $topic." \n";
 
         $openAiOutput = $open_ai->complete([
             'engine' => 'davinci-instruct-beta-v3',
@@ -29,6 +28,6 @@ class AiController extends Controller
         $output= json_decode($openAiOutput,true);
         $outputText= $output['choices'][0]['text'];
 
-        return view('laravel-examples.ai',['result'=> $outputText]);
+        return view('laravel-examples.ai',['display'=> $outputText]);
     }
 }

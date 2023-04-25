@@ -69,11 +69,13 @@ Route::group(['middleware' => 'auth'], function () {
 
 
 	
-	Route::get('/ai', [AiController::class, 'index']);
-    Route::post('/ai', [AiController::class, 'result'])->name('result');
-
+	
+	Route::get('/ai', [AiController::class, 'show']);
+    Route::post('/ai', [AiController::class, 'display'])->name('display');
 
 	
+	
+
 	Route::get('/analyzer', [DomainController::class, 'index']);
     Route::post('/analyzer', [DomainController::class, 'result'])->name('result');
 
@@ -83,6 +85,7 @@ Route::group(['middleware' => 'auth'], function () {
 // Route::post('/convert', [ImageoptController::class, 'convert'])->name('convert');
 
 Route::get('/images', [ImageoptController::class, 'imageopt']);
+
 
 
 
@@ -106,11 +109,6 @@ Route::get('/images', [ImageoptController::class, 'imageopt']);
     Route::get('static-sign-up', function () {
 		return view('static-sign-up');
 	})->name('sign-up');
-
-
-
-	// Route::get('/ai', [AiController::class, 'index']);
-	// Route::post('/ai',[AiController::class,'result'])->name('result');
 
 
 	

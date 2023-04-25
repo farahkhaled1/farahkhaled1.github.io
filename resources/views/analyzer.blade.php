@@ -1,63 +1,4 @@
 
-
-<?php
-
-
-// $curl = curl_init();
-
-// curl_setopt_array($curl, [
-// 	CURLOPT_URL => "https://domain-seo-analysis.p.rapidapi.com/domain-seo-analysis/?domain=kyliecosmetics.com&country=us",
-// 	CURLOPT_RETURNTRANSFER => true,
-// 	CURLOPT_FOLLOWLOCATION => true,
-// 	CURLOPT_ENCODING => "",
-// 	CURLOPT_MAXREDIRS => 10,
-// 	CURLOPT_TIMEOUT => 30,
-// 	CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-// 	CURLOPT_CUSTOMREQUEST => "GET",
-// 	CURLOPT_HTTPHEADER => [
-// 		"X-RapidAPI-Host: domain-seo-analysis.p.rapidapi.com",
-// 		"X-RapidAPI-Key: e1d4c245damsha7dc645641ffd43p142231jsn3330afedca88"
-// 	],
-// ]);
-// $response = curl_exec($curl);
-// $err = curl_error($curl);
-
-// curl_close($curl);
-
-// if ($err) {
-//     echo "cURL Error #:" . $err;
-// } else {
-//     // $response_data = json_decode($response, true);
-//     // var_dump($response_data); // print the response data structure
-
-// 	$response_data = json_decode($response, true);
-// $domain_rank = $response_data['data']['domain_rank'];
-// $domain_auth = $response_data['data']['domain_authority'];
-
-// $ctr_scope = $response_data['data']['ctr_scope'];
-// $seo_difficulty = $response_data['data']['seo_difficulty'];
-// $off_page_difficulty = $response_data['data']['off_page_difficulty'];
-// $on_page_difficulty = $response_data['data']['on_page_difficulty'];
-// $indexed_pages = $response_data['data']['indexed_pages'];
-// $page_authority = $response_data['data']['page_authority'];
-// $popularity_score = $response_data['data']['popularity_score'];
-// $traffic = $response_data['data']['traffic'];
-// $traffic_costs = $response_data['data']['traffic_costs'];
-// $organic_keywords = $response_data['data']['organic_keywords'];
-// $backlinks = $response_data['data']['backlinks'];
-// $equity = $response_data['data']['equity'];
-// $cpc = $response_data['data']['cpc'];
-// $search_volume = $response_data['data']['search_volume'];
-
-// // echo "Domain Rank: " . $domain_rank;
-
-// }
-
-?>
-
-
-
-
 @extends('layouts.user_type.auth')
 
 @section('content')
@@ -81,13 +22,13 @@
       @csrf
       {{-- <label>Enter your website below:</label> --}}
       <br><br> 
-      <div class="mb-3">
+      <div class="mb-3" style="margin-top: -40px">
 
       <input class="form-control" type="text" name="topic" placeholder="Place your URL"><br><br>
     </div>
 
       <div class="text-center">
-      <button type="button" class="btn bg-gradient-info w-100" style="">Generate</button>
+      <button type="submit" class="btn bg-gradient-info w-100" style="">Generate</button>
     </div>
   </form>
 </div></div></div></section>
@@ -290,15 +231,22 @@
 </div> 
  
  
-<div class="row mt-4"> 
+{{-- <div class="row mt-4"> 
   <div class="col-lg-5 mb-lg-0 mb-4"> 
     <div class="card z-index-2">
       <div class="card-body p-3">
-          
+           --}}
+           <div class="page-header min-vh-50" >
+            <div class="container">
+              <div class="row">
+                <div class="col-xl-8 col-lg-5 col-md-6 d-flex flex-column mx-auto">
+                  <div class="card" >
+                    <div class="card-header pb-0 text-left bg-transparent" >
+        
         </div>
-        <h6 class="ms-2 mt-4 mb-0"> More insights </h6>
-        <p class="text-sm ms-2"> for a full report </p>
-        <div class="container border-radius-lg">
+        <h5 class="ms-4 mt-4 mb-0"  > More insights for a full report </h5>
+        {{-- <h6 class="text-sm ms-2">  </h6> --}}
+        <div class="container border-radius-lg" style="margin: 20px">
           <div class="row">
             <div class="col-3 py-3 ps-0">
               <div class="d-flex mb-2">
