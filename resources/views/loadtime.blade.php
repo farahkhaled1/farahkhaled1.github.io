@@ -77,7 +77,7 @@
 </div>
 
 
- @elseif ($back > 1.5 && $back!=0)
+ @elseif ($back > 1.5 && $back != 'Invalid URL format.')
 
 
  <div style="white-space: pre-line">
@@ -101,6 +101,14 @@
          </div>
      </div>
 
+
+     @elseif ($back == 'Invalid URL format.')
+
+
+ <div style="white-space: pre-line">
+    <h4 class="mb-0">{{$back}}</h4>
+
+</div>
 
  @endif
 

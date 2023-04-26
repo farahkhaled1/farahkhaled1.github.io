@@ -6,12 +6,19 @@ use Orhanerday\OpenAi\OpenAi;
 
 class LoadTimeController extends Controller
 {
+
+    
     public function front(){
         return view('loadtime');
     }
     
     public function back(Request $request){
         $url = $request->url;
+        $regex = '/^[a-zA-Z0-9]+([\-\.]{1}[a-zA-Z0-9]+)*\.[a-zA-Z]{2,}$/i';
+          // Validate URL with regex
+    if (!preg_match($regex, $url)) {
+        return view('loadtime', ['back' => 'Invalid URL format.']);
+    }
 
         $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, $url);
@@ -34,7 +41,7 @@ class LoadTimeController extends Controller
     //     return view('loadtime', ['back' => 'This domain does not exist.']);
     // } 
     // else {
-        return view('loadtime', ['back' => $load_time_sec ]);
+    return view('loadtime', ['back' => $load_time_sec ]);
     // }
 
     // return view('loadtime', ['back' => $load_time_sec]);
