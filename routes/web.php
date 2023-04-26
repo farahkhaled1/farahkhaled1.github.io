@@ -14,6 +14,8 @@ use App\Http\Controllers\WebsiteImageController;
 use App\Http\Controllers\ImageoptController;
 use App\Http\Controllers\ControllerHtml;
 use App\Http\Controllers\DomainController;
+use App\Http\Controllers\LoadTimeController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -74,6 +76,9 @@ Route::group(['middleware' => 'auth'], function () {
     Route::post('/ai', [AiController::class, 'display'])->name('display');
 
 	
+	Route::get('/loadtime', [LoadTimeController::class, 'front']);
+    Route::post('/loadtime', [LoadTimeController::class, 'back'])->name('back');
+
 	
 
 	Route::get('/analyzer', [DomainController::class, 'index']);
@@ -185,3 +190,9 @@ Route::get('/run-script', function () {
 
 
 Route::get('/display-html', [ControllerHtml::class, 'displayHtml']);
+
+
+
+Route::get('/another', function () {
+    return view('another');
+})->name('another');
