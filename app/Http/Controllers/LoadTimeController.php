@@ -30,12 +30,12 @@ class LoadTimeController extends Controller
 
 
 
-    if ($load_time_sec == 0) {
-        return view('loadtime', ['back' => 'This domain does not exist.']);
-    } 
-    else {
+    // if ($load_time_sec == 0) {
+    //     return view('loadtime', ['back' => 'This domain does not exist.']);
+    // } 
+    // else {
         return view('loadtime', ['back' => $load_time_sec ]);
-    }
+    // }
 
     // return view('loadtime', ['back' => $load_time_sec]);
 

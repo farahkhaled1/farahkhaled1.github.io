@@ -61,7 +61,13 @@
 
  @if (isset($back))
  
- @if ($back <1.5 && $back !=0)
+
+ @if ($back ==0)
+ <h5 style="color:red">Your website doesn't exist! </h5>
+
+ 
+
+ @elseif ($back <1.5 && $back !=0)
 
 
  <div style="white-space: pre-line">
@@ -70,7 +76,8 @@
 
 </div>
 
- @elseif ($back > 1.5)
+
+ @elseif ($back > 1.5 && $back!=0)
 
 
  <div style="white-space: pre-line">
@@ -93,7 +100,11 @@
              </div>
          </div>
      </div>
+
+
  @endif
+
+
 
  {{-- @if ($back == 0)
      <div class="mt-4 row">
