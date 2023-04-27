@@ -11,7 +11,7 @@
 
   <main class="main-content mt-0">
     <section>
-      <div class="page-header min-vh-75" style="margin:-60px">
+      <div class="page-header min-vh-75" style="margin:-100px">
         <div class="container">
           <div class="row">
             <div class="col-xl-8 col-lg-5 col-md-6 d-flex flex-column mx-auto">
@@ -45,13 +45,20 @@
   
 
 
-
   
   <div class="row my-4">
     <div class="col-lg-8 col-md-6 mb-md-0 mb-4" style="margin-left:180px">
       <div class="card">
         <div class="card-header pb-0">
+
+          @php
+$lastNiche = \App\Models\Niche::getLastNiche();
+@endphp
+<h3>Your Last Search for the Niche: <span style="color: green"> {{ $lastNiche }} </span></h3>
+
           <div class="row">
+
+
             <div class="col-lg-6 col-7">
               <h6>Phrase match</h6>
               <p class="text-sm mb-0">
@@ -88,7 +95,7 @@
               
                   
                
-                @foreach(\App\Models\Keyword::getCarsKeywords() as $keyword)
+                @foreach(\App\Models\Keyword::getKeywords() as $keyword)
                 <tr>
                     <td>
                         <div class="d-flex px-2 py-1">
@@ -129,7 +136,7 @@
 
 
 
-
+{{-- 
 
 
        <div class="card z-index-2">
@@ -146,9 +153,9 @@
             <canvas id="chart-line" class="chart-canvas" height="300"></canvas>
           </div>
         </div>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          --}}
 
-
+{{-- 
   <div class="row mt-4">
     <div class="col-lg-5 mb-lg-0 mb-4">
      
@@ -156,50 +163,16 @@
               <canvas id="chart-bars" class="chart-canvas" height="170"></canvas>
             </div>
           </div>
-          
+         
                
                  
           </div>
         </div>
       </div>
-    </div>
-
-
-
-
-
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </div> --}}
 
 @endsection
+</html>
 @push('dashboard')
   <script>
     window.onload = function() {
@@ -416,11 +389,11 @@
         
       </div>
     </section>
-  </main> --}}
+  </main>
 
   
 
-  {{-- <tr>
+  <tr>
                   <td>
                     <div class="d-flex px-2 py-1">
                       

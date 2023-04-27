@@ -15,7 +15,7 @@ class Keyword extends Model
      *
      * @return \Illuminate\Database\Eloquent\Collection
      */
-    public static function getCarsKeywords()
+    public static function getKeywords()
     {
         $niche = DB::table('given_niche')
                     ->orderBy('id', 'desc')
