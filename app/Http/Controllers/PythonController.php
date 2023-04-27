@@ -9,14 +9,26 @@ use Illuminate\Http\Request;
 
 class PythonController extends Controller
 {
-    public function index()
-    {
-        $process = new Process([' usr/bin/python3', public_path('test.py')]);
-        $process->run();
+    // public function index()
+    // {
+    //     $process = new Process([' usr/bin/python3', public_path('test.py')]);
+    //     $process->run();
         
-        if (!$process->isSuccessful()) {
-            throw new ProcessFailedException($process);
-        }
+    //     if (!$process->isSuccessful()) {
+    //         throw new ProcessFailedException($process);
+    //     }
         
-        return $process->getOutput();
-    }}
+    //     return $process->getOutput();
+    // }
+
+
+
+    // ---------------------- 
+    // public function runScript()
+    // {
+    //     $output = shell_exec('python3 script.py');
+    //     return view('python_output', ['output' => $output]);
+    // }
+    
+
+}

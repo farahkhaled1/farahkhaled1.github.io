@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\WebsiteImageController;
 use App\Http\Controllers\ImageoptController;
 use App\Http\Controllers\ControllerHtml;
-use App\Http\Controllers\DomainController;
+use App\Http\Controllers\PythonController;
 use App\Http\Controllers\LoadTimeController;
 
 
@@ -84,6 +84,14 @@ Route::group(['middleware' => 'auth'], function () {
 	Route::get('/analyzer', [DomainController::class, 'index']);
     Route::post('/analyzer', [DomainController::class, 'result'])->name('result');
 
+
+	// Route::get('/run-python-script', [PythonController::class, 'runScript']);
+
+	Route::get('/run-python', function () {
+		$output = exec('python3 script.py');
+		return $output;
+	});
+	
 
 
 // Route::get('/images', [ImageoptController::class, 'index']);
