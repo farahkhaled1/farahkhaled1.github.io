@@ -78,7 +78,7 @@ Route::group(['middleware' => 'auth'], function () {
 
 
 
-	Route::post('/store-niche', [GivenNicheController::class, 'store'])->name('store-niche');
+	Route::post('/store_niche', [GivenNicheController::class, 'store_niche'])->name('store_niche');
 
 	
 	Route::get('/loadtime', [LoadTimeController::class, 'front']);

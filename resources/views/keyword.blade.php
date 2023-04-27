@@ -8,45 +8,6 @@
 <html>
    
 
-{{-- <main class="main-content  mt-0">    
-    <section>
-      <div class="page-header min-vh-75" style="margin:-60px">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-8 col-lg-5 col-md-6 d-flex flex-column mx-auto">
-              <div class="card">
-                <div class="card-header pb-0 text-left bg-transparent">
-                  <h3 class="font-weight-bolder" style="color: black">Enter your Niche Keyword</h3>
-                  <p class="mb-0">Generate the best keywords for your niche!</p>
-                </div>
-                <div class="card-body">
-
-                        <div class="mb-3">
-
-                        <input class="form-control" type="text" name="topic" placeholder="place new topic"><br><br>
-                      </div>
-
-                        <div class="text-center">
-                        <button type="button" class="btn bg-gradient-info w-100" style="">Generate</button>
-                      </div>
-            
-                  
-
-
-                </div>
-             
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="oblique position-absolute top-0 h-100 d-md-block d-none me-n8">
-              </div>
-            </div>         
-          </div>
-        </div>
-        
-      </div>
-    </section>
-  </main> --}}
 
   <main class="main-content mt-0">
     <section>
@@ -60,7 +21,7 @@
                   <p class="mb-0">Generate the best keywords for your niche!</p>
                 </div>
                 <div class="card-body">
-                  <form method="POST" action="{{ route('store-niche') }}">
+                  <form method="POST" action="{{ route('store_niche') }}">
                     @csrf
                     <div class="mb-3">
                       <input class="form-control" type="text" name="niche" placeholder="Enter your niche keyword">
@@ -95,7 +56,7 @@
               <h6>Phrase match</h6>
               <p class="text-sm mb-0">
                 <i class="fa fa-check text-info" aria-hidden="true"></i>
-                <span class="font-weight-bold ms-1">5 Keywords scanned</span> this month
+                <span class="font-weight-bold ms-1">Keywords scanned</span> this month
               </p>
             </div>
             <div class="col-lg-6 col-5 my-auto text-end">
@@ -124,119 +85,9 @@
                 </tr>
               </thead>
               <tbody>
-                {{-- <tr>
-                  <td>
-                    <div class="d-flex px-2 py-1">
-                      
-                      <div class="d-flex flex-column justify-content-center">
-                        <h6 class="mb-0 text-sm">Keyword 1</h6>
-                      </div>
-                    </div>
-                  </td>
-                  <td>
-                    <span class="text-xs font-weight-bold" style="color:red ; margin-left:50px "> 92 </span>
-
-                  </td>
-                  <td class="align-middle text-center text-sm">
-                    <span class="text-xs font-weight-bold"> 8$ </span>
-                  </td>
-                  <td class="align-middle">
-                    <span class="text-xs font-weight-bold" style="margin-left: 100px"> 96K</span>
-
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <div class="d-flex px-2 py-1">
-                    
-                      <div class="d-flex flex-column justify-content-center">
-                        <h6 class="mb-0 text-sm">Keyword 2</h6>
-                      </div>
-                    </div>
-                  </td>
-                  <td>
-                    <div class="avatar-group mt-2">
-                        <span class="text-xs font-weight-bold" style="color:red ; margin-left:50px  "> 86 </span>
-
-                    </div>
-                  </td>
-                  <td class="align-middle text-center text-sm">
-                    <span class="text-xs font-weight-bold"> 2.5$</span>
-                  </td>
-                  <td class="align-middle">
-                    <span class="text-xs font-weight-bold" style="margin-left: 100px"> 90K</span>
-
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <div class="d-flex px-2 py-1">
-                     
-                      <div class="d-flex flex-column justify-content-center">
-                        <h6 class="mb-0 text-sm">Keyword 3</h6>
-                      </div>
-                    </div>
-                  </td>
-                  <td>
-                    <div class="avatar-group mt-2">
-                        <span class="text-xs font-weight-bold" style="color:orange ; margin-left:50px  "> 76 </span>
-
-                    </div>
-                  </td>
-                  <td class="align-middle text-center text-sm">
-                    <span class="text-xs font-weight-bold"> 2.3$ </span>
-                  </td>
-                  <td class="align-middle">
-                    <span class="text-xs font-weight-bold" style="margin-left: 100px"> 82K</span>
-
-                     
-                    </div>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <div class="d-flex px-2 py-1">
-                     
-                      <div class="d-flex flex-column justify-content-center">
-                        <h6 class="mb-0 text-sm">Keyword 4</h6>
-                      </div>
-                    </div>
-                  </td>
-                  <td>
-                    <div class="avatar-group mt-2">
-                        <span class="text-xs font-weight-bold" style="color:orange ; margin-left:50px "> 63 </span>
-
-                    </div>
-                  </td>
-                  <td class="align-middle text-center text-sm">
-                    <span class="text-xs font-weight-bold"> 3.2$ </span>
-                  </td>
-                  <td class="align-middle">
-                    <span class="text-xs font-weight-bold" style="margin-left: 100px"> 74K</span>
-
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <div class="d-flex px-2 py-1">
-                      
-                      <div class="d-flex flex-column justify-content-center">
-                        <h6 class="mb-0 text-sm">keyword 5</h6>
-                      </div>
-                    </div>
-                  </td>
-                  <td>
-                    <span class="text-xs font-weight-bold" style="color:green ; margin-left:50px  "> 43 </span>
-
-                  </td>
-                  <td class="align-middle text-center text-sm">
-                    <span class="text-xs font-weight-bold"> 1.5$ </span>
-                  </td>
-                  <td class="align-middle">
-                    <span class="text-xs font-weight-bold" style="margin-left: 100px"> 39K</span>
-
-                  </td>
-                </tr> --}}
+              
+                  
+               
                 @foreach(\App\Models\Keyword::getCarsKeywords() as $keyword)
                 <tr>
                     <td>
@@ -524,3 +375,161 @@
   </script>
 @endpush
 
+
+
+
+{{-- <main class="main-content  mt-0">    
+    <section>
+      <div class="page-header min-vh-75" style="margin:-60px">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-8 col-lg-5 col-md-6 d-flex flex-column mx-auto">
+              <div class="card">
+                <div class="card-header pb-0 text-left bg-transparent">
+                  <h3 class="font-weight-bolder" style="color: black">Enter your Niche Keyword</h3>
+                  <p class="mb-0">Generate the best keywords for your niche!</p>
+                </div>
+                <div class="card-body">
+
+                        <div class="mb-3">
+
+                        <input class="form-control" type="text" name="topic" placeholder="place new topic"><br><br>
+                      </div>
+
+                        <div class="text-center">
+                        <button type="button" class="btn bg-gradient-info w-100" style="">Generate</button>
+                      </div>
+            
+                  
+
+
+                </div>
+             
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="oblique position-absolute top-0 h-100 d-md-block d-none me-n8">
+              </div>
+            </div>         
+          </div>
+        </div>
+        
+      </div>
+    </section>
+  </main> --}}
+
+  
+
+  {{-- <tr>
+                  <td>
+                    <div class="d-flex px-2 py-1">
+                      
+                      <div class="d-flex flex-column justify-content-center">
+                        <h6 class="mb-0 text-sm">Keyword 1</h6>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <span class="text-xs font-weight-bold" style="color:red ; margin-left:50px "> 92 </span>
+
+                  </td>
+                  <td class="align-middle text-center text-sm">
+                    <span class="text-xs font-weight-bold"> 8$ </span>
+                  </td>
+                  <td class="align-middle">
+                    <span class="text-xs font-weight-bold" style="margin-left: 100px"> 96K</span>
+
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="d-flex px-2 py-1">
+                    
+                      <div class="d-flex flex-column justify-content-center">
+                        <h6 class="mb-0 text-sm">Keyword 2</h6>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="avatar-group mt-2">
+                        <span class="text-xs font-weight-bold" style="color:red ; margin-left:50px  "> 86 </span>
+
+                    </div>
+                  </td>
+                  <td class="align-middle text-center text-sm">
+                    <span class="text-xs font-weight-bold"> 2.5$</span>
+                  </td>
+                  <td class="align-middle">
+                    <span class="text-xs font-weight-bold" style="margin-left: 100px"> 90K</span>
+
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="d-flex px-2 py-1">
+                     
+                      <div class="d-flex flex-column justify-content-center">
+                        <h6 class="mb-0 text-sm">Keyword 3</h6>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="avatar-group mt-2">
+                        <span class="text-xs font-weight-bold" style="color:orange ; margin-left:50px  "> 76 </span>
+
+                    </div>
+                  </td>
+                  <td class="align-middle text-center text-sm">
+                    <span class="text-xs font-weight-bold"> 2.3$ </span>
+                  </td>
+                  <td class="align-middle">
+                    <span class="text-xs font-weight-bold" style="margin-left: 100px"> 82K</span>
+
+                     
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="d-flex px-2 py-1">
+                     
+                      <div class="d-flex flex-column justify-content-center">
+                        <h6 class="mb-0 text-sm">Keyword 4</h6>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="avatar-group mt-2">
+                        <span class="text-xs font-weight-bold" style="color:orange ; margin-left:50px "> 63 </span>
+
+                    </div>
+                  </td>
+                  <td class="align-middle text-center text-sm">
+                    <span class="text-xs font-weight-bold"> 3.2$ </span>
+                  </td>
+                  <td class="align-middle">
+                    <span class="text-xs font-weight-bold" style="margin-left: 100px"> 74K</span>
+
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="d-flex px-2 py-1">
+                      
+                      <div class="d-flex flex-column justify-content-center">
+                        <h6 class="mb-0 text-sm">keyword 5</h6>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <span class="text-xs font-weight-bold" style="color:green ; margin-left:50px  "> 43 </span>
+
+                  </td>
+                  <td class="align-middle text-center text-sm">
+                    <span class="text-xs font-weight-bold"> 1.5$ </span>
+                  </td>
+                  <td class="align-middle">
+                    <span class="text-xs font-weight-bold" style="margin-left: 100px"> 39K</span>
+
+                  </td>
+                </tr> --}}

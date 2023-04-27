@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\DB;
 
 class GivenNicheController extends Controller
 {
-    public function store(Request $request)
+    public function store_niche(Request $request)
     {
         $validatedData = $request->validate([
             'niche' => 'required|max:255',
@@ -17,7 +17,9 @@ class GivenNicheController extends Controller
             'niche' => $validatedData['niche'],
         ]);
 
-        return redirect()->back()->with('success', 'Niche keyword added successfully.');
+        // return redirect()->back()->with('success', 'Niche keyword added successfully.');
+        return redirect()->back();
+
     }
 }
 
