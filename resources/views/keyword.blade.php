@@ -8,13 +8,7 @@
 <html>
    
 
-<main class="main-content  mt-0">
-
-
-
-
-
-    
+{{-- <main class="main-content  mt-0">    
     <section>
       <div class="page-header min-vh-75" style="margin:-60px">
         <div class="container">
@@ -46,23 +40,52 @@
             <div class="col-md-6">
               <div class="oblique position-absolute top-0 h-100 d-md-block d-none me-n8">
               </div>
-            </div>
-
-
-
-
-
-
-
-
-
-            
+            </div>         
           </div>
         </div>
         
       </div>
     </section>
+  </main> --}}
+
+  <main class="main-content mt-0">
+    <section>
+      <div class="page-header min-vh-75" style="margin:-60px">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-8 col-lg-5 col-md-6 d-flex flex-column mx-auto">
+              <div class="card">
+                <div class="card-header pb-0 text-left bg-transparent">
+                  <h3 class="font-weight-bolder" style="color: black">Enter your Niche Keyword</h3>
+                  <p class="mb-0">Generate the best keywords for your niche!</p>
+                </div>
+                <div class="card-body">
+                  <form method="POST" action="{{ route('store-niche') }}">
+                    @csrf
+                    <div class="mb-3">
+                      <input class="form-control" type="text" name="niche" placeholder="Enter your niche keyword">
+                    </div>
+                    <div class="text-center">
+                      <button type="submit" class="btn bg-gradient-info w-100">Generate</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="oblique position-absolute top-0 h-100 d-md-block d-none me-n8">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
+  
+
+
+
+  
   <div class="row my-4">
     <div class="col-lg-8 col-md-6 mb-md-0 mb-4" style="margin-left:180px">
       <div class="card">
@@ -95,13 +118,13 @@
               <thead>
                 <tr>
                   <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Keyword</th>
-                  <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Keyword Difficulty</th>
-                  <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">CPC</th>
-                  <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Search Volume</th>
+                  <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Average TF-IDF</th>
+                  <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Max TF-IDF</th>
+                  <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Frequency</th>
                 </tr>
               </thead>
               <tbody>
-                <tr>
+                {{-- <tr>
                   <td>
                     <div class="d-flex px-2 py-1">
                       
@@ -213,8 +236,28 @@
                     <span class="text-xs font-weight-bold" style="margin-left: 100px"> 39K</span>
 
                   </td>
+                </tr> --}}
+                @foreach(\App\Models\Keyword::getCarsKeywords() as $keyword)
+                <tr>
+                    <td>
+                        <div class="d-flex px-2 py-1">
+                            <div class="d-flex flex-column justify-content-center">
+                                <h6 class="mb-0 text-sm">{{ $keyword->word	 }}</h6>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <span class="text-xs font-weight-bold" style="color:red ; margin-left:50px ">{{ $keyword->average_tfidf	 }}</span>
+                    </td>
+                    <td class="align-middle text-center text-sm">
+                        <span class="text-xs font-weight-bold">{{ $keyword->max_tfidf }}</span>
+                    </td>
+                    <td class="align-middle">
+                        <span class="text-xs font-weight-bold" style="margin-left: 100px">{{ $keyword->frequency }}</span>
+                    </td>
                 </tr>
-               
+                @endforeach
+                
               </tbody>
             </table>
           </div>

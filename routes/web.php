@@ -15,6 +15,7 @@ use App\Http\Controllers\ImageoptController;
 use App\Http\Controllers\ControllerHtml;
 use App\Http\Controllers\PythonController;
 use App\Http\Controllers\LoadTimeController;
+use App\Http\Controllers\GivenNicheController;
 
 
 /*
@@ -74,6 +75,10 @@ Route::group(['middleware' => 'auth'], function () {
 	
 	Route::get('/ai', [AiController::class, 'show']);
     Route::post('/ai', [AiController::class, 'display'])->name('display');
+
+
+
+	Route::post('/store-niche', [GivenNicheController::class, 'store'])->name('store-niche');
 
 	
 	Route::get('/loadtime', [LoadTimeController::class, 'front']);
