@@ -24,6 +24,26 @@ nltk.download('stopwords')
 nltk.download('punkt')
 
 stop_words = set(stopwords.words('english')) 
+stop_words.add('le')
+stop_words.add('eu')
+stop_words.add('span')
+stop_words.add('div')
+stop_words.add('src')
+stop_words.add('page')
+stop_words.add('egp')
+stop_words.add('url')
+stop_words.add('cdn')
+stop_words.add('alt')
+stop_words.add('com')
+stop_words.add('net')
+stop_words.add('org')
+stop_words.add('cdn')
+stop_words.add('img')
+
+
+
+
+
 # stop_words.add('the', 'google','yes', 'no', 'llc','egp','usd','cdn','src','alt','img','files','word')
 
 
@@ -33,7 +53,7 @@ import mysql.connector
 # Connect to the database
 mysql = mysql.connector.connect(
     host="localhost",
-    user="localhost",
+    user="root",
     password="",
     database="seopro"
 )
@@ -158,6 +178,13 @@ def tf_idf_analysis(keyword):
     d.columns=['word','average_tfidf','max_tfidf','frequency']
 
     d['frequency']=round((d['frequency']/len(text))*100)
+    d['max_tfidf'] = d['max_tfidf'].round(2)
+    d['average_tfidf'] = d['average_tfidf'].round(2)
+    
+    # d = d[(d['word'].str.isalpha()) & (d['average_tfidf'] >= 0.05)].sort_values('max_tfidf', ascending=False).head(50)
+    
+    # return d
+
     return d[d['word'].str.isalpha()].sort_values('max_tfidf',ascending=False).head(35)
 
 

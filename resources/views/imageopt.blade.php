@@ -19,7 +19,7 @@
                 <div class="card-body">
 
 
-                    <form role="form" method="POST" action=" {{ route('imageopt') }} ">
+                    <form role="form" method="POST" action=" {{ route('convert') }} ">
                         @csrf
                         <label>Enter your website below:</label><br><br>
                         <div class="mb-3">
@@ -28,15 +28,15 @@
                       </div>
 
                         <div class="text-center">
-                        <button type="button" class="btn bg-gradient-info w-100" style="">Compress Images</button>
+                        <button type="submit" class="btn bg-gradient-info w-100" style="">Compress Images</button>
                       </div>
                     </form>
             
-                    @if (isset($imageopt))
+                    {{-- @if (isset($convert))
                   
-                        <div style="white-space: pre-line">  <p class="mb-0">{{$imageopt}}</p> </div>
+                        <div style="white-space: pre-line">  <p class="mb-0">{{$convert}}</p> </div>
                     
-                    @endif
+                    @endif --}}
 
 
 
@@ -58,4 +58,3 @@
   </main>
 
 @endsection
-

@@ -16,6 +16,8 @@ use App\Http\Controllers\ControllerHtml;
 use App\Http\Controllers\PythonController;
 use App\Http\Controllers\LoadTimeController;
 use App\Http\Controllers\GivenNicheController;
+use App\Http\Controllers\DomainController;
+
 
 
 /*
@@ -28,6 +30,10 @@ use App\Http\Controllers\GivenNicheController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+
+Route::get('/images', [ImageoptController::class, 'index']);
+Route::post('/convert', [ImageoptController::class, 'convert'])->name('convert');
 
 
 Route::group(['middleware' => 'auth'], function () {
@@ -49,6 +55,9 @@ Route::group(['middleware' => 'auth'], function () {
 	// })->name('analyzerr');
 
 
+	Route::get('/images', [ImageoptController::class, 'index']);
+	Route::post('/convert', [ImageoptController::class, 'convert'])->name('convert');
+	
 	Route::get('keyword', function () {
 		return view('keyword');
 	})->name('keyword');
@@ -102,13 +111,13 @@ Route::group(['middleware' => 'auth'], function () {
 // Route::get('/images', [ImageoptController::class, 'index']);
 // Route::post('/convert', [ImageoptController::class, 'convert'])->name('convert');
 
-Route::get('/images', [ImageoptController::class, 'imageopt']);
+// Route::get('/images', [ImageoptController::class, 'imageopt']);
 
 
 
 
-	// Route::get('/imageopt', [ImageoptController::class, 'index']);
-    // Route::post('/imageopt', [ImageoptController::class, 'imageopt'])->name('imageopt');
+// 	Route::get('/imageopt', [ImageoptController::class, 'index']);
+//     Route::post('/imageopt', [ImageoptController::class, 'imageopt'])->name('imageopt');
 
 
 
@@ -160,15 +169,15 @@ Route::get('/login', function () {
 
 
 
-Route::get('/test1', function () {
-    return view('imageopt/imageoptcopy');
-})->name('imageopt');
+// Route::get('/test1', function () {
+//     return view('imageopt/imageoptcopy');
+// })->name('imageopt');
 
 
 
-Route::get('/test2', function () {
-    return view('imageopt/imageopt2');
-})->name('imageopt');
+// Route::get('/test2', function () {
+//     return view('imageopt/imageopt2');
+// })->name('imageopt');
 
 
 
@@ -178,14 +187,14 @@ Route::get('/test2', function () {
 // routes/web.php
 
 
-Route::get('/images', [ImageoptController::class, 'index']);
+// Route::get('/images', [ImageoptController::class, 'index']);
 
 
 // Route::get('/images', function () {
 //     return view('website_image');
 // })->name('website_image');
 
-Route::post('/conxxert', [ImageoptController::class, 'convert'])->name('convert');
+// Route::post('/convert', [ImageoptController::class, 'convert'])->name('convert');
 
 
 Route::get('/tf_idf', function () {

@@ -44,7 +44,6 @@ if ($err) {
 	$response_data = json_decode($response, true);
 $domain_rank = $response_data['data']['domain_rank'];
 $domain_auth = $response_data['data']['domain_authority'];
-
 $ctr_scope = $response_data['data']['ctr_scope'];
 $seo_difficulty = $response_data['data']['seo_difficulty'];
 $off_page_difficulty = $response_data['data']['off_page_difficulty'];
