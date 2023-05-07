@@ -160,7 +160,7 @@ for word in filtered_sentence:
 u=p_stemmer.stem(word)
 import mysql.connector
 
-
+########
 # Modify the tf_idf_analysis function to return a DataFrame
 def tf_idf_analysis(keyword):
     v = TfidfVectorizer(min_df=1,analyzer='word',ngram_range=(1,2),stop_words=list(stop_words))
