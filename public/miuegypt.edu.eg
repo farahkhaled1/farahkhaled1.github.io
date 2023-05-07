@@ -1,0 +1,1762 @@
+<!DOCTYPE html>
+
+<!--[if IE 7]>
+
+<html class="ie ie7" lang="en-US">
+
+<![endif]-->
+
+<!--[if IE 8]>
+
+<html class="ie ie8" lang="en-US">
+
+<![endif]-->
+
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+
+<html lang="en-US">
+
+<!--<![endif]-->
+
+<head>
+<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width">
+
+	<title>Misr International University | Misr International University</title>
+    
+
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+
+	<link rel="pingback" href="https://miuegypt.edu.eg/xmlrpc.php">
+
+	<!--[if lt IE 9]>
+
+	<script src="https://miuegypt.edu.eg/wp-content/themes/twentythirteen/js/html5.js"></script>
+
+	<![endif]-->
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="/wp-content/plugins/ml-slider/assets/sliders/flexslider/jquery.flexslider-min.js"></script>
+<script src="/wp-content/uploads/popup.js"></script>
+
+<script src="/wp-content/plugins/vina-parallax-content-slider-widget/includes/js/jquery.cslider.js"></script>
+
+ <link rel="stylesheet" href="/wp-content/uploads/general.css" type="text/css" media="screen"/>
+
+
+
+
+<script>$(document).ready(function(){$(".page-id-50 #left-sidebar h3.widget-title").html("MIU <span>Academics</span>");$(".page-id-205 #left-sidebar h3.widget-title").html("Inertnational <span>Office</span>");$(".page-id-46 #left-sidebar h3.widget-title").html("Miu <span>Alumni</span>");$(".page-id-615 #left-sidebar h3.widget-title").html("Services <span>& Facilities</span>");$(".page-id-30 #left-sidebar h3.widget-title").html("Miu <span>Careers</span>");$(".page-id-604 #left-sidebar h3.widget-title").html("Services &<span> Facilities</span>");$(".page-id-7 #left-sidebar h3.widget-title").html("About <span>MIU</span>");$(".postid-746 #left-sidebar h3.widget-title").html("Miu <span>Careers</span>");$(".search #primary h1.page-title").html("Nothing <span>Found</span>");$(".page-id-334 #left-sidebar h3.widget-title").html("MIU <span>Faculties</span>");$(".page-id-347 #left-sidebar h3.widget-title").html("MIU <span>Faculties</span>");$(".page-id-349 #left-sidebar h3.widget-title").html("MIU <span>Faculties</span>");$(".page-id-348 #left-sidebar h3.widget-title").html("MIU <span>Faculties</span>");$(".page-id-351 #left-sidebar h3.widget-title").html("MIU <span>Faculties</span>");$(".page-id-352 #left-sidebar h3.widget-title").html("MIU <span>Faculties</span>");$(".page-id-350 #left-sidebar h3.widget-title").html("MIU <span>Faculties</span>");$(".page-id-501 #left-sidebar h3.widget-title").html("News <span>Categories</span>");$(".page-id-346 #left-sidebar h3.widget-title").html("MIU <span>Faculties</span>");$(".page-id-236 #left-sidebar h3.widget-title").html("MIU <span>Careers</span>");$(".page-id-70 #left-sidebar h3.widget-title").html("News <span>Categories</span>");$(".page-id-815 #left-sidebar h3.widget-title").html('Faculty of <span style="color:#e94600;">Mass</span>');$(".page-id-777 #left-sidebar h3.widget-title").html('Faculty of <span style="color:#850050;">Alsun</span>');$(".page-id-783 #left-sidebar h3.widget-title").html('Faculty of <span style="color:#ac713d;">Archittecture</span>');$(".page-id-1544 #left-sidebar h3.widget-title").html('Faculty of <span style="color:#850050;">Business</span>');$(".page-id-797 #left-sidebar h3.widget-title").html('Faculty of <span style="color:#ed9801;">Computer</span>');$(".page-id-919 #left-sidebar h3.widget-title").html('Faculty of <span style="color:#8aa32f;">Electronics</span>');$(".page-id-818 #left-sidebar h3.widget-title").html('Faculty of <span style="color:#3577ad;">Oral</span>');$(".page-id-821 #left-sidebar h3.widget-title").html('Faculty of <span style="color:#8f68c0;">Pharmacy</span>');$(".page-id-7 #left-sidebar h3.widget-title").html('About <span style="color:#DC0006;">Miu</span>');$(".page-id-48 #left-sidebar h3.widget-title").html('Media <span style="color:#DC0006;">Gallery</span>');$(".page-id-536 #left-sidebar h3.widget-title").html('News<span style="color:#DC0006;"> Categories </span>');$(".single-post #left-sidebar h3.widget-title").html('News<span style="color:#DC0006;"> Categories </span>');$('#cpf-viewbox-adPanel-1').css('display','none');});</script>
+        
+
+	
+          
+         
+
+        
+
+
+
+
+	
+
+	<link rel="stylesheet" href="https://miuegypt.edu.eg/wp-content/themes/twentythirteen/css/media-query.css"/>
+
+<link rel="stylesheet" href="https://miuegypt.edu.eg/wp-content/themes/twentythirteen/css/navigation.css"/>
+
+ <!--[if lt IE 9]>
+
+          <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+
+        <![endif]-->
+
+		<script src="https://miuegypt.edu.eg/wp-content/themes/twentythirteen/js/responsive-menu.js"></script>
+
+
+
+
+
+<script type="text/javascript">jQuery(document).ready(function($){$(".dcjq-accordion a").removeAttr("href");$(".dcjq-accordion a").click(function(){$.post("https://miuegypt.edu.eg/wp-content/themes/twentythirteen/righttabcontent.php",{pid:this.parentNode.id.split("menu-item-")[1]},function(data){$("#right-sidebar").html(null);$("#right-sidebar").html(data);});});$('.click-nav > ul').toggleClass('no-js js');$('.click-nav .js ul').hide();$('.click-nav .js').click(function(e){$('.click-nav .js ul').slideToggle(200);$('.clicker').toggleClass('active');e.stopPropagation();});$('.click-nav1 > ul').toggleClass('no-js js');$('.click-nav1 .js ul').hide();$('.click-nav1 .js').click(function(e){$('.click-nav1 .js ul').slideToggle(200);$('.clicker1').toggleClass('active');e.stopPropagation();});$(document).click(function(){if($('.click-nav .js ul').is(':visible')){$('.click-nav .js ul',this).slideUp();$('.clicker').removeClass('active');}});$(document).click(function(){if($('.click-nav1 .js ul').is(':visible')){$('.click-nav1 .js ul',this).slideUp();$('.clicker1').removeClass('active');}});});</script>
+
+		
+
+			
+
+		
+
+	
+
+		
+
+
+
+
+<!--<script src="/js/jquery-1.6.1.min.js" type="text/javascript"></script>
+
+		script src="js/jquery.lint.js" type="text/javascript" charset="utf-8"></script-->
+
+		<link rel="stylesheet" href="https://miuegypt.edu.eg/wp-content/themes/twentythirteen/css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8"/>
+
+		<script src="https://miuegypt.edu.eg/wp-content/themes/twentythirteen/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>		
+
+		<style type="text/css" media="screen">*{margin:0;padding:0}body{background:#fff;font:62.5%/1.2 Arial,Verdana,sans-serif;padding:0 20px}h1{font-family:Georgia;margin-bottom:10px}h2{font-family:Georgia;margin:25px 0 5px 0}p{font-size:1.2em}ul li{display:inline}.wide{border-bottom:1px #000 solid;width:4000px}.fleft{float:left;margin:0 20px 0 0}.cboth{clear:both}#main{background:#fff;margin:0 auto;padding:30px}.follow-us img{height:26px;width:26px}.jPaginate{height:34px;position:relative;color:#a5a5a5;font-size:small;width:100%}.jPaginate a{line-height:15px;height:18px;cursor:pointer;padding:2px 5px;margin:2px;float:left}.jPag-control-back{position:absolute;left:0}.jPag-control-front{position:absolute;top:0}.jPaginate span{cursor:pointer}ul.jPag-pages{float:left;list-style-type:none;margin:0 0 0 0;padding:0}ul.jPag-pages li{display:inline;float:left;padding:0;margin:0}ul.jPag-pages li a{float:left;padding:2px 5px}span.jPag-current{cursor:default;font-weight:normal;line-height:15px;height:18px;padding:2px 5px;margin:2px;float:left}ul.jPag-pages li span.jPag-previous,ul.jPag-pages li span.jPag-next,span.jPag-sprevious,span.jPag-snext,ul.jPag-pages li span.jPag-previous-img,ul.jPag-pages li span.jPag-next-img,span.jPag-sprevious-img,span.jPag-snext-img{height:22px;margin:2px;float:left;line-height:18px}ul.jPag-pages li span.jPag-previous,ul.jPag-pages li span.jPag-previous-img{margin:2px 0 2px 2px;font-size:12px;font-weight:bold;width:10px}ul.jPag-pages li span.jPag-next,ul.jPag-pages li span.jPag-next-img{margin:2px 2px 2px 0;font-size:12px;font-weight:bold;width:10px}span.jPag-sprevious,span.jPag-sprevious-img{margin:2px 0 2px 2px;font-size:18px;width:15px;text-align:right}span.jPag-snext,span.jPag-snext-img{margin:2px 2px 2px 0;font-size:18px;width:15px;text-align:right}ul.jPag-pages li span.jPag-previous-img{background:transparent url(images/previous.png) no-repeat center right}ul.jPag-pages li span.jPag-next-img{background:transparent url(images/next.png) no-repeat center left}span.jPag-sprevious-img{background:transparent url(images/sprevious.png) no-repeat center right}span.jPag-snext-img{background:transparent url(images/snext.png) no-repeat center left}</style>
+
+<meta name='robots' content='max-image-preview:large'/>
+<link rel='dns-prefetch' href='//cdn.jsdelivr.net'/>
+<link rel='dns-prefetch' href='//fonts.googleapis.com'/>
+<link rel='dns-prefetch' href='//s.w.org'/>
+<link rel="alternate" type="application/rss+xml" title="Misr International University &raquo; Feed" href="https://miuegypt.edu.eg/feed/"/>
+<link rel="alternate" type="application/rss+xml" title="Misr International University &raquo; Comments Feed" href="https://miuegypt.edu.eg/comments/feed/"/>
+		<script type="text/javascript">window._wpemojiSettings={"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/miuegypt.edu.eg\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.8"}};!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);</script>
+		<style type="text/css">img.wp-smiley,img.emoji{display:inline!important;border:none!important;box-shadow:none!important;height:1em!important;width:1em!important;margin:0 .07em!important;vertical-align:-.1em!important;background:none!important;padding:0!important}</style>
+			
+	<link rel='stylesheet' id='vina-admin-css-css' href='https://miuegypt.edu.eg/wp-content/plugins/vina-parallax-content-slider-widget/includes/admin/css/style.css?ver=1.0' type='text/css' media='screen'/>
+<link rel='stylesheet' id='vina-parallax-css-css' href='https://miuegypt.edu.eg/wp-content/plugins/vina-parallax-content-slider-widget/includes/css/style.css?ver=1.0' type='text/css' media='screen'/>
+<link rel='stylesheet' id='orgchart-style1-css' href='https://miuegypt.edu.eg/wp-content/plugins/simple-org-chart/css/jquery.jOrgChart.css?ver=5.7.8' type='text/css' media='all'/>
+<link rel='stylesheet' id='orgchart-style2-css' href='https://miuegypt.edu.eg/wp-content/plugins/simple-org-chart/css/custom.css?ver=5.7.8' type='text/css' media='all'/>
+<link rel='stylesheet' id='select2css-css' href='//cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css?ver=1.0' type='text/css' media='all'/>
+<link rel='stylesheet' id='ltw_content_shortcodes-css' href='https://miuegypt.edu.eg/wp-content/plugins/ltw-content-shortcodes/css/styles.css?ver=1.0.3' type='text/css' media='all'/>
+<link rel='stylesheet' id='wp-block-library-css' href='https://miuegypt.edu.eg/wp-includes/css/dist/block-library/style.min.css?ver=5.7.8' type='text/css' media='all'/>
+<link rel='stylesheet' id='gutenberg-pdfjs-css' href='https://miuegypt.edu.eg/wp-content/plugins/pdfjs-viewer-shortcode/inc/../blocks/dist/style.css?ver=2.1.4' type='text/css' media='all'/>
+<link rel='stylesheet' id='contact-form-7-css' href='https://miuegypt.edu.eg/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.3' type='text/css' media='all'/>
+<link rel='stylesheet' id='menu-image-css' href='https://miuegypt.edu.eg/wp-content/plugins/menu-image/includes/css/menu-image.css?ver=2.9.6' type='text/css' media='all'/>
+<link rel='stylesheet' id='social-widget-css' href='https://miuegypt.edu.eg/wp-content/plugins/social-media-widget/social_widget.css?ver=5.7.8' type='text/css' media='all'/>
+<link rel='stylesheet' id='wp-parallax-content-slider-css-css' href='https://miuegypt.edu.eg/wp-content/plugins/wp-parallax-content-slider/css/style.css?ver=5.7.8' type='text/css' media='all'/>
+<link rel='stylesheet' id='wp-tell-a-friend-popup-form-css' href='https://miuegypt.edu.eg/wp-content/plugins/wp-tell-a-friend-popup-form/tell-a-friend.css?ver=5.7.8' type='text/css' media='all'/>
+<link rel='stylesheet' id='twentythirteen-fonts-css' href='//fonts.googleapis.com/css?family=Source+Sans+Pro%3A300%2C400%2C700%2C300italic%2C400italic%2C700italic%7CBitter%3A400%2C700&#038;subset=latin%2Clatin-ext' type='text/css' media='all'/>
+<link rel='stylesheet' id='twentythirteen-style-css' href='https://miuegypt.edu.eg/wp-content/themes/twentythirteen/style.css?ver=2013-07-18' type='text/css' media='all'/>
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentythirteen-ie-css'  href='https://miuegypt.edu.eg/wp-content/themes/twentythirteen/css/ie.css?ver=2013-07-18' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='wp-paginate-css' href='https://miuegypt.edu.eg/wp-content/plugins/wp-paginate/css/wp-paginate.css?ver=2.1.2' type='text/css' media='screen'/>
+<script type='text/javascript' src='https://miuegypt.edu.eg/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://miuegypt.edu.eg/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='https://miuegypt.edu.eg/wp-content/plugins/jquery-vertical-accordion-menu/js/jquery.hoverIntent.minified.js?ver=5.7.8' id='jqueryhoverintent-js'></script>
+<script type='text/javascript' src='https://miuegypt.edu.eg/wp-content/plugins/jquery-vertical-accordion-menu/js/jquery.cookie.js?ver=5.7.8' id='jquerycookie-js'></script>
+<script type='text/javascript' src='https://miuegypt.edu.eg/wp-content/plugins/jquery-vertical-accordion-menu/js/jquery.dcjqaccordion.2.9.js?ver=5.7.8' id='dcjqaccordion-js'></script>
+<script type='text/javascript' src='https://miuegypt.edu.eg/wp-content/plugins/wp-tell-a-friend-popup-form/tell-a-friend-form.js?ver=5.7.8' id='tell-a-friend-form-js'></script>
+<script type='text/javascript' src='https://miuegypt.edu.eg/wp-content/plugins/wp-tell-a-friend-popup-form/tell-a-friend-popup.js?ver=5.7.8' id='tell-a-friend-popup-js'></script>
+<link rel="https://api.w.org/" href="https://miuegypt.edu.eg/wp-json/"/><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://miuegypt.edu.eg/xmlrpc.php?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://miuegypt.edu.eg/wp-includes/wlwmanifest.xml"/> 
+<meta name="generator" content="WordPress 5.7.8"/>
+<style>.cpm-map img{max-width:none!important;box-shadow:none!important}</style><style type="text/css">.recentcomments a{display:inline!important;padding:0!important;margin:0!important}</style>
+	<link rel="stylesheet" href="https://miuegypt.edu.eg/wp-content/plugins/jquery-vertical-accordion-menu/skin.php?widget_id=2&amp;skin=black" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="https://miuegypt.edu.eg/wp-content/plugins/jquery-vertical-accordion-menu/skin.php?widget_id=3&amp;skin=black" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="https://miuegypt.edu.eg/wp-content/plugins/jquery-vertical-accordion-menu/skin.php?widget_id=4&amp;skin=black" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="https://miuegypt.edu.eg/wp-content/plugins/jquery-vertical-accordion-menu/skin.php?widget_id=5&amp;skin=black" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="https://miuegypt.edu.eg/wp-content/plugins/jquery-vertical-accordion-menu/skin.php?widget_id=6&amp;skin=black" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="https://miuegypt.edu.eg/wp-content/plugins/jquery-vertical-accordion-menu/skin.php?widget_id=7&amp;skin=black" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="https://miuegypt.edu.eg/wp-content/plugins/jquery-vertical-accordion-menu/skin.php?widget_id=8&amp;skin=black" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="https://miuegypt.edu.eg/wp-content/plugins/jquery-vertical-accordion-menu/skin.php?widget_id=10&amp;skin=black" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="https://miuegypt.edu.eg/wp-content/plugins/jquery-vertical-accordion-menu/skin.php?widget_id=11&amp;skin=black" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="https://miuegypt.edu.eg/wp-content/plugins/jquery-vertical-accordion-menu/skin.php?widget_id=12&amp;skin=black" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="https://miuegypt.edu.eg/wp-content/plugins/jquery-vertical-accordion-menu/skin.php?widget_id=14&amp;skin=black" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="https://miuegypt.edu.eg/wp-content/plugins/jquery-vertical-accordion-menu/skin.php?widget_id=15&amp;skin=black" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="https://miuegypt.edu.eg/wp-content/plugins/jquery-vertical-accordion-menu/skin.php?widget_id=16&amp;skin=black" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="https://miuegypt.edu.eg/wp-content/plugins/jquery-vertical-accordion-menu/skin.php?widget_id=17&amp;skin=black" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="https://miuegypt.edu.eg/wp-content/plugins/jquery-vertical-accordion-menu/skin.php?widget_id=18&amp;skin=black" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="https://miuegypt.edu.eg/wp-content/plugins/jquery-vertical-accordion-menu/skin.php?widget_id=20&amp;skin=black" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="https://miuegypt.edu.eg/wp-content/plugins/jquery-vertical-accordion-menu/skin.php?widget_id=23&amp;skin=black" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="https://miuegypt.edu.eg/wp-content/plugins/jquery-vertical-accordion-menu/skin.php?widget_id=25&amp;skin=black" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="https://miuegypt.edu.eg/wp-content/plugins/jquery-vertical-accordion-menu/skin.php?widget_id=29&amp;skin=black" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="https://miuegypt.edu.eg/wp-content/plugins/jquery-vertical-accordion-menu/skin.php?widget_id=33&amp;skin=black" type="text/css" media="screen"/>	<style type="text/css" id="twentythirteen-header-css">.site-header{background:url(https://miuegypt.edu.eg/wp-content/themes/twentythirteen/images/headers/circle.png) no-repeat scroll top;background-size:1600px auto}</style>
+	<link rel="icon" href="https://miuegypt.edu.eg/wp-content/uploads/cropped-miu-logo-32x32.png" sizes="32x32"/>
+<link rel="icon" href="https://miuegypt.edu.eg/wp-content/uploads/cropped-miu-logo-192x192.png" sizes="192x192"/>
+<link rel="apple-touch-icon" href="https://miuegypt.edu.eg/wp-content/uploads/cropped-miu-logo-180x180.png"/>
+<meta name="msapplication-TileImage" content="https://miuegypt.edu.eg/wp-content/uploads/cropped-miu-logo-270x270.png"/>
+
+
+</head>
+
+
+
+<body class="home blog">
+
+
+
+
+		<div class="container">
+	
+
+		<div class="header-top">
+
+          <div class="inner-wrapper">
+          <div class="TopMenuNew"><aside id="nav_menu-2" class="widget widget_nav_menu"><div class="menu-topmenu1-container"><ul id="menu-topmenu1" class="menu"><li id="menu-item-15" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15"><a href="https://miuegypt.edu.eg/contact-us/" class="menu-image-title-after menu-image-not-hovered"><img width="31" height="24" src="https://miuegypt.edu.eg/wp-content/uploads/2013/11/contact.png" class="menu-image menu-image-title-after" alt="" loading="lazy"/><span class="menu-image-title-after menu-image-title">Contact Us</span></a></li>
+<li id="menu-item-431" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-431"><a href="https://miuegypt.edu.eg/site-map-2/" class="menu-image-title-after menu-image-not-hovered"><img width="31" height="24" src="https://miuegypt.edu.eg/wp-content/uploads/sitemap.png" class="menu-image menu-image-title-after" alt="" loading="lazy"/><span class="menu-image-title-after menu-image-title">Site Map</span></a></li>
+</ul></div></aside></div>
+
+		   <div class="follow-us">
+
+       
+
+			   <aside id="social-widget-2" class="widget Social_Widget"><div class="socialmedia-buttons smw_left"></div></aside>
+			   </div>
+
+               
+
+         <div class="search-tbl">   
+
+		
+
+           <label>Search</label>  
+
+              <form class="search-form" action="https://miuegypt.edu.eg/" method="get">           
+
+                <input type="text" name="s" id="search" value="" placeholder="Keywords.."/>
+
+				
+
+                <input type="image" src="https://miuegypt.edu.eg/wp-content/themes/twentythirteen/images/search-btn.jpg"/>
+
+              </form>
+
+          </div>
+
+          
+
+          </div>
+
+        </div>
+
+		<header>         
+
+	          <h1><a href="https://miuegypt.edu.eg"><img src="https://miuegypt.edu.eg/wp-content/uploads/logo-miu.png" alt="
+
+Misr International University"/></a></h1>
+
+      
+
+                   <div class="right-links">                
+
+                 
+
+                     <div class="click-nav">
+
+                        <ul class="no-js">
+
+                            <li>
+
+                              <a class="clicker"><img src="https://miuegypt.edu.eg/wp-content/themes/twentythirteen/images/nav.svg" style="margin-top:4px; width:20px; height:20px;" width="20px" height="20px" alt="">Top Menu</a>
+
+							   <aside id="nav_menu-2" class="widget widget_nav_menu"><div class="menu-topmenu1-container"><ul id="menu-topmenu1-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15"><a href="https://miuegypt.edu.eg/contact-us/" class="menu-image-title-after menu-image-not-hovered"><img width="31" height="24" src="https://miuegypt.edu.eg/wp-content/uploads/2013/11/contact.png" class="menu-image menu-image-title-after" alt="" loading="lazy"/><span class="menu-image-title-after menu-image-title">Contact Us</span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-431"><a href="https://miuegypt.edu.eg/site-map-2/" class="menu-image-title-after menu-image-not-hovered"><img width="31" height="24" src="https://miuegypt.edu.eg/wp-content/uploads/sitemap.png" class="menu-image menu-image-title-after" alt="" loading="lazy"/><span class="menu-image-title-after menu-image-title">Site Map</span></a></li>
+</ul></div></aside>
+                                
+
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    
+
+                     <div class="about-menu">   
+
+					  <aside id="nav_menu-3" class="widget widget_nav_menu"><div class="menu-top-submenu-container"><ul id="menu-top-submenu" class="menu"><li id="menu-item-4504" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4504"><a href="http://mail.miuegypt.edu.eg/" class="menu-image-title-after menu-image-not-hovered"><img width="36" height="33" src="https://miuegypt.edu.eg/wp-content/uploads/mail-36x331.png" class="menu-image menu-image-title-after" alt="" loading="lazy"/><span class="menu-image-title-after menu-image-title">Mail</span></a></li>
+<li id="menu-item-1834" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1834"><a href="http://library.miuegypt.edu.eg/" class="menu-image-title-after menu-image-not-hovered"><img width="36" height="33" src="https://miuegypt.edu.eg/wp-content/uploads/library-36x3311.png" class="menu-image menu-image-title-after" alt="" loading="lazy"/><span class="menu-image-title-after menu-image-title">library</span></a></li>
+<li id="menu-item-1835" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1835"><a href="https://portal.miuegypt.edu.eg" class="menu-image-title-after menu-image-not-hovered"><img width="36" height="36" src="https://miuegypt.edu.eg/wp-content/uploads/Student-Portal-01-36x36.png" class="menu-image menu-image-title-after" alt="" loading="lazy"/><span class="menu-image-title-after menu-image-title">Student Portal</span></a></li>
+<li id="menu-item-4413" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4413"><a href="https://miuegypt.edu.eg/alumni/" class="menu-image-title-after menu-image-not-hovered"><img width="36" height="36" src="https://miuegypt.edu.eg/wp-content/uploads/Alumni-36x36.png" class="menu-image menu-image-title-after" alt="" loading="lazy"/><span class="menu-image-title-after menu-image-title">Alumni</span></a></li>
+<li id="menu-item-4502" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4502"><a href="http://miumoodle.miuegypt.edu.eg/" class="menu-image-title-after menu-image-not-hovered"><img width="26" height="32" src="https://miuegypt.edu.eg/wp-content/uploads/address_book1.png" class="menu-image menu-image-title-after" alt="" loading="lazy"/><span class="menu-image-title-after menu-image-title">E-Learning</span></a></li>
+<li id="menu-item-1837" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1837"><a href="https://miuegypt.edu.eg/news/" class="menu-image-title-after menu-image-not-hovered"><img width="36" height="33" src="https://miuegypt.edu.eg/wp-content/uploads/news-36x3311.png" class="menu-image menu-image-title-after" alt="" loading="lazy"/><span class="menu-image-title-after menu-image-title">News</span></a></li>
+</ul></div></aside>                  
+
+                     
+
+                     </div>
+
+                     
+
+                     <div class="click-nav1">
+
+                        <ul class="no-js">
+
+                            <li>
+
+                              <a class="clicker1"><img src="https://miuegypt.edu.eg/wp-content/themes/twentythirteen/images/nav.svg" style="margin-top:4px; width:20px; height:20px;" width="20px" height="20px" alt="">Sub Navigation</a>
+
+							   <aside id="nav_menu-3" class="widget widget_nav_menu"><div class="menu-top-submenu-container"><ul id="menu-top-submenu-1" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4504"><a href="http://mail.miuegypt.edu.eg/" class="menu-image-title-after menu-image-not-hovered"><img width="36" height="33" src="https://miuegypt.edu.eg/wp-content/uploads/mail-36x331.png" class="menu-image menu-image-title-after" alt="" loading="lazy"/><span class="menu-image-title-after menu-image-title">Mail</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1834"><a href="http://library.miuegypt.edu.eg/" class="menu-image-title-after menu-image-not-hovered"><img width="36" height="33" src="https://miuegypt.edu.eg/wp-content/uploads/library-36x3311.png" class="menu-image menu-image-title-after" alt="" loading="lazy"/><span class="menu-image-title-after menu-image-title">library</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1835"><a href="https://portal.miuegypt.edu.eg" class="menu-image-title-after menu-image-not-hovered"><img width="36" height="36" src="https://miuegypt.edu.eg/wp-content/uploads/Student-Portal-01-36x36.png" class="menu-image menu-image-title-after" alt="" loading="lazy"/><span class="menu-image-title-after menu-image-title">Student Portal</span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4413"><a href="https://miuegypt.edu.eg/alumni/" class="menu-image-title-after menu-image-not-hovered"><img width="36" height="36" src="https://miuegypt.edu.eg/wp-content/uploads/Alumni-36x36.png" class="menu-image menu-image-title-after" alt="" loading="lazy"/><span class="menu-image-title-after menu-image-title">Alumni</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4502"><a href="http://miumoodle.miuegypt.edu.eg/" class="menu-image-title-after menu-image-not-hovered"><img width="26" height="32" src="https://miuegypt.edu.eg/wp-content/uploads/address_book1.png" class="menu-image menu-image-title-after" alt="" loading="lazy"/><span class="menu-image-title-after menu-image-title">E-Learning</span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1837"><a href="https://miuegypt.edu.eg/news/" class="menu-image-title-after menu-image-not-hovered"><img width="36" height="33" src="https://miuegypt.edu.eg/wp-content/uploads/news-36x3311.png" class="menu-image menu-image-title-after" alt="" loading="lazy"/><span class="menu-image-title-after menu-image-title">News</span></a></li>
+</ul></div></aside>      
+
+                                
+
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                                          
+
+                   </div><div class="clr"></div>          
+
+        </header>
+
+		<section class="menu-nav cl-effect-4">
+
+        
+
+		  <nav class="nav"><div class="menu-top-main-menu-container"><ul id="menu-top-main-menu" class="menu"><li id="menu-item-4416" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4416"><a href="https://www.miuegypt.edu.eg/">Home</a></li>
+<li id="menu-item-4411" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4411"><a href="https://miuegypt.edu.eg/about-us/">About us</a></li>
+<li id="menu-item-555" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-555"><a href="https://miuegypt.edu.eg/admission-requirements/">Admissions</a></li>
+<li id="menu-item-52" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52"><a href="https://miuegypt.edu.eg/academics/">Academics</a></li>
+<li id="menu-item-757" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-757"><a href="https://miuegypt.edu.eg/international-partners/">International office</a></li>
+<li id="menu-item-1770" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1770"><a href="https://miuegypt.edu.eg/student-life/">Student Life</a></li>
+<li id="menu-item-4412" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4412"><a href="https://miuegypt.edu.eg/media-gallery/">Media Gallery</a></li>
+<li id="menu-item-2597" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2597"><a href="https://miuegypt.edu.eg/services-facilities/">Services &#038; Facilities</a></li>
+<li id="menu-item-8605" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8605"><a href="https://miuegypt.edu.eg/careers/">Careers</a></li>
+<li id="menu-item-9895" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9895"><a href="http://contributors.miuegypt.edu.eg/">Research</a></li>
+</ul></div></nav>   
+
+					
+
+				
+
+         </section>
+
+
+
+
+
+
+
+
+
+
+<a class="more login-window HomeLightbox" href="#login-box" style="display:none;">Apply Job</a>
+
+
+
+<div id="login-box" class="login-popup">
+
+
+
+
+
+
+
+           <div id="apply-job">         
+
+
+
+
+
+
+
+             <div id="mkl"></div>         
+
+
+
+
+
+
+
+              <a href="#" class="close"><img src="https://miuegypt.edu.eg/wp-content/themes/twentythirteen/images/close_pop.png" class="btn_close" title="Close Window" alt="Close"/></a>           
+
+
+
+
+
+
+
+               <div class="LightboxContent"></div>
+
+
+
+
+
+
+
+              <div id='preview' style="display:none;"></div>
+
+
+
+		   </div>
+
+
+
+
+
+
+
+        <div class="dark-mask"></div>
+
+
+
+
+
+
+
+        </div><div class="slider-wrapper">
+
+
+
+
+
+        
+
+
+
+
+
+
+
+         <div class="flex-slider">
+
+
+
+
+
+
+
+              <section class="slider">
+
+
+
+
+
+
+
+			 
+
+
+             <div id="metaslider-id-9524" style="max-width: 620px;" class="ml-slider-3-19-0 metaslider metaslider-flex metaslider-9524 ml-slider nav-hidden">
+    <div id="metaslider_container_9524">
+        <div id="metaslider_9524">
+            <ul aria-live="polite" class="slides">
+                <li style="display: block; width: 100%;" class="slide-19554 ms-image"><img src="https://miuegypt.edu.eg/wp-content/uploads/20th-Anniversary07-17-2022.jpg" height="330" width="620" alt="" class="slider-9524 slide-19554" title="20th-Anniversary07-17-2022"/></li>
+                <li style="display: none; width: 100%;" class="slide-21073 ms-image"><a href="https://www.miuegypt.edu.eg/mius-pharmacy-program-is-now-internationally-accredited/" target="_self"><img src="https://miuegypt.edu.eg/wp-content/uploads/PHR-ACPE-Slider.jpg" height="330" width="620" alt="" class="slider-9524 slide-21073" title="phr 2"/></a></li>
+                <li style="display: none; width: 100%;" class="slide-21031 ms-image"><a href="https://www.miuegypt.edu.eg/mius-pharmacy-program-is-now-internationally-accredited/" target="_self"><img src="https://miuegypt.edu.eg/wp-content/uploads/PHR-MIU-Jan2023-620x330.jpg" height="330" width="620" alt="" class="slider-9524 slide-21031" title="PHR-MIU-Jan2023"/></a></li>
+                <li style="display: none; width: 100%;" class="slide-21027 ms-image"><a href="https://www.miuegypt.edu.eg/annual-seniors-scientific-conference/" target="_self"><img src="https://miuegypt.edu.eg/wp-content/uploads/SSC2022-Slider.jpg" height="330" width="620" alt="" class="slider-9524 slide-21027" title="SSC2022-Slider"/></a></li>
+                <li style="display: none; width: 100%;" class="slide-20454 ms-image"><a href="https://www.miuegypt.edu.eg/welcome-party-2022/" target="_self"><img src="https://miuegypt.edu.eg/wp-content/uploads/Welcome2022Slider-01.jpg" height="330" width="620" alt="" class="slider-9524 slide-20454" title="Welcome2022Slider-01"/></a></li>
+                <li style="display: none; width: 100%;" class="slide-20456 ms-image"><a href="https://www.miuegypt.edu.eg/welcome-party-2022/" target="_self"><img src="https://miuegypt.edu.eg/wp-content/uploads/Welcome2022Slider-03.jpg" height="330" width="620" alt="" class="slider-9524 slide-20456" title="Welcome2022Slider-03"/></a></li>
+                <li style="display: none; width: 100%;" class="slide-20460 ms-image"><a href="https://www.miuegypt.edu.eg/welcome-party-2022/" target="_self"><img src="https://miuegypt.edu.eg/wp-content/uploads/Welcome2022Slider-07.jpg" height="330" width="620" alt="" class="slider-9524 slide-20460" title="Welcome2022Slider-07"/></a></li>
+                <li style="display: none; width: 100%;" class="slide-18499 ms-image"><a href="https://www.miuegypt.edu.eg/misr-international-university-honors-outstanding-students/" target="_self"><img src="https://miuegypt.edu.eg/wp-content/uploads/National-Universities-Championship.jpg" height="330" width="620" alt="" class="slider-9524 slide-18499" title="National Universities Championship"/></a></li>
+                <li style="display: none; width: 100%;" class="slide-14215 ms-image"><a href="https://www.miuegypt.edu.eg/obtaining-the-football-championship-for-the-first-place-and-the-gold-medal-in-the-private-sector-championships-for-universities/" target="_self"><img src="https://miuegypt.edu.eg/wp-content/uploads/WaterPoloTournament2020.jpg" height="330" width="620" alt="" class="slider-9524 slide-14215"/></a><div class="caption-wrap"><div class="caption">ماجستير الإعلام تخصص الدراسات الإعلامية المقارنة يعلن عن مناقشة الرسالة المقدمة من أ/ اميره عمرو عبد اللطيف دسوقي محمد يوم السبت الموافق 1 ابريل 2023 الساعة 12:00 ظهرا في قاعة OOA</div></div></li>
+                <li style="display: none; width: 100%;" class="slide-13632 ms-image"><img src="https://miuegypt.edu.eg/wp-content/uploads/Sports-venue.jpg" height="330" width="620" alt="" class="slider-9524 slide-13632"/><div class="caption-wrap"><div class="caption">ماجستير الإعلام تخصص الدراسات الإعلامية المقارنة يعلن عن مناقشة الرسالة المقدمة من أ/ اميره عمرو عبد اللطيف دسوقي محمد يوم السبت الموافق 1 ابريل 2023 الساعة 12:00 ظهرا في قاعة OOA</div></div></li>
+                <li style="display: none; width: 100%;" class="slide-6307 ms-image"><img src="https://miuegypt.edu.eg/wp-content/uploads/MIU-library.jpg" height="330" width="620" alt="" class="slider-9524 slide-6307"/><div class="caption-wrap"><div class="caption">ماجستير الإعلام تخصص الدراسات الإعلامية المقارنة يعلن عن مناقشة الرسالة المقدمة من أ/ اميره عمرو عبد اللطيف دسوقي محمد يوم السبت الموافق 1 ابريل 2023 الساعة 12:00 ظهرا في قاعة OOA</div></div></li>
+                <li style="display: none; width: 100%;" class="slide-5354 ms-image"><img src="https://miuegypt.edu.eg/wp-content/uploads/Student-Life-021.jpg" height="330" width="620" alt="" class="slider-9524 slide-5354"/><div class="caption-wrap"><div class="caption">ماجستير الإعلام تخصص الدراسات الإعلامية المقارنة يعلن عن مناقشة الرسالة المقدمة من أ/ اميره عمرو عبد اللطيف دسوقي محمد يوم السبت الموافق 1 ابريل 2023 الساعة 12:00 ظهرا في قاعة OOA</div></div></li>
+            </ul>
+        </div>
+        
+    </div>
+</div>
+
+
+                
+
+
+
+
+
+
+               </section>
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+            
+
+
+
+
+
+
+
+          <div class="right-nav">
+
+
+
+
+
+
+
+            <ul>
+
+
+
+
+
+
+
+              <li class="nav-two"><a href="#" title=""><img src="https://www.miuegypt.edu.eg/wp-content/uploads/Admissions-Logo1.png" alt=""/><span style="font-family: CenturyGothic; font-size: 17px; color: #ffffff;"><strong>Apply Now</strong></span></a></li>
+
+
+
+
+
+
+
+               <li class="nav-two"><a href="https://www.miuegypt.edu.eg/admission-requirements/tuition-fees/" title=""><img src="https://www.miuegypt.edu.eg/wp-content/uploads/Academics-Logo8.png" alt=""/><span style="font-family: CenturyGothic; font-size: 17px; color: #ffffff;"><strong>Tuition Fees and Scholarships</strong></span></a></li>
+
+
+
+
+
+
+
+                <li class="nav-two"><a href="https://www.miuegypt.edu.eg/impact-rankings-the/" title=""><img src="http://www.miuegypt.edu.eg/wp-content/uploads/Impact-Ranking-Logo.png" alt=""/><span style="font-family: CenturyGothic; font-size: 17px; color: #ffffff;"><strong>Impact Rankings (THE)</strong></span></a></li>
+
+
+
+
+
+
+
+                <li class="nav-three"><a href="https://www.miuegypt.edu.eg/graduate-studies/" title=""><img src="http://www.miuegypt.edu.eg/wp-content/uploads/Graduate-Studies-Logo-1.png" alt=""/><span style="font-family: CenturyGothic; font-size: 17px; color: #ffffff;"><strong>Graduate Studies</strong></span></a></li>
+
+
+
+
+
+
+
+            </ul>
+
+
+
+
+
+
+
+          </div>
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+        <div class="clr"></div>
+
+
+
+
+
+
+
+		<section class="content-wrapper">
+
+
+
+
+
+
+
+         
+
+
+
+
+
+
+
+          <div class="latest-new">
+
+
+
+
+
+
+
+           <h1><span style="font-size: 30px; color: #333333;">Latest</span><br/><span style="font-size: 35px;color: #333333;">News</span></h1>
+
+
+
+
+
+
+
+           <section class="slider">
+
+
+
+
+
+
+
+		   <div class="flexslider">
+
+
+
+        <div id="vina-parallax-slider" class="vina-parallax-slider">
+        	                        <div class="vina-parallax-slide ArabicBox">
+                <!-- Title Block -->
+				                <h2>مناقشة رسالة الماجستير المُقدمة من أ/ أميره عمرو عبد اللطيف دسوقي محمد</h2>
+                                
+                <!-- Content Block -->
+                                <div class="SliderContent">ماجستير الإعلام تخصص الدراسات الإعلامية المقارنة يعلن عن مناقشة الرسالة المقدمة من أ/ اميره عمرو عبد اللطيف دسوقي محمد يوم السبت الموافق 1 ابريل 2023 الساعة 12:00 ظهرا في قاعة OOA...</div>
+                                
+                <!-- Readmore Block -->
+                                <a href="https://miuegypt.edu.eg/amira-amr-masters/" class="vina-parallax-link">Read more</a>
+                                
+                <!-- Image Block -->
+                <div class="vina-parallax-img">
+                	                </div>
+            </div>
+                                    <div class="vina-parallax-slide test">
+                <!-- Title Block -->
+				                <h2>The Faculty of Al Alsun and Mass Communication Organizes Trip to Media Production City</h2>
+                                
+                <!-- Content Block -->
+                                <div class="SliderContent">The Faculty of Al-Alsun and Mass Communication organized an educational trip to the Media Production City in the Sixth of October. ...</div>
+                                
+                <!-- Readmore Block -->
+                                <a href="https://miuegypt.edu.eg/als-mcm-organizes-trip-to-media-production-city/" class="vina-parallax-link">Read more</a>
+                                
+                <!-- Image Block -->
+                <div class="vina-parallax-img">
+                	                </div>
+            </div>
+                                    <div class="vina-parallax-slide test">
+                <!-- Title Block -->
+				                <h2>Faculty of Al-Alsun and Mass Communication Raises Awareness of Climate Change</h2>
+                                
+                <!-- Content Block -->
+                                <div class="SliderContent">To address the sustainable development goal of limiting and adapting to climate change, the Faculty of Al-Alsun and Mass Communication held a seminar titled, “Climate Change: Causes...</div>
+                                
+                <!-- Readmore Block -->
+                                <a href="https://miuegypt.edu.eg/mcm-raises-awareness-of-climate-change/" class="vina-parallax-link">Read more</a>
+                                
+                <!-- Image Block -->
+                <div class="vina-parallax-img">
+                	                </div>
+            </div>
+                                    <div class="vina-parallax-slide test">
+                <!-- Title Block -->
+				                <h2>Faculty of Al-Alsun and Mass Communication Organizes a Seminar on the “Haya Karima” Initiative</h2>
+                                
+                <!-- Content Block -->
+                                <div class="SliderContent">The Community Service and Environmental Development Sector of the Faculty of Al-Alsun and Mass Communication organized a seminar on the importance...</div>
+                                
+                <!-- Readmore Block -->
+                                <a href="https://miuegypt.edu.eg/als-mcm-organizes-a-seminar-on-the-haya-karima-initiative/" class="vina-parallax-link">Read more</a>
+                                
+                <!-- Image Block -->
+                <div class="vina-parallax-img">
+                	                </div>
+            </div>
+                                    <div class="vina-parallax-slide test">
+                <!-- Title Block -->
+				                <h2>Faculty of Computer Science Hosts "IT Evolution" Seminar for Senior Students</h2>
+                                
+                <!-- Content Block -->
+                                <div class="SliderContent">The Faculty of Computer Science hosted a seminar titled "IT Evolution" on February 20, 2023. The seminar, which was conducted by Eng. Ahmed Sherif, CTO at WIND-IS...</div>
+                                
+                <!-- Readmore Block -->
+                                <a href="https://miuegypt.edu.eg/csc-hosts-it-evolution-seminar-for-senior-students/" class="vina-parallax-link">Read more</a>
+                                
+                <!-- Image Block -->
+                <div class="vina-parallax-img">
+                	                </div>
+            </div>
+                        
+            <!-- Navigation Arrows -->
+                        <nav class="vina-parallax-arrows">
+                <span class="vina-parallax-arrows-prev"></span>
+                <span class="vina-parallax-arrows-next"></span>
+            </nav>
+                    </div>
+        <div id="tcvn-copyright">
+        	<a href="http://vinathemes.biz" title="Free download Wordpress Themes, Wordpress Plugins - VinaThemes.biz">Free download Wordpress Themes, Wordpress Plugins - VinaThemes.biz</a>
+        </div>
+        <script type="text/javascript">jQuery(function($){var $slider=$('#vina-parallax-slider');$slider.cslider({current:0,bgincrement:50,autoplay:true,interval:4000,});});$(document).ready(function(){var sheight=$('.vina-parallax-slider .vina-parallax-slide h2').height()+$('.vina-parallax-slider .vina-parallax-slide .SliderContent').height()+100;$('#vina-parallax-slider').attr('style',('height:'+sheight+'px'));});</script>
+        
+		
+
+
+
+
+
+
+				</div>
+
+
+
+
+
+
+
+               </section>
+
+
+
+
+
+
+
+         </div>
+
+
+
+
+
+
+
+         
+
+
+
+
+
+
+
+          <div class="clr"></div>
+
+
+
+
+
+
+
+          
+
+
+
+
+
+
+
+          <div id="left-side-block">
+
+
+
+
+
+
+
+            <h2 style="font-style:normal;">Related News</h2>
+
+
+
+
+
+
+
+            
+
+
+
+
+
+
+                       
+
+
+
+
+
+
+
+					    
+
+
+ <div class="news-block ArabicBox">
+
+
+
+
+
+
+
+  <a href="https://miuegypt.edu.eg/amira-amr-masters/"> 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+           <img width="145" height="95" src="https://miuegypt.edu.eg/wp-content/uploads/logo-miu-145x95.png" class="attachment-news-img size-news-img wp-post-image" alt="" loading="lazy"/></a>
+
+
+
+
+
+
+
+            <a href="https://miuegypt.edu.eg/amira-amr-masters/">  <h3 style="color: #333333;">مناقشة رسالة الماجستير المُقدمة من أ/ أميره عمرو عبد اللطيف دسوقي محمد</h3></a>
+
+
+
+
+
+
+
+              <small>March 30, 2023</small>
+
+
+
+
+
+
+
+            <div>ماجستير الإعلام تخصص الدراسات الإعلامية المقارنة يعلن عن مناقشة الرسالة المقدمة من أ/ اميره عمرو عبد اللطيف دسوقي محمد يوم السبت الموافق 1 ابريل 2023 الساعة 12:00 ظهرا في قاعة OOA...<span class="clr"></span><a href="https://miuegypt.edu.eg/amira-amr-masters/" class="more whu">Read More</a></div>
+
+
+
+             <div class="clr"></div>
+
+
+
+
+
+
+
+            </div>
+
+
+ <div class="news-block ">
+
+
+
+
+
+
+
+  <a href="https://miuegypt.edu.eg/als-mcm-organizes-trip-to-media-production-city/"> 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+           <img width="145" height="95" src="https://miuegypt.edu.eg/wp-content/uploads/MPC-2023-Featured-145x95.jpg" class="attachment-news-img size-news-img wp-post-image" alt="" loading="lazy"/></a>
+
+
+
+
+
+
+
+            <a href="https://miuegypt.edu.eg/als-mcm-organizes-trip-to-media-production-city/">  <h3 style="color: #333333;">The Faculty of Al Alsun and Mass Communication Organizes Trip to Media Production City</h3></a>
+
+
+
+
+
+
+
+              <small>March 20, 2023</small>
+
+
+
+
+
+
+
+            <div>The Faculty of Al-Alsun and Mass Communication organized an educational trip to the Media Production City in the Sixth of October. ...<span class="clr"></span><a href="https://miuegypt.edu.eg/als-mcm-organizes-trip-to-media-production-city/" class="more whu">Read More</a></div>
+
+
+
+             <div class="clr"></div>
+
+
+
+
+
+
+
+            </div>
+
+
+ <div class="news-block ">
+
+
+
+
+
+
+
+  <a href="https://miuegypt.edu.eg/mcm-raises-awareness-of-climate-change/"> 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+           <img width="145" height="95" src="https://miuegypt.edu.eg/wp-content/uploads/ClimateChange-Featured-145x95.jpg" class="attachment-news-img size-news-img wp-post-image" alt="" loading="lazy"/></a>
+
+
+
+
+
+
+
+            <a href="https://miuegypt.edu.eg/mcm-raises-awareness-of-climate-change/">  <h3 style="color: #333333;">Faculty of Al-Alsun and Mass Communication Raises Awareness of Climate Change</h3></a>
+
+
+
+
+
+
+
+              <small>March 15, 2023</small>
+
+
+
+
+
+
+
+            <div>To address the sustainable development goal of limiting and adapting to climate change, the Faculty of Al-Alsun and Mass Communication held a seminar titled, “Climate Change: Causes...<span class="clr"></span><a href="https://miuegypt.edu.eg/mcm-raises-awareness-of-climate-change/" class="more whu">Read More</a></div>
+
+
+
+             <div class="clr"></div>
+
+
+
+
+
+
+
+            </div>
+
+
+ <div class="news-block ">
+
+
+
+
+
+
+
+  <a href="https://miuegypt.edu.eg/als-mcm-organizes-a-seminar-on-the-haya-karima-initiative/"> 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+           <img width="145" height="95" src="https://miuegypt.edu.eg/wp-content/uploads/DecentLife-Featured-145x95.jpg" class="attachment-news-img size-news-img wp-post-image" alt="" loading="lazy"/></a>
+
+
+
+
+
+
+
+            <a href="https://miuegypt.edu.eg/als-mcm-organizes-a-seminar-on-the-haya-karima-initiative/">  <h3 style="color: #333333;">Faculty of Al-Alsun and Mass Communication Organizes a Seminar on the “Haya Karima” Initiative</h3></a>
+
+
+
+
+
+
+
+              <small>March 12, 2023</small>
+
+
+
+
+
+
+
+            <div>The Community Service and Environmental Development Sector of the Faculty of Al-Alsun and Mass Communication organized a seminar on the importance...<span class="clr"></span><a href="https://miuegypt.edu.eg/als-mcm-organizes-a-seminar-on-the-haya-karima-initiative/" class="more whu">Read More</a></div>
+
+
+
+             <div class="clr"></div>
+
+
+
+
+
+
+
+            </div>
+
+
+ <div class="news-block ">
+
+
+
+
+
+
+
+  <a href="https://miuegypt.edu.eg/csc-hosts-it-evolution-seminar-for-senior-students/"> 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+           <img width="145" height="95" src="https://miuegypt.edu.eg/wp-content/uploads/IT-Evolution-2023-Featured-145x95.jpg" class="attachment-news-img size-news-img wp-post-image" alt="" loading="lazy"/></a>
+
+
+
+
+
+
+
+            <a href="https://miuegypt.edu.eg/csc-hosts-it-evolution-seminar-for-senior-students/">  <h3 style="color: #333333;">Faculty of Computer Science Hosts &#8220;IT Evolution&#8221; Seminar for Senior Students</h3></a>
+
+
+
+
+
+
+
+              <small>February 28, 2023</small>
+
+
+
+
+
+
+
+            <div>The Faculty of Computer Science hosted a seminar titled "IT Evolution" on February 20, 2023. The seminar, which was conducted by Eng. Ahmed Sherif, CTO at WIND-IS...<span class="clr"></span><a href="https://miuegypt.edu.eg/csc-hosts-it-evolution-seminar-for-senior-students/" class="more whu">Read More</a></div>
+
+
+
+             <div class="clr"></div>
+
+
+
+
+
+
+
+            </div>
+
+
+ <div class="news-block ">
+
+
+
+
+
+
+
+  <a href="https://miuegypt.edu.eg/csc-junior-student-wins-the-second-place-in-nuai-hackathon/"> 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+           <img width="145" height="95" src="https://miuegypt.edu.eg/wp-content/uploads/NUAIH-Featured-145x95.jpg" class="attachment-news-img size-news-img wp-post-image" alt="" loading="lazy"/></a>
+
+
+
+
+
+
+
+            <a href="https://miuegypt.edu.eg/csc-junior-student-wins-the-second-place-in-nuai-hackathon/">  <h3 style="color: #333333;">CSC Junior Student Wins the second place in NUAI Hackathon</h3></a>
+
+
+
+
+
+
+
+              <small>February 27, 2023</small>
+
+
+
+
+
+
+
+            <div>The Faculty of Computer Science proudly announces that junior student Abdelrahman Ayman Shorim won the second place in the Artificial Intelligence Hackathon ...<span class="clr"></span><a href="https://miuegypt.edu.eg/csc-junior-student-wins-the-second-place-in-nuai-hackathon/" class="more whu">Read More</a></div>
+
+
+
+             <div class="clr"></div>
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+            
+
+
+
+
+
+
+
+       </div>
+
+
+
+
+
+
+
+           
+
+
+
+
+
+
+
+          <div id="right-side-block">
+
+
+
+
+
+
+
+          
+
+
+
+
+
+
+
+            <div class="events-block">
+
+
+
+
+
+
+
+              <h4>Latest Events</h4>
+
+
+
+
+
+
+
+			  <aside id="eo_calendar_widget-2" class="widget widget_calendar eo_widget_calendar"><div id='eo_calendar_widget-2_content' class='eo-widget-cal-wrap' data-eo-widget-cal-id='eo_calendar_widget-2'><table id='wp-calendar'><caption> April 2023 </caption><thead><tr><th title='Saturday' scope='col'>S</th><th title='Sunday' scope='col'>S</th><th title='Monday' scope='col'>M</th><th title='Tuesday' scope='col'>T</th><th title='Wednesday' scope='col'>W</th><th title='Thursday' scope='col'>T</th><th title='Friday' scope='col'>F</th></tr></thead><tbody><tr><td data-eo-wc-date='2023-04-01' class='eo-past-date event eo-event-cat-academic-events eo-event-past eo-multi-day eo-all-day'> <a title='Mid Term Exams' href='https://www.miuegypt.edu.eg/events/event/mid-term-exams-12/'> 1 </a></td><td data-eo-wc-date='2023-04-02' class='eo-past-date event eo-event-cat-academic-events eo-event-past eo-multi-day eo-all-day'> <a title='Mid Term Exams' href='https://www.miuegypt.edu.eg/events/event/mid-term-exams-12/'> 2 </a></td><td data-eo-wc-date='2023-04-03' class='eo-past-date event eo-event-cat-academic-events eo-event-past eo-multi-day eo-all-day'> <a title='Mid Term Exams' href='https://www.miuegypt.edu.eg/events/event/mid-term-exams-12/'> 3 </a></td><td data-eo-wc-date='2023-04-04' class='eo-past-date event eo-event-cat-academic-events eo-event-past eo-multi-day eo-all-day'> <a title='Mid Term Exams' href='https://www.miuegypt.edu.eg/events/event/mid-term-exams-12/'> 4 </a></td><td data-eo-wc-date='2023-04-05' class='eo-past-date'> 5 </td><td data-eo-wc-date='2023-04-06' class='eo-past-date'> 6 </td><td data-eo-wc-date='2023-04-07' class='eo-past-date'> 7 </td></tr><tr><td data-eo-wc-date='2023-04-08' class='eo-past-date'> 8 </td><td data-eo-wc-date='2023-04-09' class='eo-past-date event eo-event-cat-holidays eo-event-cat-vacations eo-event-running eo-multi-day eo-all-day'> <a title='Spring Break Holiday (H)' href='https://www.miuegypt.edu.eg/events/event/spring-break-holiday-h-4/'> 9 </a></td><td data-eo-wc-date='2023-04-10' class='eo-past-date event eo-event-cat-holidays eo-event-cat-vacations eo-event-running eo-multi-day eo-all-day'> <a title='Spring Break Holiday (H)' href='https://www.miuegypt.edu.eg/events/event/spring-break-holiday-h-4/'> 10 </a></td><td data-eo-wc-date='2023-04-11' class='eo-past-date event eo-event-cat-holidays eo-event-cat-vacations eo-event-running eo-multi-day eo-all-day'> <a title='Spring Break Holiday (H)' href='https://www.miuegypt.edu.eg/events/event/spring-break-holiday-h-4/'> 11 </a></td><td data-eo-wc-date='2023-04-12' class='eo-past-date event eo-event-cat-holidays eo-event-cat-vacations eo-event-running eo-multi-day eo-all-day'> <a title='Spring Break Holiday (H)' href='https://www.miuegypt.edu.eg/events/event/spring-break-holiday-h-4/'> 12 </a></td><td data-eo-wc-date='2023-04-13' class='eo-past-date event eo-event-cat-holidays eo-event-cat-vacations eo-event-running eo-multi-day eo-all-day'> <a title='Spring Break Holiday (H)' href='https://www.miuegypt.edu.eg/events/event/spring-break-holiday-h-4/'> 13 </a></td><td data-eo-wc-date='2023-04-14' class='today event eo-event-cat-holidays eo-event-cat-vacations eo-event-running eo-multi-day eo-all-day'> <a title='Spring Break Holiday (H)' href='https://www.miuegypt.edu.eg/events/event/spring-break-holiday-h-4/'> 14 </a></td></tr><tr><td data-eo-wc-date='2023-04-15' class='eo-future-date event eo-event-cat-holidays eo-event-cat-vacations eo-event-running eo-multi-day eo-all-day'> <a title='Spring Break Holiday (H)' href='https://www.miuegypt.edu.eg/events/event/spring-break-holiday-h-4/'> 15 </a></td><td data-eo-wc-date='2023-04-16' class='eo-future-date event eo-event-cat-holidays eo-event-cat-vacations eo-event-running eo-multi-day eo-all-day'> <a title='Spring Break Holiday (H)' href='https://www.miuegypt.edu.eg/events/event/spring-break-holiday-h-4/'> 16 </a></td><td data-eo-wc-date='2023-04-17' class='eo-future-date event eo-event-cat-holidays eo-event-cat-vacations eo-event-running eo-multi-day eo-all-day'> <a title='Spring Break Holiday (H)' href='https://www.miuegypt.edu.eg/events/event/spring-break-holiday-h-4/'> 17 </a></td><td data-eo-wc-date='2023-04-18' class='eo-future-date'> 18 </td><td data-eo-wc-date='2023-04-19' class='eo-future-date'> 19 </td><td data-eo-wc-date='2023-04-20' class='eo-future-date'> 20 </td><td data-eo-wc-date='2023-04-21' class='eo-future-date event eo-event-cat-holidays eo-event-cat-vacations eo-event-future eo-multi-day eo-all-day'> <a title='Eid El Fetr* (H)' href='https://www.miuegypt.edu.eg/events/event/eid-el-fetr-h-5/'> 21 </a></td></tr><tr><td data-eo-wc-date='2023-04-22' class='eo-future-date event eo-event-cat-holidays eo-event-cat-vacations eo-event-future eo-multi-day eo-all-day'> <a title='Eid El Fetr* (H)' href='https://www.miuegypt.edu.eg/events/event/eid-el-fetr-h-5/'> 22 </a></td><td data-eo-wc-date='2023-04-23' class='eo-future-date event eo-event-cat-holidays eo-event-cat-vacations eo-event-future eo-multi-day eo-all-day'> <a title='Eid El Fetr* (H)' href='https://www.miuegypt.edu.eg/events/event/eid-el-fetr-h-5/'> 23 </a></td><td data-eo-wc-date='2023-04-24' class='eo-future-date'> 24 </td><td data-eo-wc-date='2023-04-25' class='eo-future-date'> 25 </td><td data-eo-wc-date='2023-04-26' class='eo-future-date'> 26 </td><td data-eo-wc-date='2023-04-27' class='eo-future-date event eo-event-cat-holidays eo-event-cat-vacations eo-event-future eo-all-day'> <a title='Replacement for Sinai Liberation Day * (H)' href='https://www.miuegypt.edu.eg/events/event/replacement-for-sinai-liberation-day-h/'> 27 </a></td><td data-eo-wc-date='2023-04-28' class='eo-future-date'> 28 </td></tr><tr><td data-eo-wc-date='2023-04-29' class='eo-future-date'> 29 </td><td data-eo-wc-date='2023-04-30' class='eo-future-date'> 30 </td><td class="pad eo-after-month" colspan="1">&nbsp;</td><td class="pad eo-after-month" colspan="1">&nbsp;</td><td class="pad eo-after-month" colspan="1">&nbsp;</td><td class="pad eo-after-month" colspan="1">&nbsp;</td><td class="pad eo-after-month" colspan="1">&nbsp;</td></tr></tbody><tfoot><tr>
+				<td id='eo-widget-prev-month' colspan='3'><a title='Previous month' href='https://www.miuegypt.edu.eg?eo_month=2023-03'>&laquo; Mar</a></td>
+				<td class='pad'>&nbsp;</td>
+				<td id='eo-widget-next-month' colspan='3'><a title='Next month' href='https://www.miuegypt.edu.eg?eo_month=2023-05'> May &raquo; </a></td>
+			</tr></tfoot></table></div></aside>
+
+
+
+
+
+
+              
+
+
+
+
+
+
+                  <ul class="events-list">
+
+
+
+
+
+
+
+                    <li><img src="https://miuegypt.edu.eg/wp-content/themes/twentythirteen/images/red-icon.jpg" alt=""/>Current Date</li>
+
+
+
+
+
+
+
+                    <li><img src="https://miuegypt.edu.eg/wp-content/themes/twentythirteen/images/black-icon.jpg" alt=""/>Event Date</li>           
+
+
+
+
+
+
+
+                  </ul>
+
+
+
+
+
+
+
+                   <a class="events-btn" href="http://www.miuegypt.edu.eg/Events/">All Events</a>
+
+
+
+
+
+
+
+                  <a class="download-btn" href="http://www.miuegypt.edu.eg/feed/eo-events/">Download</a>
+
+
+
+                  
+
+
+
+
+
+
+
+              
+
+
+
+
+
+
+
+              
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+            <a class="events-btn LargeBTN" href="https://www.miuegypt.edu.eg/wp-content/uploads/MIU-Academic-Calendar-2022-2023-V03.pdf">Download Academic Calendar</a>
+
+
+
+            <a class="events-btn LargeBTN" href="https://www.miuegypt.edu.eg/wp-content/uploads/Code-Of-Conduct-16-3-2016.pdf">Student Code of Conduct</a>
+
+
+
+            <a class="events-btn LargeBTN" href="https://www.miuegypt.edu.eg/wp-content/uploads/MIU-Student-Guide-2022-2023-V02.pdf">MIU Student Guide 2022-2023</a>
+
+
+
+            <a class="events-btn LargeBTN" href="https://www.miuegypt.edu.eg/wp-content/uploads/MIU-Code-of-Ethics.pdf">MIU Code of Ethics</a>
+
+
+
+            <a class="events-btn LargeBTN" href="https://www.miuegypt.edu.eg/community-service/">Community Service</a>
+
+
+
+
+
+
+             <div class="events-block">
+
+
+
+
+
+
+
+              <h4>Upcoming <span>Event</span></h4>
+
+
+
+
+
+
+
+               <aside id="eo_event_list_widget-2" class="widget EO_Event_List_Widget">
+
+	<ul class="eo-events eo-events-widget"> 
+
+		
+			
+			<li class="eo-event-cat-holidays eo-event-cat-vacations eo-event-future eo-multi-day eo-all-day">
+				<a href="https://miuegypt.edu.eg/events/event/eid-el-fetr-h-5/">Eid El Fetr* (H)</a> on April 21, 2023			</li>
+
+		
+	</ul>
+
+</aside>
+
+
+		<!--  <ul class="up-events">
+
+
+
+            
+
+
+
+
+
+
+
+                <li class="active-events">Office paripated in a workshopized by tlamic Educational</li>
+
+
+
+
+
+
+
+                <li>Karipated in a workshop organized by the Islamic Educational Karipated workshop organizeKaripated in a workized.</li>
+
+
+
+
+
+
+
+                <li>Karipated in a workshop organized by the Islamic Educational Karipated workshop organizeKaripated in a workized.</li>
+
+
+
+
+
+
+
+                <li><a class="details-btn" href="">Details</a></li>
+
+
+
+
+
+
+
+              </ul>-->
+
+
+
+
+
+
+
+              
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+            
+
+
+
+
+
+
+
+          
+
+
+
+
+
+
+
+          </div>
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+        </section>        
+
+
+
+
+
+
+
+        <div class="clr"></div>	
+
+<div id="button">
+    </div>
+
+    <script type="text/javascript">window.onload=function(){$('#button').click();}</script>
+
+    
+  
+<!-- Facebook Conversion Code for Early Admission -->
+
+<script>(function(){var _fbq=window._fbq||(window._fbq=[]);if(!_fbq.loaded){var fbds=document.createElement('script');fbds.async=true;fbds.src='//connect.facebook.net/en_US/fbds.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(fbds,s);_fbq.loaded=true;}})();window._fbq=window._fbq||[];window._fbq.push(['track','6018949122573',{'value':'0.00','currency':'USD'}]);</script>
+
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6018949122573&amp;cd[value]=0.00&amp;cd[currency]=USD&amp;noscript=1"/></noscript>
+
+
+
+
+
+<footer>
+
+          <div class="inner-wrapper">
+
+              <div class="foot-block faculties"><h3> Faculties <span>Links</span></h3>
+
+           			<div class="textwidget"><ul><li><a href="https://www.miuegypt.edu.eg/academics/faculty-of-alsun">Alsun</a></li>
+<li><a href="https://www.miuegypt.edu.eg/academics/faculty-of-computer-science-2">Computer Science</a></li>
+<li><a href="https://www.miuegypt.edu.eg/academics/faculty-of-mass-communication/">Mass Communication</a></li>
+<li><a href="https://www.miuegypt.edu.eg/academics/faculty-of-business-2/">Business Administration</a></li>
+<li><a href="https://www.miuegypt.edu.eg/academics/faculty-of-oral/">Oral & Dental Medicine</a></li>
+<li><a href="https://www.miuegypt.edu.eg/academics/faculty-of-pharmacy-2/">Pharmacy</a></li>
+<li><a href="https://www.miuegypt.edu.eg/academics/faculty-of-architecture/">Engineering - Architecture </a></li>
+<li><a href="https://www.miuegypt.edu.eg/academics/faculty-of-electronics">Engineering - Electronics</a></li>
+</ul></div>
+		
+             </div>
+
+
+
+             <div class="foot-block contact-us">
+
+              <h3><img src="https://miuegypt.edu.eg/wp-content/themes/twentythirteen/images/grey-arrow.png" alt=""/> Contact <span>Us</span></h3> 
+
+                    <aside id="custom_post_widget-2" class="widget widget_custom_post_widget"><table style="width: 100%;" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td class="addr-txt" valign="top">Address :</td>
+<td class="addr-info" valign="top">KM 28 Cairo &#8211; Ismailia Road<br/>
+Ahmed Orabi District, Cairo &#8211; Egypt</td>
+</tr>
+<tr>
+<td class="addr-txt" valign="top">Hot Line :</td>
+<td class="addr-info" valign="top">19-MIU / 19648<br/>
+| 01096476118 | 01091536282 | 01063109035</td>
+</tr>
+<tr>
+<td class="addr-txt" valign="top">Fax :</td>
+<td class="addr-info" valign="top">(+202) 24772038</td>
+</tr>
+<tr>
+<td class="addr-txt" valign="top">Email :</td>
+<td class="addr-info" valign="top">miu@miuegypt.edu.eg</td>
+</tr>
+</tbody>
+</table>
+</aside>
+             </div>
+
+             
+
+             <div class="clr"></div>
+
+             
+
+             <div class="copyright-bottom">
+
+			  <aside id="nav_menu-5" class="widget widget_nav_menu"><div class="menu-footermenu-container"><ul id="menu-footermenu" class="menu"><li id="menu-item-81" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-81"><a href="https://www.miuegypt.edu.eg/">Home</a></li>
+<li id="menu-item-82" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82"><a href="https://miuegypt.edu.eg/about-us/">About us</a></li>
+<li id="menu-item-4581" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4581"><a href="http://mail.miuegypt.edu.eg">Mail</a></li>
+<li id="menu-item-1163" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1163"><a href="http://library.miuegypt.edu.eg/">Library</a></li>
+<li id="menu-item-4599" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4599"><a href="https://miuegypt.edu.eg/news/">News</a></li>
+<li id="menu-item-4598" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4598"><a href="https://miuegypt.edu.eg/careers/">Careers</a></li>
+<li id="menu-item-87" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-87"><a href="https://miuegypt.edu.eg/contact-us/">Contact Us</a></li>
+</ul></div></aside>
+   
+
+            
+
+             </div>
+
+             <span class="copyright">Copyright 2014 &copy; Misr International University, All Right Reserved</span>
+
+             
+
+          </div>
+
+       </footer>
+
+	
+
+<div class="tell">
+
+
+
+	<a href='javascript:TellAFriend_OpenForm("TellAFriend_BoxContainer","TellAFriend_BoxContainerBody","TellAFriend_BoxContainerFooter");'><img src='https://www.miuegypt.edu.eg/wp-content/plugins/wp-tell-a-friend-popup-form/tell-a-friend.jpg'/></a>
+	<div style="display: none;" id="TellAFriend_BoxContainer">
+	  <div id="TellAFriend_BoxContainerHeader">
+		<div id="TellAFriend_BoxTitle">Tell A Friend</div>
+		<div id="TellAFriend_BoxClose"><a href="javascript:TellAFriend_HideForm('TellAFriend_BoxContainer','TellAFriend_BoxContainerFooter');">Close</a></div>
+	  </div>
+	  <div id="TellAFriend_BoxContainerBody">
+		<form action="#" name="TellAFriend_Form" id="TellAFriend_Form">
+		  <div id="TellAFriend_BoxAlert"> <span id="TellAFriend_alertmessage"></span> </div>
+		  <div id="TellAFriend_BoxLabel"> Your Name </div>
+		  <div id="TellAFriend_BoxLabel">
+			<input name="TellAFriend_name" class="TellAFriend_TextBox" type="text" id="TellAFriend_name" maxlength="120">
+		  </div>
+		  <div id="TellAFriend_BoxLabel"> Friend Email </div>
+		  <div id="TellAFriend_BoxLabel">
+			<input name="TellAFriend_email" class="TellAFriend_TextBox" type="text" id="TellAFriend_email" maxlength="120">
+		  </div>
+		  <div id="TellAFriend_BoxLabel"> Enter Message To Friend </div>
+		  <div id="TellAFriend_BoxLabel">
+			<textarea name="TellAFriend_message" class="TellAFriend_TextArea" rows="3" id="TellAFriend_message"></textarea>
+		  </div>
+		  <div id="TellAFriend_BoxLabel">
+			<input type="button" name="button" class="TellAFriend_Button" value="Submit" onClick="javascript:TellAFriend_Submit(this.parentNode,'https://miuegypt.edu.eg');">
+		  </div>
+		  <input type="hidden" name="TellAFriend_Link" id="TellAFriend_Link" value="http://miuegypt.edu.eg/"/>
+		</form>
+	  </div>
+	</div>
+	<div style="display: none;" id="TellAFriend_BoxContainerFooter"></div>
+	
+</div>
+
+				<script type="text/javascript">jQuery(document).ready(function($){jQuery('#dc_jqaccordion_widget-2-item .menu').dcAccordion({eventType:'click',hoverDelay:0,menuClose:true,autoClose:true,saveState:false,autoExpand:true,classExpand:'current-menu-item',classDisable:'',showCount:false,disableLink:true,cookie:'dc_jqaccordion_widget-2',speed:'slow'});});</script>
+		
+						<script type="text/javascript">jQuery(document).ready(function($){jQuery('#dc_jqaccordion_widget-3-item .menu').dcAccordion({eventType:'click',hoverDelay:0,menuClose:false,autoClose:true,saveState:false,autoExpand:true,classExpand:'current-menu-item',classDisable:'',showCount:false,disableLink:true,cookie:'dc_jqaccordion_widget-3',speed:'slow'});});</script>
+		
+						<script type="text/javascript">jQuery(document).ready(function($){jQuery('#dc_jqaccordion_widget-4-item .menu').dcAccordion({eventType:'click',hoverDelay:0,menuClose:true,autoClose:true,saveState:false,autoExpand:true,classExpand:'current-menu-item',classDisable:'',showCount:false,disableLink:true,cookie:'dc_jqaccordion_widget-4',speed:'slow'});});</script>
+		
+						<script type="text/javascript">jQuery(document).ready(function($){jQuery('#dc_jqaccordion_widget-5-item .menu').dcAccordion({eventType:'click',hoverDelay:0,menuClose:true,autoClose:true,saveState:false,autoExpand:true,classExpand:'current-menu-item',classDisable:'',showCount:false,disableLink:true,cookie:'dc_jqaccordion_widget-5',speed:'slow'});});</script>
+		
+						<script type="text/javascript">jQuery(document).ready(function($){jQuery('#dc_jqaccordion_widget-6-item .menu').dcAccordion({eventType:'click',hoverDelay:0,menuClose:true,autoClose:true,saveState:false,autoExpand:true,classExpand:'current-menu-item',classDisable:'',showCount:false,disableLink:true,cookie:'dc_jqaccordion_widget-6',speed:'slow'});});</script>
+		
+						<script type="text/javascript">jQuery(document).ready(function($){jQuery('#dc_jqaccordion_widget-7-item .menu').dcAccordion({eventType:'click',hoverDelay:0,menuClose:true,autoClose:true,saveState:false,autoExpand:true,classExpand:'current-menu-item',classDisable:'',showCount:false,disableLink:true,cookie:'dc_jqaccordion_widget-7',speed:'slow'});});</script>
+		
+						<script type="text/javascript">jQuery(document).ready(function($){jQuery('#dc_jqaccordion_widget-8-item .menu').dcAccordion({eventType:'click',hoverDelay:0,menuClose:true,autoClose:true,saveState:false,autoExpand:true,classExpand:'current-menu-item',classDisable:'',showCount:false,disableLink:true,cookie:'dc_jqaccordion_widget-8',speed:'slow'});});</script>
+		
+						<script type="text/javascript">jQuery(document).ready(function($){jQuery('#dc_jqaccordion_widget-10-item .menu').dcAccordion({eventType:'click',hoverDelay:0,menuClose:true,autoClose:true,saveState:false,autoExpand:true,classExpand:'current-menu-item',classDisable:'',showCount:false,disableLink:true,cookie:'dc_jqaccordion_widget-10',speed:'slow'});});</script>
+		
+						<script type="text/javascript">jQuery(document).ready(function($){jQuery('#dc_jqaccordion_widget-11-item .menu').dcAccordion({eventType:'click',hoverDelay:0,menuClose:true,autoClose:true,saveState:false,autoExpand:true,classExpand:'current-menu-item',classDisable:'',showCount:false,disableLink:true,cookie:'dc_jqaccordion_widget-11',speed:'slow'});});</script>
+		
+						<script type="text/javascript">jQuery(document).ready(function($){jQuery('#dc_jqaccordion_widget-12-item .menu').dcAccordion({eventType:'click',hoverDelay:0,menuClose:true,autoClose:true,saveState:false,autoExpand:true,classExpand:'current-menu-item',classDisable:'',showCount:false,disableLink:true,cookie:'dc_jqaccordion_widget-12',speed:'slow'});});</script>
+		
+						<script type="text/javascript">jQuery(document).ready(function($){jQuery('#dc_jqaccordion_widget-14-item .menu').dcAccordion({eventType:'click',hoverDelay:0,menuClose:true,autoClose:true,saveState:false,autoExpand:true,classExpand:'current-menu-item',classDisable:'',showCount:false,disableLink:true,cookie:'dc_jqaccordion_widget-14',speed:'slow'});});</script>
+		
+						<script type="text/javascript">jQuery(document).ready(function($){jQuery('#dc_jqaccordion_widget-15-item .menu').dcAccordion({eventType:'click',hoverDelay:0,menuClose:true,autoClose:true,saveState:false,autoExpand:true,classExpand:'current-menu-item',classDisable:'',showCount:false,disableLink:true,cookie:'dc_jqaccordion_widget-15',speed:'slow'});});</script>
+		
+						<script type="text/javascript">jQuery(document).ready(function($){jQuery('#dc_jqaccordion_widget-16-item .menu').dcAccordion({eventType:'click',hoverDelay:0,menuClose:true,autoClose:true,saveState:false,autoExpand:true,classExpand:'current-menu-item',classDisable:'',showCount:false,disableLink:true,cookie:'dc_jqaccordion_widget-16',speed:'slow'});});</script>
+		
+						<script type="text/javascript">jQuery(document).ready(function($){jQuery('#dc_jqaccordion_widget-17-item .menu').dcAccordion({eventType:'click',hoverDelay:0,menuClose:true,autoClose:true,saveState:false,autoExpand:true,classExpand:'current-menu-item',classDisable:'',showCount:false,disableLink:true,cookie:'dc_jqaccordion_widget-17',speed:'slow'});});</script>
+		
+						<script type="text/javascript">jQuery(document).ready(function($){jQuery('#dc_jqaccordion_widget-18-item .menu').dcAccordion({eventType:'click',hoverDelay:0,menuClose:true,autoClose:true,saveState:false,autoExpand:true,classExpand:'current-menu-item',classDisable:'',showCount:false,disableLink:true,cookie:'dc_jqaccordion_widget-18',speed:'slow'});});</script>
+		
+						<script type="text/javascript">jQuery(document).ready(function($){jQuery('#dc_jqaccordion_widget-20-item .menu').dcAccordion({eventType:'click',hoverDelay:0,menuClose:true,autoClose:true,saveState:false,autoExpand:true,classExpand:'current-menu-item',classDisable:'',showCount:false,disableLink:true,cookie:'dc_jqaccordion_widget-20',speed:'slow'});});</script>
+		
+						<script type="text/javascript">jQuery(document).ready(function($){jQuery('#dc_jqaccordion_widget-21-item .menu').dcAccordion({eventType:'click',hoverDelay:0,menuClose:true,autoClose:true,saveState:false,autoExpand:true,classExpand:'current-menu-item',classDisable:'',showCount:false,disableLink:true,cookie:'dc_jqaccordion_widget-21',speed:'slow'});});</script>
+		
+						<script type="text/javascript">jQuery(document).ready(function($){jQuery('#dc_jqaccordion_widget-22-item .menu').dcAccordion({eventType:'click',hoverDelay:0,menuClose:true,autoClose:true,saveState:false,autoExpand:true,classExpand:'current-menu-item',classDisable:'',showCount:false,disableLink:true,cookie:'dc_jqaccordion_widget-22',speed:'slow'});});</script>
+		
+						<script type="text/javascript">jQuery(document).ready(function($){jQuery('#dc_jqaccordion_widget-23-item .menu').dcAccordion({eventType:'click',hoverDelay:0,menuClose:true,autoClose:true,saveState:false,autoExpand:true,classExpand:'current-menu-item',classDisable:'',showCount:false,disableLink:true,cookie:'dc_jqaccordion_widget-23',speed:'slow'});});</script>
+		
+						<script type="text/javascript">jQuery(document).ready(function($){jQuery('#dc_jqaccordion_widget-25-item .menu').dcAccordion({eventType:'click',hoverDelay:0,menuClose:true,autoClose:true,saveState:false,autoExpand:true,classExpand:'current-menu-item',classDisable:'',showCount:false,disableLink:true,cookie:'dc_jqaccordion_widget-25',speed:'slow'});});</script>
+		
+						<script type="text/javascript">jQuery(document).ready(function($){jQuery('#dc_jqaccordion_widget-27-item .menu').dcAccordion({eventType:'click',hoverDelay:0,menuClose:true,autoClose:true,saveState:false,autoExpand:true,classExpand:'current-menu-item',classDisable:'',showCount:false,disableLink:true,cookie:'dc_jqaccordion_widget-27',speed:'slow'});});</script>
+		
+						<script type="text/javascript">jQuery(document).ready(function($){jQuery('#dc_jqaccordion_widget-28-item .menu').dcAccordion({eventType:'click',hoverDelay:0,menuClose:true,autoClose:true,saveState:false,autoExpand:true,classExpand:'current-menu-item',classDisable:'',showCount:false,disableLink:true,cookie:'dc_jqaccordion_widget-28',speed:'slow'});});</script>
+		
+						<script type="text/javascript">jQuery(document).ready(function($){jQuery('#dc_jqaccordion_widget-29-item .menu').dcAccordion({eventType:'click',hoverDelay:0,menuClose:true,autoClose:true,saveState:false,autoExpand:true,classExpand:'current-menu-item',classDisable:'',showCount:false,disableLink:true,cookie:'dc_jqaccordion_widget-29',speed:'slow'});});</script>
+		
+						<script type="text/javascript">jQuery(document).ready(function($){jQuery('#dc_jqaccordion_widget-30-item .menu').dcAccordion({eventType:'click',hoverDelay:0,menuClose:true,autoClose:true,saveState:false,autoExpand:true,classExpand:'current-menu-item',classDisable:'',showCount:false,disableLink:true,cookie:'dc_jqaccordion_widget-30',speed:'slow'});});</script>
+		
+						<script type="text/javascript">jQuery(document).ready(function($){jQuery('#dc_jqaccordion_widget-31-item .menu').dcAccordion({eventType:'click',hoverDelay:0,menuClose:true,autoClose:true,saveState:false,autoExpand:true,classExpand:'current-menu-item',classDisable:'',showCount:false,disableLink:true,cookie:'dc_jqaccordion_widget-31',speed:'slow'});});</script>
+		
+						<script type="text/javascript">jQuery(document).ready(function($){jQuery('#dc_jqaccordion_widget-33-item .menu').dcAccordion({eventType:'click',hoverDelay:0,menuClose:true,autoClose:true,saveState:false,autoExpand:true,classExpand:'current-menu-item',classDisable:'',showCount:false,disableLink:true,cookie:'dc_jqaccordion_widget-33',speed:'slow'});});</script>
+		
+			<link rel='stylesheet' id='metaslider-flex-slider-css' href='https://miuegypt.edu.eg/wp-content/plugins/ml-slider/assets/sliders/flexslider/flexslider.css?ver=3.19.0' type='text/css' media='all' property='stylesheet'/>
+<link rel='stylesheet' id='metaslider-public-css' href='https://miuegypt.edu.eg/wp-content/plugins/ml-slider/assets/metaslider/public.css?ver=3.19.0' type='text/css' media='all' property='stylesheet'/>
+<script type='text/javascript' src='https://miuegypt.edu.eg/wp-content/plugins/vina-parallax-content-slider-widget/includes/admin/js/jquery.simpletip-1.3.1.js?ver=1.0' id='vina-tooltips-js'></script>
+<script type='text/javascript' src='https://miuegypt.edu.eg/wp-content/plugins/vina-parallax-content-slider-widget/includes/js/modernizr.custom.28468.js?ver=1.0' id='vina-modernizr-js'></script>
+<script type='text/javascript' src='https://miuegypt.edu.eg/wp-content/plugins/vina-parallax-content-slider-widget/includes/js/jquery.cslider.js?ver=1.0' id='vina-parallax-tabs-js'></script>
+<script type='text/javascript' id='contact-form-7-js-extra'>//<![CDATA[
+var wpcf7={"apiSettings":{"root":"https:\/\/miuegypt.edu.eg\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
+//]]></script>
+<script type='text/javascript' src='https://miuegypt.edu.eg/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.3' id='contact-form-7-js'></script>
+<script type='text/javascript' src='https://miuegypt.edu.eg/wp-includes/js/imagesloaded.min.js?ver=4.1.4' id='imagesloaded-js'></script>
+<script type='text/javascript' src='https://miuegypt.edu.eg/wp-includes/js/masonry.min.js?ver=4.2.2' id='masonry-js'></script>
+<script type='text/javascript' src='https://miuegypt.edu.eg/wp-includes/js/jquery/jquery.masonry.min.js?ver=3.1.2b' id='jquery-masonry-js'></script>
+<script type='text/javascript' src='https://miuegypt.edu.eg/wp-content/themes/twentythirteen/js/functions.js?ver=2013-07-18' id='twentythirteen-script-js'></script>
+<script type='text/javascript' src='https://miuegypt.edu.eg/wp-includes/js/wp-embed.min.js?ver=5.7.8' id='wp-embed-js'></script>
+<script type='text/javascript' src='https://miuegypt.edu.eg/wp-content/plugins/ml-slider/assets/sliders/flexslider/jquery.flexslider.min.js?ver=3.19.0' id='metaslider-flex-slider-js'></script>
+<script type='text/javascript' id='metaslider-flex-slider-js-after'>var metaslider_9524=function($){$('#metaslider_9524').addClass('flexslider');$('#metaslider_9524').flexslider({slideshowSpeed:9000,animation:"fade",controlNav:false,directionNav:true,pauseOnHover:false,direction:"horizontal",reverse:false,animationSpeed:600,prevText:"&lt;",nextText:"&gt;",fadeFirstSlide:false,slideshow:true});$(document).trigger('metaslider/initialized','#metaslider_9524');};var timer_metaslider_9524=function(){var slider=!window.jQuery?window.setTimeout(timer_metaslider_9524,100):!jQuery.isReady?window.setTimeout(timer_metaslider_9524,1):metaslider_9524(window.jQuery);};timer_metaslider_9524();</script>
+<script type='text/javascript' src='https://miuegypt.edu.eg/wp-content/plugins/event-organiser/js/qtip2.js?ver=3.10.1' id='eo_qtip2-js'></script>
+<script type='text/javascript' src='https://miuegypt.edu.eg/wp-includes/js/jquery/ui/core.min.js?ver=1.12.1' id='jquery-ui-core-js'></script>
+<script type='text/javascript' src='https://miuegypt.edu.eg/wp-includes/js/jquery/ui/controlgroup.min.js?ver=1.12.1' id='jquery-ui-controlgroup-js'></script>
+<script type='text/javascript' src='https://miuegypt.edu.eg/wp-includes/js/jquery/ui/checkboxradio.min.js?ver=1.12.1' id='jquery-ui-checkboxradio-js'></script>
+<script type='text/javascript' src='https://miuegypt.edu.eg/wp-includes/js/jquery/ui/button.min.js?ver=1.12.1' id='jquery-ui-button-js'></script>
+<script type='text/javascript' src='https://miuegypt.edu.eg/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.12.1' id='jquery-ui-datepicker-js'></script>
+<script type='text/javascript' src='https://miuegypt.edu.eg/wp-content/plugins/event-organiser/js/moment.min.js?ver=1' id='eo_momentjs-js'></script>
+<script type='text/javascript' src='https://miuegypt.edu.eg/wp-content/plugins/event-organiser/js/fullcalendar.min.js?ver=3.10.1' id='eo_fullcalendar-js'></script>
+<script type='text/javascript' src='https://miuegypt.edu.eg/wp-content/plugins/event-organiser/js/event-manager.min.js?ver=3.10.1' id='eo-wp-js-hooks-js'></script>
+<script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyC1-0JX0ATOwlx9vCaFJgT7eniaPpxaSv8&#038;language=en&#038;ver=5.7.8' id='eo_GoogleMap-js'></script>
+<script type='text/javascript' src='https://miuegypt.edu.eg/wp-content/plugins/event-organiser/js/maps/googlemaps-adapter.js?ver=3.10.1' id='eo-googlemaps-adapter-js'></script>
+<script type='text/javascript' id='eo_front-js-extra'>//<![CDATA[
+var EOAjaxFront={"adminajax":"https:\/\/miuegypt.edu.eg\/wp-admin\/admin-ajax.php","locale":{"locale":"en","isrtl":false,"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthAbbrev":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayAbbrev":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayInitial":["S","M","T","W","T","F","S"],"ShowMore":"Show More","ShowLess":"Show Less","today":"today","day":"day","week":"week","month":"month","gotodate":"go to date","cat":"View all categories","venue":"View all venues","tag":"View all tags","view_all_organisers":"View all organisers","nextText":">","prevText":"<"}};var eo_widget_cal={"eo_calendar_widget-2":{"showpastevents":1,"show-long":1,"link-to-single":1,"event-venue":0,"event-category":0}};
+//]]></script>
+<script type='text/javascript' src='https://miuegypt.edu.eg/wp-content/plugins/event-organiser/js/frontend.min.js?ver=3.10.1' id='eo_front-js'></script>
+
+   <!--  <script type="text/javascript" src="https://miuegypt.edu.eg/wp-content/themes/twentythirteen/uploadify/jquery.uploadify.js"></script>-->
+
+
+
+<script type="text/javascript">jQuery(document).ready(function(){jQuery('a.login-window').click(function(){var loginBox=jQuery(this).attr('href');jQuery(loginBox).fadeIn(300);var popMargTop=(jQuery(loginBox).height()+24)/2;var popMargLeft=(jQuery(loginBox).width()+24)/2;jQuery(loginBox).css({'margin-top':-popMargTop,'margin-left':-popMargLeft});jQuery('body').append('<div id="mask"></div>');jQuery('#mask').fadeIn(300);return false;});jQuery("#forms").submit(function(event){var input_data=jQuery("#forms").serialize();jQuery.ajax({type:"POST",url:"https://miuegypt.edu.eg/wp-content/themes/twentythirteen/mail.php",data:input_data,success:function(msg){jQuery('#mkl').html(msg).fadeIn('slow');}});return false;});jQuery('.btn_close').click(function(){jQuery('#login-box').fadeOut(300);});if($(".LightboxContent")){if($(".LightboxContent").html()){jQuery("a.login-window.HomeLightbox").click();}}});function GetInternationalOffice(oid){var currlink=oid;jQuery(document).ready(function(){jQuery(".dcjq-accordion #"+currlink).click();jQuery.post("https://miuegypt.edu.eg/wp-content/themes/twentythirteen/righttabcontent.php",{pid:currlink},function(data){jQuery("#right-sidebar").html(null);jQuery("#right-sidebar").html(data);});});}function GetVideo(vid,videoid,videotitle){var vcurrlink=vid;jQuery(document).ready(function(){jQuery.post("https://miuegypt.edu.eg/wp-content/themes/twentythirteen/righttabcontent.php",{pid:vcurrlink},function(data){jQuery("#right-sidebar").html(null);jQuery("#right-sidebar").html('<div class="FeatureVideo HeadingFixStyle"><h1>Video <span>Gallery</span></h1><iframe width="656" height="369" src="//www.youtube.com/embed/'+videoid+'" frameborder="0" allowfullscreen></iframe><h2>'+videotitle+'</h2>'+data+'</div>');});});}</script>
+<script type="text/javascript">var ltw_function={"toggle_open":"Open","toggle_close":"Close"};</script>
+
+<script src="https://miuegypt.edu.eg/wp-content/plugins/ltw-content-shortcodes/js/functions.js?ver=1.0.3" type="text/javascript"></script>
+</div>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-56423407-1','auto');ga('send','pageview');</script>
+
+
+<script>(function(){var _fbq=window._fbq||(window._fbq=[]);if(!_fbq.loaded){var fbds=document.createElement('script');fbds.async=true;fbds.src='//connect.facebook.net/en_US/fbds.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(fbds,s);_fbq.loaded=true;}_fbq.push(['addPixelId','1576863739213596']);})();window._fbq=window._fbq||[];window._fbq.push(['track','PixelInitialized',{}]);</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=1576863739213596&amp;ev=PixelInitialized"/></noscript>
+
+
+
+</body>
+
+</html>
+
+<div class="modalDialog" id="openModal">
+<a href="#openModal" class="cancel"></a>
+<div><a style="font: 14px/100% arial; font-family: initial; position: absolute; right: 1%; text-decoration: none; top: -20px; font-size: large; color: white;" href="#openModal">Close</a>
+<!--<img src="https://www.miuegypt.edu.eg/wp-content/uploads/Pre-Admissions2023-01.png" alt="">-->
+<br class="none"><a href="https://apply.miuegypt.edu.eg/index.html#/Apply">
+<img alt="" src="https://www.miuegypt.edu.eg/wp-content/uploads/Undergraduate-2023-Horizontal.png"/>
+</a>
+<br class="none"/>
+<a href="https://www.miuegypt.edu.eg/admission-requirements/admission-online-process/">
+<img alt="" src="http://www.miuegypt.edu.eg/wp-content/uploads/Admission-process09.png"/>
+</a>
+<br class="none"/>
+<a href="https://www.miuegypt.edu.eg/admission-requirements/tuition-fees/">
+<img alt="" src="https://www.miuegypt.edu.eg/wp-content/uploads/Tuition-Fees07.png"/>
+</a>
+
+
+<!--<br class="none" />
+<img alt="" src="https://www.miuegypt.edu.eg/wp-content/uploads/Admission-2022.png" />
+</a>
+<br class="none" />
+<a href="https://www.miuegypt.edu.eg/admission-requirements/admission-online-process/">
+<img alt="" src="http://www.miuegypt.edu.eg/wp-content/uploads/Admission-process09.png" />
+</a>
+</div>
+</div>
+<!-- <br class="none" />
+	<a href="http://miumoodle.miuegypt.edu.eg/">
+<img alt="" src="http://www.miuegypt.edu.eg/wp-content/uploads/e-learning2020-03.png" />
+</a>
+<a href="https://miuegypt-admissions-openday.vfairs.com/" style="display: flow-root;">
+<img alt="" src="https://www.miuegypt.edu.eg/wp-content/uploads/VOD-2021-02.png" />
+</a>
+ -->
+
+<!-- DONT FORGET TO CHANGE LEFT ICONS TO 2020-2021 -->
+
