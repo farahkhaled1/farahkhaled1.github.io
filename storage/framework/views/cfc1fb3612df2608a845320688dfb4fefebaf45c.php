@@ -1,0 +1,1 @@
+<?php /**PATH /Volumes/University/seopro/resources/views/laravel-examples/ai2.blade.php ENDPATH**/ ?>
