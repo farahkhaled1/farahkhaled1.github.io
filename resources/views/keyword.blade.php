@@ -50,10 +50,6 @@
       </div>
     </section>
   </main>
-  
-
-
-   
 
 
 
@@ -83,11 +79,11 @@ $lastNiche = \App\Models\Niche::getLastNiche();
                 <a class="cursor-pointer" id="dropdownTable" data-bs-toggle="dropdown" aria-expanded="false">
                   <i class="fa fa-ellipsis-v text-secondary"></i>
                 </a>
-                <ul class="dropdown-menu px-2 py-3 ms-sm-n4 ms-n5" aria-labelledby="dropdownTable">
+                {{-- <ul class="dropdown-menu px-2 py-3 ms-sm-n4 ms-n5" aria-labelledby="dropdownTable">
                   <li><a class="dropdown-item border-radius-md" href="javascript:;">Action</a></li>
                   <li><a class="dropdown-item border-radius-md" href="javascript:;">Another action</a></li>
                   <li><a class="dropdown-item border-radius-md" href="javascript:;">Something else here</a></li>
-                </ul>
+                </ul> --}}
               </div>
             </div>
           </div>
@@ -96,12 +92,31 @@ $lastNiche = \App\Models\Niche::getLastNiche();
           <div class="table-responsive">
             <table class="table align-items-center mb-0">
               <thead>
-                <tr>
+                {{-- <tr>
                   <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Keyword</th>
                   <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Keyword Relevance</th>
                   <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Top Keywords</th>
                   <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Keyword Count</th>
+                </tr> --}}
+                <tr>
+                  <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7" title="The keywords that appear in your niche.">
+                    Keyword
+                  </th>
+                  <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2" data-toggle="tooltip" title="How relevant each keyword is to your niche.">
+                    <span>Keyword Relevance</span>
+                    <i class="fa fa-question-circle ms-1 text-lowercase" data-toggle="tooltip"  title="The relevance of each keyword to your niche."></i>
+                  </th>
+                  <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7" data-toggle="tooltip" title="The top keywords based on their relevance to your niche.">
+                    <span  >Top Keywords</span>
+                    <i class="fa fa-question-circle ms-1 text-lowercase" title="The top keywords based on their relevance to your niche."></i>
+                  </th>
+                  <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7" data-toggle="tooltip" title="How many times each keyword appears in your niche.">
+                    <span>Keyword Count</span>
+                    <i class="fa fa-question-circle ms-1 text-lowercase"  title="The number of times each keyword appears in your niche."></i>
+                  </th>  
+                
                 </tr>
+                
               </thead>
               <tbody>
               
