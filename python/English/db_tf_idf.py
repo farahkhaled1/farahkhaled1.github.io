@@ -62,16 +62,24 @@ mysql = mysql.connector.connect(
 mycursor = mysql.cursor()
 
 # Execute an SQL query to select the last row from the table
-mycursor.execute("SELECT niche FROM given_niche ORDER BY id DESC LIMIT 1")
+mycursor.execute("SELECT uid, niche FROM given_niche ORDER BY id DESC LIMIT 1")
 
 # Fetch the last row from the table
 niche_arr = mycursor.fetchone()
 
-# Convert niche[0] to a string
-niche= str(niche_arr[0])
+# # Convert niche[0] to a string
+# niche= str(niche_arr[0])
 
-# Print the last row as a string
+# # Print the last row as a string
+# print(niche)
+
+# Extract the id and niche values from the row
+uid = niche_arr[0]
+niche = niche_arr[1]
+
+# Print the niche and id values
 print(niche)
+print(uid)
 
 
 
@@ -200,9 +208,9 @@ mysql = mysql.connector.connect(
 
 # Insert the data into the database
 mycursor = mysql.cursor()
-sql = "INSERT INTO keywords (word, average_tfidf, max_tfidf, frequency, niche) VALUES (%s, %s, %s, %s, %s)"
+sql = "INSERT INTO keywords (word, average_tfidf, max_tfidf, frequency, niche, uid) VALUES (%s, %s, %s, %s, %s, %s)"
 for row in output_dict:
-    val = (row['word'], row['average_tfidf'], row['max_tfidf'], row['frequency'], niche)
+    val = (row['word'], row['average_tfidf'], row['max_tfidf'], row['frequency'], niche, uid)
     mycursor.execute(sql, val)
 mysql.commit()
 
