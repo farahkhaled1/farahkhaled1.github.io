@@ -35,7 +35,23 @@
                       <input class="form-control" type="text" name="niche" placeholder="Enter your niche keyword">
                     </div>
                     <div class="text-center">
-                      <button type="submit" class="btn bg-gradient-info w-100">Generate</button>
+                      <button type="submit" class="btn bg-gradient-info w-100"id="run-python-btn">Generate</button>
+                      <!-- <button id="run-python-btn">Run Python</button> -->
+
+<script>
+    $('#run-python-btn').click(function () {
+        $.ajax({
+            method: 'POST',
+            url: '/run-python',
+            success: function (response) {
+                console.log(response);
+            },
+            error: function (xhr, status, error) {
+                console.log(xhr.responseText);
+            }
+        });
+    });
+</script>
                     </div>
                   </form>
                 </div>
