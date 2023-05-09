@@ -25,10 +25,24 @@ class Keyword extends Model
                     ->orderBy('id', 'desc')
                     ->value('niche');
 
-        return static::where('niche', $niche)->get(['word', 'average_tfidf', 'max_tfidf', 'frequency']);
+        return static::where('niche', $niche) ->orderBy('id', 'desc')  ->take(35)->get(['word', 'average_tfidf', 'max_tfidf', 'frequency']);
         // return view('analyzer', ['result' => $data]);
 
     }
+
+//     public static function getBestKeyword(){
+//         $userId = Auth::id();
+// $niche = Niche::getLastNiche();
+// $highestTfidfKeyword = DB::table('keywords')
+//                         ->where('uid', $userId)
+//                                             ->where('niche', $niche)
+//                                             ->orderBy('max_tfidf', 'desc')
+//                                             ->first()
+//                                             ->word;
+// return $highestTfidfKeyword;
+                    
+
+//     }
 }
 
 ?>

@@ -4,7 +4,10 @@
    
 
 <html>
-   
+  
+
+
+
 
 
   <main class="main-content mt-0">
@@ -43,6 +46,10 @@
   
 
 
+   
+
+
+
   
   <div class="row my-4">
     <div class="col-lg-8 col-md-6 mb-md-0 mb-4" style="margin-left:180px">
@@ -52,17 +59,17 @@
           <?php
 $lastNiche = \App\Models\Niche::getLastNiche();
 ?>
-<h3>Your Last Search for the Niche: <span style="color: green"> <?php echo e($lastNiche); ?> </span></h3>
+<h3>Your Last Search for: <span style="color: green"> <?php echo e($lastNiche); ?> </span></h3>
 
           <div class="row">
 
 
             <div class="col-lg-6 col-7">
-              <h6>Phrase match</h6>
-              <p class="text-sm mb-0">
+              
+              <h5 class="text-sm mb-0">
                 <i class="fa fa-check text-info" aria-hidden="true"></i>
-                <span class="font-weight-bold ms-1">Keywords scanned</span> this month
-              </p>
+                <span class="font-weight-bold ms-1">The most frequent keywords used</span> this month
+              </h5>
             </div>
             <div class="col-lg-6 col-5 my-auto text-end">
               <div class="dropdown float-lg-end pe-4">

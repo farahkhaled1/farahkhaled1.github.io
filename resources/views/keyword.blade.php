@@ -6,7 +6,15 @@
    
 
 <html>
-   
+  {{-- @php
+        $highestTfidfKeyword = \App\Models\Keyword::getBestKeyword();
+
+  @endphp --}}
+
+{{-- <div class="mt-4">
+  <p>The most used keyword in your niche is: <strong>{{ $highestTfidfKeyword }}</strong></p>
+</div> --}}
+
 
 
   <main class="main-content mt-0">
@@ -45,6 +53,10 @@
   
 
 
+   
+
+
+
   
   <div class="row my-4">
     <div class="col-lg-8 col-md-6 mb-md-0 mb-4" style="margin-left:180px">
@@ -54,17 +66,17 @@
           @php
 $lastNiche = \App\Models\Niche::getLastNiche();
 @endphp
-<h3>Your Last Search for the Niche: <span style="color: green"> {{ $lastNiche }} </span></h3>
+<h3>Your Last Search for: <span style="color: green"> {{ $lastNiche }} </span></h3>
 
           <div class="row">
 
 
             <div class="col-lg-6 col-7">
-              <h6>Phrase match</h6>
-              <p class="text-sm mb-0">
+              {{-- <h6>Phrase match</h6> --}}
+              <h5 class="text-sm mb-0">
                 <i class="fa fa-check text-info" aria-hidden="true"></i>
-                <span class="font-weight-bold ms-1">Keywords scanned</span> this month
-              </p>
+                <span class="font-weight-bold ms-1">The most frequent keywords used</span> this month
+              </h5>
             </div>
             <div class="col-lg-6 col-5 my-auto text-end">
               <div class="dropdown float-lg-end pe-4">
@@ -124,7 +136,41 @@ $lastNiche = \App\Models\Niche::getLastNiche();
     </div>
   </div>
 
+{{-- 
 
+  <section>
+    <div class="page-header " style="margin-top: 80px">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-8 col-lg-5 col-md-6 d-flex flex-column mx-auto">
+            <div class="card">
+              <div class="card-header pb-0 text-left bg-transparent">
+                <h3 class="font-weight-bolder" style="color: black"> The <span style="color: blue"> Most Used </span> Keyword in The 1st Page of The Search Engine Results Page is: <span style="color: blue">{{ $highestTfidfKeyword }}</strong></h3>
+                <p class="mb-0">Generate New Blog Ideas about any Keyword with our AI generator!</p>
+
+                <div class="numbers">
+                <br>
+<a href="{{ url('/ai')}}">
+    <button type="submit" class="btn bg-gradient-info w-100 font-weight-bolder mb-0" style="border-top-color: red">Generate New Content Ideas</button>
+</a>
+e              </div>
+              </div>
+
+
+              <div class="card-body">
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="oblique position-absolute top-0 h-100 d-md-block d-none me-n8">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ --}}
 
 
 
