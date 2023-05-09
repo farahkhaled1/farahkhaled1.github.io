@@ -137,6 +137,9 @@ for i in links:
 
    
     filtered_sentence = [w for w in word_tokens if not w.lower() in stop_words]
+    
+
+
 
     # print(word_tokens)
     # print('---------------------------------')
@@ -147,7 +150,7 @@ p_stemmer = PorterStemmer()
 
 
 
-for word in  filtered_sentence:
+for word in filtered_sentence:
     word+' --> '+p_stemmer.stem(word)
 
 from nltk.stem.snowball import SnowballStemmer
@@ -165,18 +168,11 @@ import mysql.connector
 def tf_idf_analysis(keyword):
     v = TfidfVectorizer(min_df=1,analyzer='word',ngram_range=(1,2),stop_words=list(stop_words))
     x = v.fit_transform(text)
-
     f = pd.DataFrame(x.toarray(), columns = v.get_feature_names_out())
     d=pd.concat([pd.DataFrame(f.mean(axis=0)),pd.DataFrame(f.max(axis=0))],axis=1)
-    
-    
     tf=pd.DataFrame((f>0).sum(axis=0))
-
-
     d=d.reset_index().merge(tf.reset_index(),on='index',how='left')
-
     d.columns=['word','average_tfidf','max_tfidf','frequency']
-
     d['frequency']=round((d['frequency']/len(text))*100)
     d['max_tfidf'] = d['max_tfidf'].round(2)
     d['average_tfidf'] = d['average_tfidf'].round(2)
