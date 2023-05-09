@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Auth;
 
 
 class Keyword extends Model
@@ -17,7 +18,10 @@ class Keyword extends Model
      */
     public static function getKeywords()
     {
+        $user_id = Auth::id();
+
         $niche = DB::table('given_niche')
+                    ->where('uid', $user_id)
                     ->orderBy('id', 'desc')
                     ->value('niche');
 

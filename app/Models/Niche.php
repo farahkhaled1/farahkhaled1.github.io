@@ -1,29 +1,34 @@
 <?php
+
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Auth;
+
 
 class Niche extends Model
 {
-    protected $table = 'given_niche';
-
+    protected $table2 = 'given_niche';
+    
+    /**
+     * Retrieve the last niche for the currently authenticated user.
+     *
+     * @return string|null
+     */
     public static function getLastNiche()
     {
-        $user_id = auth()->id(); // get the user ID
+        $user_id = Auth::id();
         $niche = DB::table('given_niche')
-            ->orderBy('id', 'desc')
-            ->value('niche');
-
-        Session::put("user_$user_id.niche", $niche); // store the niche value in the user's session
+                    ->where('uid', $user_id)
+                    ->orderBy('id', 'desc')
+                    ->value('niche');
 
         return $niche;
     }
 }
-?>
 
-<?
+
 // namespace App\Models;
 
 // use Illuminate\Database\Eloquent\Model;
@@ -48,4 +53,5 @@ class Niche extends Model
 
 //     }
 // }
+
 ?>
