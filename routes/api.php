@@ -14,6 +14,26 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+use Symfony\Component\Process\Process;
+
+Route::get('/scrape', function (Request $request) {
+    $url = $request->input('url');
+    $output = '';
+
+    // Run the Python script using the URL parameter
+    $process = new Process(["python", "C:/Users/Hanien/Documents/GitHub/seopro/python/scrape.py", $url]);
+    $process->run();
+
+    // Get the output of the Python script
+    if ($process->isSuccessful()) {
+        $output = $process->getOutput();
+    }
+
+    return $output;
+});
+
+
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
