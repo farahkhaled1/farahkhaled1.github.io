@@ -2,6 +2,10 @@
 
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
+
+
 // use 
 class DomainController extends Controller
 {
@@ -13,6 +17,7 @@ class DomainController extends Controller
 
     $topic = $request->topic;
 
+    $date = date("d/m/y");
 
 $curl = curl_init();
 
@@ -35,13 +40,15 @@ $err = curl_error($curl);
 
 curl_close($curl);
 
+
+
 if ($err) {
     echo "cURL Error #:" . $err;
 } else {
     // $response_data = json_decode($response, true);
     // var_dump($response_data); // print the response data structure
 
-	$response_data = json_decode($response, true);
+$response_data = json_decode($response, true);
 $domain_rank = $response_data['data']['domain_rank'];
 $domain_auth = $response_data['data']['domain_authority'];
 $ctr_scope = $response_data['data']['ctr_scope'];
@@ -58,6 +65,36 @@ $backlinks = $response_data['data']['backlinks'];
 $equity = $response_data['data']['equity'];
 $cpc = $response_data['data']['cpc'];
 $search_volume = $response_data['data']['search_volume'];
+
+
+$user_id = Auth::id(); // Get the current user's id
+
+        DB::table('domain_analytics')->insert([
+            'domain_url' => $topic,
+            'uid' => $user_id, // Store the user id
+            'domain_rank'=> $domain_rank,
+            'domain_auth'=> $domain_auth,
+            'ctr_scope' => $ctr_scope,
+            'seo_difficulty'=> $seo_difficulty,
+            'off_page_difficulty' => $off_page_difficulty,
+            'on_page_difficulty' => $on_page_difficulty,
+            'indexed_pages' => $indexed_pages,
+            'page_authority' => $page_authority,
+            'popularity_score' => $popularity_score,
+            'traffic' => $traffic,
+            'traffic_costs'=> $traffic_costs,
+            'organic_keywords' => $organic_keywords,
+            'backlinks' => $backlinks,
+            'equity' => $equity,
+            'cpc' => $cpc,
+            'search_volume'=>$search_volume,
+            'date' => $date
+
+
+
+            
+        ]);
+
 
 $data = [
     'domain_rank' => $domain_rank,
@@ -77,10 +114,12 @@ $data = [
     'cpc' => $cpc,
     'search_volume' => $search_volume,
 ];
+
 return view('analyzer', ['result' => $data]);
 // return view('analyzer',['result'=> $domain_rank, $domain_auth, $ctr_scope , $seo_difficulty, $off_page_difficulty, $on_page_difficulty, $indexed_pages, $page_authority, $popularity_score,$traffic,$traffic_costs, $organic_keywords, $backlinks, $equity, $cpc, $search_volume]);
 
 }
 
-    }
+}
+
 }
