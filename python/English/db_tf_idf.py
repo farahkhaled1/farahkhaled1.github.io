@@ -1,7 +1,4 @@
 # -*- coding: utf-8 -*-
-%pip3 install pandas
-%pip install scikit-learn
-%pip install nltk
 import requests
 import urllib
 import pandas as pd
