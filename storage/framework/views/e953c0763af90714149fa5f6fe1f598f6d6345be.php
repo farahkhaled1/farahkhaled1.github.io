@@ -28,7 +28,23 @@
                       <input class="form-control" type="text" name="niche" placeholder="Enter your niche keyword">
                     </div>
                     <div class="text-center">
-                      <button type="submit" class="btn bg-gradient-info w-100">Generate</button>
+                      <button type="submit" class="btn bg-gradient-info w-100"id="run-python-btn">Generate</button>
+                      <!-- <button id="run-python-btn">Run Python</button> -->
+
+<script>
+    $('#run-python-btn').click(function () {
+        $.ajax({
+            method: 'POST',
+            url: '/run-python',
+            success: function (response) {
+                console.log(response);
+            },
+            error: function (xhr, status, error) {
+                console.log(xhr.responseText);
+            }
+        });
+    });
+</script>
                     </div>
                   </form>
                 </div>
@@ -54,7 +70,41 @@
 
           <?php
 $lastNiche = \App\Models\Niche::getLastNiche();
+
+
 ?>
+
+<?php if($lastNiche == null): ?>
+
+<h4>You Don't Have Any Keyword Search History. <br> <span style="color: rgb(37,162,254)"> Start Ranking Your Website Today!</span> </h4>
+
+          <div class="row">
+
+
+            <div class="col-lg-6 col-7">
+              
+              
+            </div>
+            <div class="col-lg-6 col-5 my-auto text-end">
+              <div class="dropdown float-lg-end pe-4">
+                <a class="cursor-pointer" id="dropdownTable" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa fa-ellipsis-v text-secondary"></i>
+                </a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-body px-0 pb-2">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+<?php else: ?>
 <h3>Your Last Search for: <span style="color: green"> <?php echo e($lastNiche); ?> </span></h3>
 
           <div class="row">
@@ -150,7 +200,7 @@ $lastNiche = \App\Models\Niche::getLastNiche();
 
 
 
-
+    <?php endif; ?>
 <?php $__env->stopSection(); ?>
 </html>
 <?php $__env->startPush('dashboard'); ?>

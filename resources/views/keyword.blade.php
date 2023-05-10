@@ -77,7 +77,41 @@
 
           @php
 $lastNiche = \App\Models\Niche::getLastNiche();
+
+
 @endphp
+
+@if ($lastNiche == null)
+
+<h4>You Don't Have Any Keyword Search History. <br> <span style="color: rgb(37,162,254)"> Start Ranking Your Website Today!</span> </h4>
+
+          <div class="row">
+
+
+            <div class="col-lg-6 col-7">
+              {{-- <h6>Phrase match</h6> --}}
+              
+            </div>
+            <div class="col-lg-6 col-5 my-auto text-end">
+              <div class="dropdown float-lg-end pe-4">
+                <a class="cursor-pointer" id="dropdownTable" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa fa-ellipsis-v text-secondary"></i>
+                </a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-body px-0 pb-2">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+@else
 <h3>Your Last Search for: <span style="color: green"> {{ $lastNiche }} </span></h3>
 
           <div class="row">
@@ -247,7 +281,7 @@ e              </div>
         </div>
       </div>
     </div> --}}
-
+    @endif
 @endsection
 </html>
 @push('dashboard')
