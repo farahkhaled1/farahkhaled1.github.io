@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+%pip3 install pandas
+%pip install scikit-learn
+%pip install nltk
 import requests
 import urllib
 import pandas as pd
@@ -193,8 +196,7 @@ def tf_idf_analysis(keyword):
     # d = d[(d['word'].str.isalpha()) & (d['average_tfidf'] >= 0.05)].sort_values('max_tfidf', ascending=False).head(50)
     
     # return d
-
-    return d[d['word'].str.isalpha() & (x['word'].str.len() >= 4)].sort_values('max_tfidf',ascending=False).head(35)
+    return d[d['word'].str.isalpha() & (d['word'].str.len() >=3)].sort_values('max_tfidf', ascending=False).head(35)
 
 
 # Call the tf_idf_analysis function and store the output in a DataFrame variable
