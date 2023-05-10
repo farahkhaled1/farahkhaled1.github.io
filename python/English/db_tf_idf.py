@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-
 import requests
 import urllib
 import pandas as pd
@@ -163,7 +162,8 @@ p_stemmer = PorterStemmer()
 
 
 for word in filtered_sentence:
-    word+' --> '+p_stemmer.stem(word)
+    if len(word) >= 3:
+        word+' --> '+p_stemmer.stem(word)
 
 from nltk.stem.snowball import SnowballStemmer
 s_stemmer = SnowballStemmer(language='english')
@@ -171,7 +171,8 @@ s_stemmer = SnowballStemmer(language='english')
 
 
 for word in filtered_sentence:
-    word+' --> '+s_stemmer.stem(word)
+    if len(word) >= 3:
+        word+' --> '+s_stemmer.stem(word)
 u=p_stemmer.stem(word)
 import mysql.connector
 
@@ -193,7 +194,7 @@ def tf_idf_analysis(keyword):
     
     # return d
 
-    return d[d['word'].str.isalpha()].sort_values('max_tfidf',ascending=False).head(35)
+    return d[d['word'].str.isalpha() & (x['word'].str.len() >= 4)].sort_values('max_tfidf',ascending=False).head(35)
 
 
 # Call the tf_idf_analysis function and store the output in a DataFrame variable
