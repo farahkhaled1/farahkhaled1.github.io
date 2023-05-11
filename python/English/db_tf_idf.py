@@ -23,7 +23,7 @@ nltk.download('stopwords')
 nltk.download('punkt')
 
 stop_words = set(stopwords.words('english')) 
-stop_words.update(['le', 'eu', 'span', 'ago', 'pp', 'ue', 'div', 'src', 'page', 'egp', 'url', 'cdn', 'alt', 'com', 'net', 'org', 'cdn', 'img', 'google','eg','usd'])
+stop_words.update(['le', 'eu', 'span', 'ago', 'pp', 'ue', 'div', 'src', 'page', 'egp', 'url', 'cdn', 'alt', 'com', 'net', 'org', 'cdn', 'img', 'google','eg','usd','http','https','net','us','eg'])
 
 
 
@@ -88,15 +88,19 @@ def get_source(url):
 def scrape_google(query):
 
     query = urllib.parse.quote_plus(query)
-    response = get_source("https://www.google.co.uk/search?q=" + query)
+    response = get_source("https://www.google.com/search?q=" + query)
     links = list(response.html.absolute_links)
+    # google_domains = ('https://www.google.', 
+    #                   'https://google.', 
+    #                   'https://webcache.googleusercontent.', 
+    #                   'http://webcache.googleusercontent.', 
+    #                   'https://policies.google.',
+    #                   'https://support.google.',
+    #                   'https://maps.google.')
+    
     google_domains = ('https://www.google.', 
-                      'https://google.', 
-                      'https://webcache.googleusercontent.', 
-                      'http://webcache.googleusercontent.', 
-                      'https://policies.google.',
-                      'https://support.google.',
-                      'https://maps.google.')
+                      'https://google.')
+     
 
     for url in links[:]:
         if url.startswith(google_domains):
@@ -140,7 +144,7 @@ s_stemmer = SnowballStemmer(language='english')
 
 
 for word in filtered_sentence:
-    if len(word) >= 4:
+    if len(word) >=4:
         word+' --> '+s_stemmer.stem(word)
 u=p_stemmer.stem(word)
 import mysql.connector
@@ -156,13 +160,12 @@ def tf_idf_analysis(keyword):
     d=d.reset_index().merge(tf.reset_index(),on='index',how='left')
     d.columns=['word','average_tfidf','max_tfidf','frequency']
     d['frequency']=round((d['frequency']/len(text))*100)
-    d['max_tfidf'] = d['max_tfidf'].round(2)
-    d['average_tfidf'] = d['average_tfidf'].round(2)
+    d['max_tfidf'] = d['max_tfidf'].round(3)
+    d['average_tfidf'] = d['average_tfidf'].round(3)
+
+    d= d[d['word'].str.isalpha()].sort_values('frequency',ascending=False).head(35)
     
-    d = d[(d['word'].str.isalpha()) & (d['word'].str.len() >=4)].sort_values('frequency', ascending=True).head(50)
-    
-    # return d
-    # return d[d['word'].str.isalpha() & (d['word'].str.len() >=3)].sort_values('max_tfidf', ascending=False).head(35)
+    return d
 
 
 # Call the tf_idf_analysis function and store the output in a DataFrame variable
