@@ -67,7 +67,9 @@
                      <br>
                      <h6>Want a faster loading time? <br> Start by optimizing your pictures! </h6>
                      <br>
+                     <a href="<?php echo e(url('/images')); ?>" >
                      <button type="submit" class="btn bg-gradient-info w-100 font-weight-bolder mb-0" style="border-top-color: red">Optimize Your Images Now</button>
+                     </a>
                  </div>
              </div>
          </div>

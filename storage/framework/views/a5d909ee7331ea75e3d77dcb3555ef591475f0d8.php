@@ -11,17 +11,25 @@ $analytics = \App\Models\Analytics::getAnalytics();
 
 ?>
 
-<?php if($analytics == null): ?>
+
+
+<?php if($analytics->isEmpty()): ?>
 
 <h4>You Don't Have Any Search History. <br> <span style="color: rgb(37,162,254)"> Start Analyzing Now!</span> </h4>
 
+<br>
+
           <div class="row">
+            <a href="<?php echo e(url('/analyzer')); ?>" >
+            <button type="submit" class="btn bg-gradient-info w-100 font-weight-bolder mb-0" style="border-top-color: red">Try our Domain Analyzer Tool</button>
+          </a>
             <div class="col-lg-6 col-7">
+              
             </div>
             <div class="col-lg-6 col-5 my-auto text-end">
               <div class="dropdown float-lg-end pe-4">
                 <a class="cursor-pointer" id="dropdownTable" data-bs-toggle="dropdown" aria-expanded="false">
-                  <i class="fa fa-ellipsis-v text-secondary"></i>
+
                 </a>
               </div>
             </div>
