@@ -31,16 +31,21 @@ class Analytics extends Model
     //     return static::where('domain_url', $domain_url)->get();
     // }
 
-    public static function getDetails()
+//     public static function getDetails()
 
-{
+// {
 
-   $domain_url= DB::table('domain_url');
+//    $domain_url= DB::table('domain_url');
     
-   return static::where('domain_url', $domain_url) -> get(['id','domain_url', 'domain_rank', 'domain_auth', 'ctr_scope']);
+//    return static:: get(['id','domain_url', 'domain_rank', 'domain_auth', 'ctr_scope']);
+// }
+
+    
+public static function getDetails($domain_url)
+{
+    return static::where('domain_url', $domain_url)->get(['date', 'domain_url', 'domain_rank', 'domain_auth', 'ctr_scope']);
 }
 
-    
     
 
 

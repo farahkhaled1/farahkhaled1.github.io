@@ -6,7 +6,7 @@
       <div class="card-header pb-0">
 
         <?php
-$analytics = \App\Models\Analytics::getDetails();
+$analytics = \App\Models\Analytics::getDetails($domain_url);
 
 ?>
 <h3>Your Searched URLs <span style="color: green"> </span></h3>
@@ -37,6 +37,9 @@ $analytics = \App\Models\Analytics::getDetails();
               
                 <tr>
                   <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7" title="The keywords that appear in your niche.">
+                    Date
+                  </th>
+                  <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7" title="The keywords that appear in your niche.">
                     Domain
                   </th>
                   <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2" data-toggle="tooltip" title="How relevant each keyword is to your niche.">
@@ -57,30 +60,42 @@ $analytics = \App\Models\Analytics::getDetails();
               </thead>
               <tbody>
               
-                  
-               
-                <?php $__currentLoopData = \App\Models\Analytics::getDetails(); $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $analytics): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-                <tr>
-                    <td>
-                        <div class="d-flex px-2 py-1">
-                            <div class="d-flex flex-column justify-content-center">
-                                <h6 class="mb-0 text-sm"><?php echo e($analytics->domain_url); ?></h6>
-                            </div>
+
+                
+                 <?php $__currentLoopData = \App\Models\Analytics::getDetails($domain_url); $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $analytics): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+
+                 <?php
+                   $domain_url = $analytics->domain_url;
+                 ?>
+              
+                 <tr>
+                  <td>
+                    <div class="d-flex px-2 py-1">
+                        <div class="d-flex flex-column justify-content-center">
+                            <h6 class="mb-0 text-sm"><?php echo e($analytics->date); ?></h6>
                         </div>
-                    </td>
-                    <td>
-                        <span class="text-xs font-weight-bold" style="color:red ; margin-left:50px "><?php echo e($analytics->domain_rank); ?></span>
-                    </td>
-                    <td class="align-middle text-center text-sm">
-                        <span class="text-xs font-weight-bold"><?php echo e($analytics->domain_auth); ?></span>
-                    </td>
-                    <td class="align-middle">
-                        <span class="text-xs font-weight-bold" style="margin-left: 100px"><?php echo e($analytics->ctr_scope); ?></span>
-                    </td>
-                </tr>
-                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
-                
-                
+                    </div>
+                </td>
+                     <td>
+                         <div class="d-flex px-2 py-1">
+                             <div class="d-flex flex-column justify-content-center">
+                                 <h6 class="mb-0 text-sm"><?php echo e($analytics->domain_url); ?></h6>
+                             </div>
+                         </div>
+                     </td>
+                     <td>
+                         <span class="text-xs font-weight-bold" style="color:red ; margin-left:50px "><?php echo e($analytics->domain_rank); ?></span>
+                     </td>
+                     <td class="align-middle text-center text-sm">
+                         <span class="text-xs font-weight-bold"><?php echo e($analytics->domain_auth); ?></span>
+                     </td>
+                     <td class="align-middle">
+                         <span class="text-xs font-weight-bold" style="margin-left: 100px"><?php echo e($analytics->ctr_scope); ?></span>
+                     </td>
+                 </tr>
+             <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+             
+
               </tbody>
             </table>
             
@@ -232,7 +247,6 @@ $analytics = \App\Models\Analytics::getDetails();
         </div>
       </div>
     </div>
-
   </div>
   
 
@@ -338,18 +352,18 @@ $analytics = \App\Models\Analytics::getDetails();
               maxBarThickness: 6
 
             },
-            {
-              label: "Websites",
-              tension: 0.4,
-              borderWidth: 0,
-              pointRadius: 0,
-              borderColor: "#3A416F",
-              borderWidth: 3,
-              backgroundColor: gradientStroke2,
-              fill: true,
-              data: [30, 90, 40, 140, 290, 290, 340, 230, 400],
-              maxBarThickness: 6
-            },
+            // {
+            //   label: "Websites",
+            //   tension: 0.4,
+            //   borderWidth: 0,
+            //   pointRadius: 0,
+            //   borderColor: "#3A416F",
+            //   borderWidth: 3,
+            //   backgroundColor: gradientStroke2,
+            //   fill: true,
+            //   data: [30, 90, 40, 140, 290, 290, 340, 230, 400],
+            //   maxBarThickness: 6
+            // },
           ],
         },
         options: {
