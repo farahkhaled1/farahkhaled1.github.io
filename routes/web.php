@@ -17,8 +17,6 @@ use App\Http\Controllers\PythonController;
 use App\Http\Controllers\LoadTimeController;
 use App\Http\Controllers\GivenNicheController;
 use App\Http\Controllers\DomainController;
-
-
 use App\Http\Controllers\tfidf;
 
 /*
@@ -108,7 +106,6 @@ Route::group(['middleware' => 'auth'], function () {
 	});
 	
 
-
 // Route::get('/images', [ImageoptController::class, 'index']);
 // Route::post('/convert', [ImageoptController::class, 'convert'])->name('convert');
 
@@ -139,8 +136,6 @@ Route::group(['middleware' => 'auth'], function () {
 	})->name('sign-up');
 
 
-	
-
     Route::get('/logout', [SessionsController::class, 'destroy']);
 	Route::get('/user-profile', [InfoUserController::class, 'create']);
 	Route::post('/user-profile', [InfoUserController::class, 'store']);
@@ -148,7 +143,6 @@ Route::group(['middleware' => 'auth'], function () {
 		return view('dashboard');
 	})->name('sign-up');
 });
-
 
 
 Route::group(['middleware' => 'guest'], function () {
@@ -166,26 +160,6 @@ Route::group(['middleware' => 'guest'], function () {
 Route::get('/login', function () {
     return view('session/login-session');
 })->name('login');
-
-
-
-
-// Route::get('/test1', function () {
-//     return view('imageopt/imageoptcopy');
-// })->name('imageopt');
-
-
-
-// Route::get('/test2', function () {
-//     return view('imageopt/imageopt2');
-// })->name('imageopt');
-
-
-
-
-
-
-// routes/web.php
 
 
 // Route::get('/images', [ImageoptController::class, 'index']);
