@@ -11,6 +11,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Password;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\WebsiteImageController;
+use App\Http\Controllers\tfidfController;
 use App\Http\Controllers\ImageoptController;
 use App\Http\Controllers\ControllerHtml;
 use App\Http\Controllers\PythonController;
@@ -19,6 +20,8 @@ use App\Http\Controllers\GivenNicheController;
 use App\Http\Controllers\GivenUrlController;
 use App\Http\Controllers\DomainController;
 use App\Http\Controllers\tfidf;
+use App\Http\Controllers\ScrapeController;
+
 
 use App\Http\Controllers\AnalyticsController;
 
@@ -33,6 +36,9 @@ use App\Http\Controllers\AnalyticsController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+
+
 
 
 Route::get('/images', [ImageoptController::class, 'index']);
@@ -63,6 +69,7 @@ Route::group(['middleware' => 'auth'], function () {
 	
 	Route::get('keyword', function () {
 		return view('keyword');
+		
 	})->name('keyword');
 
 	// Route::get('analyticshistorydetails', function () {
@@ -112,16 +119,23 @@ Route::group(['middleware' => 'auth'], function () {
 	})->name('user-management');
 
 
-	
+	Route::get('/scrapeurl', [GivenUrlController::class, 'index']);
+    Route::post('/scrapeurl', [GivenUrlController::class, 'store_url'])->name('store_url');
 	
 	Route::get('/ai', [AiController::class, 'show']);
     Route::post('/ai', [AiController::class, 'display'])->name('display');
 
+	Route::post('/api/data', 'GivenNicheController@store');
+
 
 
 	Route::post('/store_niche', [GivenNicheController::class, 'store_niche'])->name('store_niche');
-
 	
+	// Route::post('/runpythonscript', [GivenNicheController::class, 'runpythonscript'])->name('runpythonscript');
+	// Route::post('/combined-function', [GivenNicheController::class, 'combinedFunction'])->name('combined.function');
+	// Route::post('/store', [GivenNicheController::class, 'store'])->name('store');
+
+	Route::post('/api/data', 'GivenNicheController@store');
 	Route::get('/loadtime', [LoadTimeController::class, 'front']);
     Route::post('/loadtime', [LoadTimeController::class, 'back'])->name('back');
 
@@ -132,12 +146,16 @@ Route::group(['middleware' => 'auth'], function () {
 
 	Route::get('/scrapeurl', [GivenUrlController::class, 'index']);
     Route::post('/scrapeurl', [GivenUrlController::class, 'store_url'])->name('store_url');
+	// Route::post('/run-python', function () {
+	// 	$output = exec('python3 script.py');
+	// 	return $output;
+	// });
 	// Route::get('/run-python-script', [PythonController::class, 'runScript']);
 
-	Route::get('/run-python', function () {
-		$output = exec('python3 script.py');
-		return $output;
-	});
+	// Route::get('/run-python', function () {
+	// 	$output = exec('python3 script.py');
+	// 	return $output;
+	// });
 	
 
 // Route::get('/images', [ImageoptController::class, 'index']);
@@ -195,6 +213,10 @@ Route::get('/login', function () {
     return view('session/login-session');
 })->name('login');
 
+// Route::post('/run-python', function () {
+//     $output = exec('F:/last semester/final project/seopro/python/English/db_tf_idf.ipynb');
+//     return $output;
+// });
 
 // Route::get('/images', [ImageoptController::class, 'index']);
 
@@ -206,18 +228,66 @@ Route::get('/login', function () {
 // Route::post('/convert', [ImageoptController::class, 'convert'])->name('convert');
 
 
-Route::get('/tf_idf', function () {
+Route::post('/tf_idf', function () {
     return view('tf_idf');
 })->name('tf_idf');
 
+// Route::post('/db_tf_idf', function () {
+//     $output = [];
+//     $result = exec(' db_tf_idf.ipynb', $output);
+//     return $output;
+	
+//     // $pythonScriptPath = 'F:/last semester/final project/seopro/python/English/db_tf_idf.ipynb';
 
-Route::get('/run-script', function () {
-    $output = [];
-    $result = exec('python tf_idf.py', $output);
-    return $output;
-});
+//     // // Create a new process to execute the Python script
+//     // $process = new Process(['python', $pythonScriptPath]);
+
+//     // // Start the process
+//     // $process->start();
+
+//     // // Wait for the process to complete
+//     // while ($process->isRunning()) {
+//     //     usleep(500000); // Wait for 0.5 seconds
+//     // }
+
+//     // // Get the output of the process
+//     // $output = $process->getOutput();
+
+//     // // Return the output to the user
+//     // return response($output);
 
 
+// // 	$command = 'python db_tf_idf.ipynb';
+// // exec($command, $output, $return_val);
+// // while($return_val === null) {
+// //     sleep(1);
+// // }
+
+// // // If the Python script completed successfully, display the results
+// // if($return_val === 0) {
+// //     // display results
+
+// //     // // Return the output to the user
+// //     return response($output);
+// // } else {
+// //     // display error message
+// // }
+    
+// });
+
+
+// Route::get('/run-python', function () {
+//     exec('db_tf_idf.ipynb');
+//     return redirect()->back();
+// });
+
+// Route::get('/run-python-script', function () {
+//     // Use the exec() function to run your Python script
+// 	shell_exec("F:/last semester/final project/seopro/python/English/db_tf_idf.ipynb", $output);
+
+//     // Print the output of the Python script
+//     var_dump($output);
+// });
 
 Route::get('/display-html', [ControllerHtml::class, 'displayHtml']);
 
