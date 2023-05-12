@@ -4,7 +4,10 @@
    
 
 <html>
-   
+  
+
+
+
 
 
   <main class="main-content mt-0">
@@ -25,7 +28,25 @@
                       <input class="form-control" type="text" name="niche" placeholder="Enter your niche keyword">
                     </div>
                     <div class="text-center">
-                      <button type="submit" class="btn bg-gradient-info w-100">Generate</button>
+                      <button type="submit" class="btn bg-gradient-info w-100"id="run-python-btn">Generate</button>
+                    <!-- <button id="run-python-btn">Run Python</button>  -->
+
+<script>
+    // $('#run-python-btn').click(function () {
+    //     $.ajax({
+    //         method: 'POST',
+    //         url: '/run-python',
+    //         success: function (response) {
+    //             console.log(response);
+    //         },
+    //         error: function (xhr, status, error) {
+    //             console.log(xhr.responseText);
+    //         }
+    //     });
+    // });
+</script>
+<!-- <button class="btn bg-gradient-info w-100 "onclick="location.href='/run-python-script'">Generate</button> -->
+
                     </div>
                   </form>
                 </div>
@@ -40,7 +61,7 @@
       </div>
     </section>
   </main>
-  
+
 
 
   
@@ -51,29 +72,59 @@
 
           <?php
 $lastNiche = \App\Models\Niche::getLastNiche();
+
+
 ?>
-<h3>Your Last Search for the Niche: <span style="color: green"> <?php echo e($lastNiche); ?> </span></h3>
+
+<?php if($lastNiche == null): ?>
+
+<h4>You Don't Have Any Keyword Search History. <br> <span style="color: rgb(37,162,254)"> Start Ranking Your Website Today!</span> </h4>
 
           <div class="row">
 
 
             <div class="col-lg-6 col-7">
-              <h6>Phrase match</h6>
-              <p class="text-sm mb-0">
-                <i class="fa fa-check text-info" aria-hidden="true"></i>
-                <span class="font-weight-bold ms-1">Keywords scanned</span> this month
-              </p>
+              
+              
             </div>
             <div class="col-lg-6 col-5 my-auto text-end">
               <div class="dropdown float-lg-end pe-4">
                 <a class="cursor-pointer" id="dropdownTable" data-bs-toggle="dropdown" aria-expanded="false">
                   <i class="fa fa-ellipsis-v text-secondary"></i>
                 </a>
-                <ul class="dropdown-menu px-2 py-3 ms-sm-n4 ms-n5" aria-labelledby="dropdownTable">
-                  <li><a class="dropdown-item border-radius-md" href="javascript:;">Action</a></li>
-                  <li><a class="dropdown-item border-radius-md" href="javascript:;">Another action</a></li>
-                  <li><a class="dropdown-item border-radius-md" href="javascript:;">Something else here</a></li>
-                </ul>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-body px-0 pb-2">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+<?php else: ?>
+<h3>Your Last Search for: <span style="color: green"> <?php echo e($lastNiche); ?> </span></h3>
+
+          <div class="row">
+
+
+            <div class="col-lg-6 col-7">
+              
+              <h5 class="text-sm mb-0">
+                <i class="fa fa-check text-info" aria-hidden="true"></i>
+                <span class="font-weight-bold ms-1">The most frequent keywords used</span> this month
+              </h5>
+            </div>
+            <div class="col-lg-6 col-5 my-auto text-end">
+              <div class="dropdown float-lg-end pe-4">
+                <a class="cursor-pointer" id="dropdownTable" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa fa-ellipsis-v text-secondary"></i>
+                </a>
+                
               </div>
             </div>
           </div>
@@ -82,12 +133,26 @@ $lastNiche = \App\Models\Niche::getLastNiche();
           <div class="table-responsive">
             <table class="table align-items-center mb-0">
               <thead>
+                
                 <tr>
-                  <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Keyword</th>
-                  <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Keyword Relevance</th>
-                  <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Top Keywords</th>
-                  <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Keyword Count</th>
+                  <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7" title="The keywords that appear in your niche.">
+                    Keyword
+                  </th>
+                  <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2" data-toggle="tooltip" title="How relevant each keyword is to your niche.">
+                    <span>Keyword Relevance</span>
+                    <i class="fa fa-question-circle ms-1 text-lowercase" data-toggle="tooltip"  title="The relevance of each keyword to your niche."></i>
+                  </th>
+                  <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7" data-toggle="tooltip" title="The top keywords based on their relevance to your niche.">
+                    <span  >Top Keywords</span>
+                    <i class="fa fa-question-circle ms-1 text-lowercase" title="The top keywords based on their relevance to your niche."></i>
+                  </th>
+                  <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7" data-toggle="tooltip" title="How many times each keyword appears in your niche.">
+                    <span>Keyword Count</span>
+                    <i class="fa fa-question-circle ms-1 text-lowercase"  title="The number of times each keyword appears in your niche."></i>
+                  </th>  
+                
                 </tr>
+                
               </thead>
               <tbody>
               
@@ -137,7 +202,7 @@ $lastNiche = \App\Models\Niche::getLastNiche();
 
 
 
-
+    <?php endif; ?>
 <?php $__env->stopSection(); ?>
 </html>
 <?php $__env->startPush('dashboard'); ?>
