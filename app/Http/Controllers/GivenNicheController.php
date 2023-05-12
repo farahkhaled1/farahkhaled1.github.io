@@ -21,15 +21,23 @@ class GivenNicheController extends Controller
             'niche' => $validatedData['niche'],
         ]);
     // return 'hello';
+    $request->session()->put('niche',$validatedData['niche']);
        $this->runPythonScript();
     
         // return redirect()->back()->with('success', 'Niche keyword added successfully.');
     }
     
+    public function store(Request $request)
+    {
+        $data = $request->all();
+        // Process the data here
+    }
+    
+    
     public function runPythonScript()
     {
         
-        $pythonScriptPath = 'db_tf_idf.py';
+        $pythonScriptPath = 'db_tf_idf.ipynb';
     
         // Create a new process to execute the Python script
         $process = new Process(['python', $pythonScriptPath]);
@@ -45,6 +53,8 @@ class GivenNicheController extends Controller
         // Get the output of the process
         $output = $process->getOutput();
         return $output;
+        // $result = shell_exec('db_tf_idf.ipynb');
+        // return $result;
         //  return redirect()->back()->with('success', 'Niche keyword added successfully.');
         // Do something with the output, if needed
     }
