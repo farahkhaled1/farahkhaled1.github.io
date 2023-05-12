@@ -19,6 +19,7 @@ use App\Http\Controllers\GivenNicheController;
 use App\Http\Controllers\DomainController;
 
 
+use App\Http\Controllers\tfidf;
 
 /*
 |--------------------------------------------------------------------------
@@ -210,7 +211,6 @@ Route::get('/run-script', function () {
 
 
 
-
 Route::get('/display-html', [ControllerHtml::class, 'displayHtml']);
 
 
@@ -218,3 +218,6 @@ Route::get('/display-html', [ControllerHtml::class, 'displayHtml']);
 Route::get('/another', function () {
     return view('another');
 })->name('another');
+// Route::post('/register', [RegisterController::class, 'store']);
+
+Route::get('/tfidf', [tfidf::class, 'index']);
