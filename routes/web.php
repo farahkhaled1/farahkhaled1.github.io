@@ -16,6 +16,7 @@ use App\Http\Controllers\ControllerHtml;
 use App\Http\Controllers\PythonController;
 use App\Http\Controllers\LoadTimeController;
 use App\Http\Controllers\GivenNicheController;
+use App\Http\Controllers\GivenUrlController;
 use App\Http\Controllers\DomainController;
 use App\Http\Controllers\tfidf;
 
@@ -129,7 +130,8 @@ Route::group(['middleware' => 'auth'], function () {
 	Route::get('/analyzer', [DomainController::class, 'index']);
     Route::post('/analyzer', [DomainController::class, 'result'])->name('result');
 
-
+	Route::get('/scrapeurl', [GivenUrlController::class, 'index']);
+    Route::post('/scrapeurl', [GivenUrlController::class, 'store_url'])->name('store_url');
 	// Route::get('/run-python-script', [PythonController::class, 'runScript']);
 
 	Route::get('/run-python', function () {
