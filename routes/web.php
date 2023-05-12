@@ -19,6 +19,9 @@ use App\Http\Controllers\GivenNicheController;
 use App\Http\Controllers\DomainController;
 use App\Http\Controllers\tfidf;
 
+use App\Http\Controllers\AnalyticsController;
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -62,6 +65,18 @@ Route::group(['middleware' => 'auth'], function () {
 	})->name('keyword');
 
 
+	Route::get('analyticshistory', function () {
+		return view('analyticshistory');
+	})->name('analyticshistory');
+
+
+	Route::get('analyticshistorydetails', [AnalyticsController::class, 'showDetails'])->name('analyticshistorydetails');
+
+	// Route::get('analyticshistorydetails', function () {
+	// 	return view('analyticshistorydetails');
+	// })->name('analyticshistorydetails');
+
+	
 	Route::get('billing', function () {
 		return view('billing');
 	})->name('billing');
