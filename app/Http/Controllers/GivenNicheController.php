@@ -23,7 +23,7 @@ class GivenNicheController extends Controller
     // return 'hello';
     $request->session()->put('niche',$validatedData['niche']);
        $this->runPythonScript();
-    
+       return redirect()->back();
         // return redirect()->back()->with('success', 'Niche keyword added successfully.');
     }
     
