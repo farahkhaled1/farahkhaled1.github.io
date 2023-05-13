@@ -17,6 +17,7 @@ use App\Http\Controllers\ControllerHtml;
 use App\Http\Controllers\PythonController;
 use App\Http\Controllers\LoadTimeController;
 use App\Http\Controllers\GivenNicheController;
+use App\Http\Controllers\GivenNichearController;
 use App\Http\Controllers\GivenUrlController;
 use App\Http\Controllers\DomainController;
 use App\Http\Controllers\tfidf;
@@ -71,6 +72,11 @@ Route::group(['middleware' => 'auth'], function () {
 		return view('keyword');
 		
 	})->name('keyword');
+
+	Route::get('keyword_ar', function () {
+		return view('keyword_ar');
+		
+	})->name('keyword_ar');
 
 	// Route::get('analyticshistorydetails', function () {
 	// 	return view('analyticshistorydetails');
@@ -146,6 +152,11 @@ Route::group(['middleware' => 'auth'], function () {
 
 	Route::get('/scrapeurl', [GivenUrlController::class, 'index']);
     Route::post('/scrapeurl', [GivenUrlController::class, 'store_url'])->name('store_url');
+
+	
+	Route::get('/keyword_ar', [GivenNichearController::class, 'index']);
+    Route::post('/keyword_ar', [GivenNichearController::class, 'store_niche_ar'])->name('store_niche_ar');
+	
 	// Route::post('/run-python', function () {
 	// 	$output = exec('python3 script.py');
 	// 	return $output;
