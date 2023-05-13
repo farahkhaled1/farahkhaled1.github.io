@@ -60,7 +60,7 @@ $lastURL = \App\Models\Synonyms::getSynonyms();
 
 <?php if($lastURL == null): ?>
 
-<h4>You Don't Have Any Keyword Search History. <br> <span style="color: rgb(37,162,254)"> Start Ranking Your Website Today!</span> </h4>
+<h4>You Don't Have  History. <br> <span style="color: rgb(37,162,254)"> Start generating high rankng words!</span> </h4>
 
           <div class="row">
 
@@ -112,12 +112,21 @@ $lastURL = \App\Models\Synonyms::getSynonyms();
                   <td>
                       <div class="d-flex px-2 py-1">
                           <div class="d-flex flex-column justify-content-center">
-                              <h6 class="mb-0 text-sm"><?php echo e($word->words); ?></h6>
+                              <h6 class="mb-0 text-sm"><?php echo e($word->words_before); ?></h6>
+                          </div>
+                      </div>
+                  </td>
+                  <td>
+                      <div class="d-flex px-2 py-1">
+                          <div class="d-flex flex-column justify-content-center">
+                              <h6 class="mb-0 text-sm"><?php echo e($word->words_after); ?></h6>
                           </div>
                       </div>
                   </td>
               </tr>
               <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+          
+            
             </tbody>
             </table>
           </div>

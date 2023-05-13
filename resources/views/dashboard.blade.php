@@ -53,8 +53,13 @@
           <span class="mask bg-gradient-dark"></span>
         
             <div class="card-body position-relative z-index-1 d-flex flex-column h-100 p-3">
-              <h5 class="text-white font-weight-bolder mb-4 pt-2">Work with the rockets</h5>
-              <p class="text-white">Wealth creation is an evolutionarily recent positive-sum game. It is all about who take the opportunity first.</p>
+              <h5 class="text-white font-weight-bolder mb-4 pt-2">Keyword Research</h5>
+              <p class="text-white">Unlock the power of SEO with our comprehensive keyword research feature. Seamlessly identify the most relevant and valuable keywords to target in your content. Gain a competitive edge by leveraging a robust keyword research tool that uncovers high search volume and low competition keywords. Elevate your SEO strategy to new heights with this indispensable feature.
+
+
+
+
+              </p>
               <a class="text-white text-sm font-weight-bold mb-0 icon-move-right mt-auto" href="javascript:;">
                 Read More
                 <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>
@@ -76,8 +81,13 @@
           <div class="overflow-hidden position-relative border-radius-lg bg-cover h-100" style="background-image: url('../assets/img/1.png');">
           <span class="mask bg-gradient-light"></span>
               <div class="card-body position-relative z-index-1 d-flex flex-column h-100 p-3">
-                <h5 class="text-black font-weight-bolder mb-4 pt-2">Work with the rockets</h5>
-                <p class="text-black">Wealth creation is an evolutionarily recent positive-sum game. It is all about who take the opportunity first.</p>
+                <h5 class="text-black font-weight-bolder mb-4 pt-2">Domain Analyzer</h5>
+                <p class="text-black">Enhance your website's performance with this valuable feature, providing insights into crucial metrics. Track and analyze your competitors' domains effortlessly.
+
+
+
+
+                </p>
                 <a class="text-black text-sm font-weight-bold mb-0 icon-move-right mt-auto" href="javascript:;">
                   Read More
                   <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>
@@ -112,9 +122,14 @@
           <div class="row">
             <div class="col-lg-6">
               <div class="d-flex flex-column h-100">
-                <p class="mb-1 pt-2 text-bold">Built by developers</p>
-                <h5 class="font-weight-bolder">SEOPro Dashboard</h5>
-                <p class="mb-5">From keywords, rank analysis, blog idea generators to complex elements, you will find all you need.</p>
+                <p class="mb-1 pt-2 text-bold">Crafted for you</p>
+                <h5 class="font-weight-bolder">Website Speed Checker</h5>
+                <p class="mb-5">Boost your website's performance with our Website Speed Checker. Analyze load time and optimize for faster loading. Improve SEO by prioritizing fast-loading websites. Seamlessly integrate with our Image Optimizer for a powerful performance duo.
+
+
+
+
+                </p>
                 <a class="text-body text-sm font-weight-bold mb-0 icon-move-right mt-auto" href="javascript:;">
                   Read More
                   <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>
@@ -137,8 +152,13 @@
         <div class="overflow-hidden position-relative border-radius-lg bg-cover h-100" style="background-image: url('../assets/img/ivancik.jpg');">
           <span class="mask bg-gradient-dark"></span>
           <div class="card-body position-relative z-index-1 d-flex flex-column h-100 p-3">
-            <h5 class="text-white font-weight-bolder mb-4 pt-2">Work with the rockets</h5>
-            <p class="text-white">Wealth creation is an evolutionarily recent positive-sum game. It is all about who take the opportunity first.</p>
+            <h5 class="text-white font-weight-bolder mb-4 pt-2">SEOPro AI</h5>
+            <p class="text-white">Supercharge your content strategy with our AI-powered content idea generator. Overcome the challenge of generating fresh ideas for high-quality content that can boost your search rankings. Unleash the power of AI to fuel your website's success by generating compelling content ideas effortlessly.
+
+
+
+
+            </p>
             <a class="text-white text-sm font-weight-bold mb-0 icon-move-right mt-auto" href="javascript:;">
               Read More
               <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>
