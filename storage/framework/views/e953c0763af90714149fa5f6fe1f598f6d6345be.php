@@ -29,22 +29,24 @@
                     </div>
                     <div class="text-center">
                       <button type="submit" class="btn bg-gradient-info w-100"id="run-python-btn">Generate</button>
-                      <!-- <button id="run-python-btn">Run Python</button> -->
+                    <!-- <button id="run-python-btn">Run Python</button>  -->
 
 <script>
-    $('#run-python-btn').click(function () {
-        $.ajax({
-            method: 'POST',
-            url: '/run-python',
-            success: function (response) {
-                console.log(response);
-            },
-            error: function (xhr, status, error) {
-                console.log(xhr.responseText);
-            }
-        });
-    });
+    // $('#run-python-btn').click(function () {
+    //     $.ajax({
+    //         method: 'POST',
+    //         url: '/run-python',
+    //         success: function (response) {
+    //             console.log(response);
+    //         },
+    //         error: function (xhr, status, error) {
+    //             console.log(xhr.responseText);
+    //         }
+    //     });
+    // });
 </script>
+<!-- <button class="btn bg-gradient-info w-100 "onclick="location.href='/run-python-script'">Generate</button> -->
+
                     </div>
                   </form>
                 </div>
