@@ -37,7 +37,7 @@ class GivenNicheController extends Controller
     public function runPythonScript()
     {
         
-        $pythonScriptPath = 'db_tf_idf.py';
+        $pythonScriptPath = 'db_tf_idf.ipynb';
     
         // Create a new process to execute the Python script
         $process = new Process(['python', $pythonScriptPath]);
