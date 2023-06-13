@@ -21,7 +21,7 @@ class EditorController extends Controller
         $open_ai = new OpenAi(env('OPEN_AI_API_KEY'));
         $response = $open_ai->complete([
                     'engine'=>"text-davinci-003",
-                    'prompt'=>"generate a blog with the following words, make it". $keywordsString,
+                    'prompt'=>"generate a well-crafted blog with the following words. The words you should include are:". $keywordsString,
                     'temperature'=>1,
                     'max_tokens'=>256,
                     'top_p'=>1,

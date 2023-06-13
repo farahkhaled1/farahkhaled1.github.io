@@ -54,6 +54,9 @@ Route::group(['middleware' => 'auth'], function () {
 	})->name('dashboard');
 
 
+	Route::get('/editor', [EditorController::class, 'sendSentence'])->name('sendSentence');
+
+
 	// Route::get('analyzer', function () {
 	// 	return view('analyzer');
 	// })->name('analyzer');
@@ -315,5 +318,3 @@ Route::get('/tfidf', [tfidf::class, 'index']);
 // Route::get('/editor', [EditorController::class, 'showEditor']);
 // Route::post('/editor', [EditorController::class, 'display'])->name('display');
 
-
-Route::get('/editor', [EditorController::class, 'sendSentence'])->name('sendSentence');

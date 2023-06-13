@@ -36,7 +36,7 @@
               Copyright © <script>
                 document.write(new Date().getFullYear())
               </script> Soft by 
-              <a style="color: #252f40;" href="https://www.google.com" class="font-weight-bold ml-1" target="_blank">Creative Tim</a>
+              <a style="color: #252f40;" href="https://www.google.com" class="font-weight-bold ml-1" target="_blank">SEOPro Team</a>
               &
               <a style="color: #252f40;" href="https://www.updivision.com" class="font-weight-bold ml-1" target="_blank">UPDIVISION</a>.
             </p>

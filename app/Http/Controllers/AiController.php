@@ -20,7 +20,7 @@ class AiController extends Controller
             'engine' => 'davinci-instruct-beta-v3',
             'prompt' => $promt,
             'temperature' => 0.9,
-            'max_tokens' => 150,
+            'max_tokens' => 500,
             'frequency_penalty' => 0,
             'presence_penalty' => 0.6,
         ]);

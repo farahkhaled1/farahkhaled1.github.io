@@ -20,7 +20,7 @@
                   <h3 class="font-weight-bolder text-info text-gradient">Welcome back</h3>
                   <p class="mb-0">Create a new acount<br></p>
                   <p class="mb-0">OR Sign in with these credentials:</p>
-                  <p class="mb-0">Email <b>admin1@gmail.com</b></p>
+                  <p class="mb-0">Email <b>farahh@gmail.com</b></p>
                   <p class="mb-0">Password <b>123456</b></p>
                   
                 </div>
@@ -30,7 +30,7 @@
                     <?php echo csrf_field(); ?>
                     <label>Email</label>
                     <div class="mb-3">
-                      <input type="email" class="form-control" name="email" id="email" placeholder="Email" value="admin@softui.com" aria-label="Email" aria-describedby="email-addon">
+                      <input type="email" class="form-control" name="email" id="email" placeholder="Email" value="farahh@gmail.com" aria-label="Email" aria-describedby="email-addon">
                       <?php $__errorArgs = ['email'];
 $__bag = $errors->getBag($__errorArgs[1] ?? 'default');
 if ($__bag->has($__errorArgs[0])) :

@@ -4,7 +4,7 @@
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/soft-ui-dashboard
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
+* Copyright 2021 SEOPro Team (https://www.creative-tim.com)
 * Licensed under MIT (https://www.creative-tim.com/license)
 
 

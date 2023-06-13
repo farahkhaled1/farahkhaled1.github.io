@@ -3,13 +3,8 @@
 * SEOPro Dashboard - v1.0.3
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/soft-ui-dashboard
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://www.creative-tim.com/license)
-
-
 =========================================================
-
+SEOPro Team
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 -->
 <!DOCTYPE html>
