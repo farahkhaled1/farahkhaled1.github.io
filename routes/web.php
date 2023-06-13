@@ -312,6 +312,8 @@ Route::get('/another', function () {
 Route::get('/tfidf', [tfidf::class, 'index']);
 
 
+// Route::get('/editor', [EditorController::class, 'showEditor']);
+// Route::post('/editor', [EditorController::class, 'display'])->name('display');
 
-Route::get('/editor', [EditorController::class, 'show']);
-    Route::post('/editor', [EditorController::class, 'display'])->name('display');
+
+Route::get('/editor', [EditorController::class, 'sendSentence'])->name('sendSentence');
