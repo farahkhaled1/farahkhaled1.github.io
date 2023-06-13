@@ -2,13 +2,13 @@
 
 @section('content')
 
-<link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" /> 
-<script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+{{-- <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" /> 
+<script defer src="https://pyscript.net/alpha/pyscript.js"></script> --}}
 
 <body>
-  <py-script output="out">
+  {{-- <py-script output="out">
     print("Hello world")
-    </py-script>
+    </py-script> --}}
 </body>
 
   <main class="main-content  mt-0">

@@ -21,7 +21,7 @@ use App\Http\Controllers\GivenNichearController;
 use App\Http\Controllers\GivenUrlController;
 use App\Http\Controllers\DomainController;
 use App\Http\Controllers\tfidf;
-use App\Http\Controllers\ScrapeController;
+use App\Http\Controllers\EditorController;
 
 
 use App\Http\Controllers\AnalyticsController;
@@ -310,3 +310,8 @@ Route::get('/another', function () {
 // Route::post('/register', [RegisterController::class, 'store']);
 
 Route::get('/tfidf', [tfidf::class, 'index']);
+
+
+
+Route::get('/editor', [EditorController::class, 'show']);
+    Route::post('/editor', [EditorController::class, 'display'])->name('display');
