@@ -10,10 +10,11 @@
       <div class="overflow-hidden position-relative border-radius-lg bg-cover h-100" style="background-image: url('../assets/img/curved-images/curved0.jpg');">
         <span class="mask bg-gradient-light"></span>
         <div class="card-body position-relative z-index-1 d-flex flex-column h-100 p-3">
-          <form method="post" action="<?php echo e(route('store_blog')); ?>">
+          <form method="post" action="<?php echo e(route('editor')); ?>">
+            <?php echo csrf_field(); ?>
             <div class="text-center">
               
-                    <?php echo csrf_field(); ?>
+                   
               <textarea class="editor col-lg-30 mx-auto" style="height: 400px; width:700px; font-family: 'Arial', sans-serif; font-size: 16px; border-radius: 8px; padding: 10px; border: 1px solid #ccc;" name="blog" id="blog">
                
               </textarea>

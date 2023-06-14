@@ -13,10 +13,10 @@ class BlogController extends Controller
         return view('editor');
     }
 
-    public function store_blog(Request $request)
+    public function editor(Request $request)
     {
         $validatedData = $request->validate([
-            'blog' => 'required|max:255',
+            'blog' => 'required',
         ]);
         
         $user_id = Auth::id(); // Get the current user's id

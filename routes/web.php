@@ -22,6 +22,8 @@ use App\Http\Controllers\GivenUrlController;
 use App\Http\Controllers\DomainController;
 use App\Http\Controllers\tfidf;
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\MagicEditorController;
+
 
 
 use App\Http\Controllers\AnalyticsController;
@@ -56,10 +58,13 @@ Route::group(['middleware' => 'auth'], function () {
 	
 
 	
-	Route::get('/store_blog', [BlogController::class, 'index']);
-    Route::post('/store_blog', [BlogController::class, 'store_blog'])->name('store_blog');
+	Route::get('/editor', [BlogController::class, 'index']);
+    Route::post('/editor', [BlogController::class, 'editor'])->name('editor');
 	
+
+	Route::get('/magiceditor', [MagicEditorController::class, 'index']);
 	Route::get('/magiceditor', [MagicEditorController::class, 'sendSentence'])->name('sendSentence');
+    Route::post('/magiceditor', [MagicEditorController::class, 'magiceditor'])->name('magiceditor');
 
 
 	// Route::get('analyzer', function () {

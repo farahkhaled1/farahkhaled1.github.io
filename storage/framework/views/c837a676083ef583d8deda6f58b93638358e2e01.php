@@ -1,7 +1,6 @@
 <?php $__env->startSection('content'); ?>
 
-<br>
-<br>
+
 <div class="row">
   <div class="col-lg-8">
     <div class="card h-10 p-3">
@@ -11,10 +10,11 @@
       <div class="overflow-hidden position-relative border-radius-lg bg-cover h-100" style="background-image: url('../assets/img/curved-images/curved0.jpg');">
         <span class="mask bg-gradient-light"></span>
         <div class="card-body position-relative z-index-1 d-flex flex-column h-100 p-3">
-          <form method="post" action="">
+          <form method="post" action="<?php echo e(route('magiceditor')); ?>">
+            <?php echo csrf_field(); ?>
             <div class="text-center">
             
-              <textarea class="editor col-lg-10 mx-auto" style="height: 400px; width:700px; font-family: 'Arial', sans-serif; font-size: 16px; border-radius: 8px; padding: 10px; border: 1px solid #ccc;" name="blogContent" id="blogContent">   
+              <textarea class="editor col-lg-10 mx-auto" style="height: 400px; width:700px; font-family: 'Arial', sans-serif; font-size: 16px; border-radius: 8px; padding: 10px; border: 1px solid #ccc;" name="blog" id="blog">   
                 <?php if(!empty($outputText)): ?>
                 <?php echo e($outputText); ?>
 
@@ -22,7 +22,7 @@
                 <?php echo isset($_POST['blogContent']) ? $_POST['blogContent'] : ''; ?></textarea>
               <br>
               <br>
-              <button type="button" class="btn btn-success" style="font-family: 'Arial', sans-serif; font-size: 12px; border-radius: 5px; padding: 14px 20px; float: right;">Save</button>
+              <button type="submit" class="btn btn-success" style="font-family: 'Arial', sans-serif; font-size: 12px; border-radius: 5px; padding: 14px 20px; float: right;">Save</button>
             </div>
           </form>
         </div>
@@ -77,7 +77,7 @@
   }
 
   // Typewriter effect
-  const sentenceElement = document.getElementById('blogContent');
+  const sentenceElement = document.getElementById('blog');
   let sentence = sentenceElement.innerHTML.trim();
   sentenceElement.innerHTML = '';
 

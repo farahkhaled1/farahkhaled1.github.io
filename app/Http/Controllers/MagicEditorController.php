@@ -6,9 +6,38 @@ use Illuminate\Http\Request;
 use Orhanerday\OpenAi\OpenAi;
 use App\Models\Keyword;
 use Illuminate\Support\Arr;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 
 class MagicEditorController extends Controller
 {
+
+    public function index()
+    {
+        return view('magiceditor');
+    }
+
+    public function magiceditor(Request $request)
+{
+    $validatedData = $request->validate([
+        'blog' => 'required',
+    ]);
+    
+    $user_id = Auth::id(); // Get the current user's id
+
+    DB::table('blog')->insert([
+        'uid' => $user_id, // Store the user id
+        'blog' => $validatedData['blog'],
+    ]);
+
+    // Store the niche value in the user's session
+    $request->session()->put('blog', $validatedData['blog']);
+
+    return redirect()->route('editor');
+}
+
+    
+
     public function sendSentence(Request $request)
     {
         $keywords = [];
