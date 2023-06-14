@@ -825,20 +825,6 @@ var soft = {
             end: new Date(y, m, d + 1, 22, 30),
             allDay: false,
             className: 'event-azure'
-          },
-          {
-            title: 'Click for Creative Tim',
-            start: new Date(y, m, 21),
-            end: new Date(y, m, 22),
-            url: 'http://www.creative-tim.com/',
-            className: 'event-orange'
-          },
-          {
-            title: 'Click for Google',
-            start: new Date(y, m, 23),
-            end: new Date(y, m, 23),
-            url: 'http://www.creative-tim.com/',
-            className: 'event-orange'
           }
         ]
       });

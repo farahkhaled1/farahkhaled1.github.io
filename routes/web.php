@@ -21,7 +21,7 @@ use App\Http\Controllers\GivenNichearController;
 use App\Http\Controllers\GivenUrlController;
 use App\Http\Controllers\DomainController;
 use App\Http\Controllers\tfidf;
-use App\Http\Controllers\EditorController;
+use App\Http\Controllers\BlogController;
 
 
 use App\Http\Controllers\AnalyticsController;
@@ -53,8 +53,13 @@ Route::group(['middleware' => 'auth'], function () {
 		return view('dashboard');
 	})->name('dashboard');
 
+	
 
-	Route::get('/editor', [EditorController::class, 'sendSentence'])->name('sendSentence');
+	
+	Route::get('/store_blog', [BlogController::class, 'index']);
+    Route::post('/store_blog', [BlogController::class, 'store_blog'])->name('store_blog');
+	
+	Route::get('/magiceditor', [MagicEditorController::class, 'sendSentence'])->name('sendSentence');
 
 
 	// Route::get('analyzer', function () {
