@@ -167,7 +167,7 @@ Route::group(['middleware' => 'auth'], function () {
     Route::post('/scrapeurl', [GivenUrlController::class, 'store_url'])->name('store_url');
 
 	
-	Route::get('/keyword_ar', [GivenNichearController::class, 'index']);
+	// Route::get('/keyword_ar', [GivenNichearController::class, 'index']);
     Route::post('/keyword_ar', [GivenNichearController::class, 'store_niche_ar'])->name('store_niche_ar');
 	
 	// Route::post('/run-python', function () {
