@@ -8,10 +8,10 @@ use Illuminate\Support\Facades\DB;
 
 class GivenNichearController extends Controller
 {
-    public function index()
-    {
-        return view('keyword_ar');
-    }
+    // public function index()
+    // {
+    //     return view('keyword_ar');
+    // }
     public function store_niche_ar(Request $request)
     {
         $validatedData = $request->validate([
@@ -26,11 +26,27 @@ class GivenNichearController extends Controller
         ]);
 
         // Store the niche value in the user's session
-        $request->session()->put('niche', $validatedData['niche']);
+        // $request->session()->put('niche', $validatedData['niche']);
 
-        // return redirect()->back()->with('success', 'Niche keyword added successfully.');
-        return redirect()->back();
+        // // return redirect()->back()->with('success', 'Niche keyword added successfully.');
+        // return redirect()->back();
+
+
+        $request->session()->put('niche',$validatedData['niche']);
+        if( self::runPythonScriptWithShell()){
+            return redirect()->back();
+        }
+        return redirect()->back()->with(["error"=>"Failed to process your request. Please try again later."]);
     }
+    private static function runPythonScriptWithShell()
+    {
+        $pythonScriptPath = 'tf_idf_ar.py';
+        $absolute_path = (("../python/Arabic/".$pythonScriptPath));
+        $output = shell_exec("cd ".public_path()."&& python \"".$absolute_path."\" ERROR 2>&1");
+        if(trim($output) == "success")
+            return true;
+        return false;
+    }   
         // Store the niche value in the user's session
        
     //     // return redirect()->back()->with('success', 'Niche keyword added successfully.');
