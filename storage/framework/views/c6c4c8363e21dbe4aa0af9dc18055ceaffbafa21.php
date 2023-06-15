@@ -27,7 +27,9 @@
                     <div class="text-center">
                       <button type="submit" class="btn bg-gradient-info w-100"id="run-python-btn">Generate</button>
                       <!-- <button id="run-python-btn">Run Python</button> -->
-
+                      <?php if(Session::has("error")): ?>
+                      <p><?php echo e(Session::get("error")); ?></p>
+                    <?php endif; ?>
 
                     </div>
                   </form>
