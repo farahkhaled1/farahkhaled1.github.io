@@ -37,7 +37,9 @@
                     <div class="text-center">
                       <button type="submit" class="btn bg-gradient-info w-100"id="run-python-btn">Generate</button>
                     <!-- <button id="run-python-btn">Run Python</button>  -->
-
+                    @if (Session::has("error"))
+                      <p>{{ Session::get("error") }}</p>
+                    @endif
 <script>
     // $('#run-python-btn').click(function () {
     //     $.ajax({

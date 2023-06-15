@@ -10,7 +10,8 @@ from urllib.request import Request, urlopen
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_extraction.text import CountVectorizer
 from nltk.data import url2pathname
-
+import warnings
+warnings.filterwarnings("ignore")
 from nltk.tokenize import word_tokenize
 from nltk.stem.porter import *
 
@@ -19,8 +20,27 @@ from bs4 import BeautifulSoup
 from nltk.corpus import stopwords
 
 import nltk
-nltk.download('stopwords')
-nltk.download('punkt')
+
+import logging
+import sys
+args = sys.argv
+logger = logging.getLogger()
+logger.setLevel(args[1] if args[1].strip() else logging.INFO)
+formatter = logging.Formatter('%(asctime)s | %(levelname)s | %(message)s', 
+                              '%m-%d-%Y %H:%M:%S')
+
+stdout_handler = logging.StreamHandler(sys.stdout)
+stdout_handler.setLevel(args[1] if args[1].strip() else logging.INFO)
+stdout_handler.setFormatter(formatter)
+
+file_handler = logging.FileHandler('logs.log')
+file_handler.setLevel(logging.DEBUG)
+file_handler.setFormatter(formatter)
+
+logger.addHandler(file_handler)
+logger.addHandler(stdout_handler)
+nltk.download('stopwords', quiet=True)
+nltk.download('punkt', quiet=True)
 
 stop_words = set(stopwords.words('english')) 
 stop_words.update(['le', 'eu', 'span', 'ago', 'pp', 'ue', 'div', 'src', 'page', 'egp', 'url', 'cdn', 'alt', 'com', 'net', 'org', 'cdn', 'img', 'google','eg','usd','http','https','net','us','eg'])
@@ -51,15 +71,15 @@ niche_arr = mycursor.fetchone()
 # niche= str(niche_arr[0])
 
 # # Print the last row as a string
-# print(niche)
+# logger.info(niche)
 
 # Extract the id and niche values from the row
 uid = niche_arr[0]
 niche = niche_arr[1]
 
 # Print the niche and id values
-print(niche)
-print(uid)
+logger.info(niche)
+logger.info(uid)
 
 
 def get_text(url):
@@ -84,7 +104,8 @@ def get_source(url):
 
         return response
     except requests.exceptions.RequestException as e:
-        print(e)
+        logger.info(e)
+        return
 def scrape_google(query):
 
     query = urllib.parse.quote_plus(query)
@@ -170,7 +191,7 @@ def tf_idf_analysis(keyword):
 
 # Call the tf_idf_analysis function and store the output in a DataFrame variable
 output_df = tf_idf_analysis(u)
-print (output_df)
+logger.info (output_df)
 # Convert the DataFrame to a dictionary
 output_dict = output_df.to_dict('records')
 
@@ -191,7 +212,9 @@ for row in output_dict:
 mysql.commit()
 
 # Print a message to confirm that the data has been saved
-print("Data has been saved to the database.")
+logger.info("Data has been saved to the database.")
+
+print("success")
 
 
 

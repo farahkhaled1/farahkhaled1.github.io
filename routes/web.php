@@ -244,6 +244,7 @@ Route::get('/login', function () {
 
 // Route::get('/images', [ImageoptController::class, 'index']);
 
+Route::post('/run-python-btn', 'GivenNicheController@run');
 
 // Route::get('/images', function () {
 //     return view('website_image');

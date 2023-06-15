@@ -22,8 +22,10 @@ class GivenNicheController extends Controller
         ]);
     // return 'hello';
     $request->session()->put('niche',$validatedData['niche']);
-       $this->runPythonScript();
-       return redirect()->back();
+        if( self::runPythonScriptWithShell()){
+            return redirect()->back();
+        }
+        return redirect()->back()->with(["error"=>"Failed to process your request. Please try again later."]);
         // return redirect()->back()->with('success', 'Niche keyword added successfully.');
     }
     
@@ -37,7 +39,7 @@ class GivenNicheController extends Controller
     public function runPythonScript()
     {
         
-        $pythonScriptPath = 'db_tf_idf.ipynb';
+        $pythonScriptPath = 'db_tf_idf.py';
     
         // Create a new process to execute the Python script
         $process = new Process(['python', $pythonScriptPath]);
@@ -58,7 +60,16 @@ class GivenNicheController extends Controller
         //  return redirect()->back()->with('success', 'Niche keyword added successfully.');
         // Do something with the output, if needed
     }
-    
+
+    private static function runPythonScriptWithShell()
+    {
+        $pythonScriptPath = 'db_tf_idf.py';
+        $absolute_path = (("../python/English/".$pythonScriptPath));
+        $output = shell_exec("cd ".public_path()."&& python \"".$absolute_path."\" ERROR 2>&1");
+        if(trim($output) == "success")
+            return true;
+        return false;
+    }    
         // Store the niche value in the user's session
        
     //     // return redirect()->back()->with('success', 'Niche keyword added successfully.');
