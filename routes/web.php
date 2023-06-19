@@ -19,6 +19,7 @@ use App\Http\Controllers\LoadTimeController;
 use App\Http\Controllers\GivenNicheController;
 use App\Http\Controllers\GivenNichearController;
 use App\Http\Controllers\GivenUrlController;
+use App\Http\Controllers\GivenUrlarController;
 use App\Http\Controllers\DomainController;
 use App\Http\Controllers\tfidf;
 use App\Http\Controllers\BlogController;
@@ -140,6 +141,9 @@ Route::group(['middleware' => 'auth'], function () {
 
 	Route::get('/scrapeurl', [GivenUrlController::class, 'index']);
     Route::post('/scrapeurl', [GivenUrlController::class, 'store_url'])->name('store_url');
+
+	Route::get('/scrapeurlar', [GivenUrlarController::class, 'index']);
+    Route::post('/scrapeurlar', [GivenUrlarController::class, 'store_url'])->name('store_url');
 	
 	Route::get('/ai', [AiController::class, 'show']);
     Route::post('/ai', [AiController::class, 'display'])->name('display');
